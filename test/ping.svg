@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+  <rect width="400" height="120" fill="#0f3d2e"/>
+  <text x="200" y="55" fill="#7fe3b0" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">PRAXIS MEDIA</text>
+  <text x="200" y="85" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">funcionando con jsDelivr</text>
+</svg>
