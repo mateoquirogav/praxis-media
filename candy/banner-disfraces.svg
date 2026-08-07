@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="715" viewBox="0 0 620 715">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.45" y2="1">
+      <stop offset="0" stop-color="#EE0070"/>
+      <stop offset="0.5" stop-color="#B4179A"/>
+      <stop offset="1" stop-color="#9965FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#140414" stop-opacity="0"/>
+      <stop offset="1" stop-color="#140414" stop-opacity="0.55"/>
+    </linearGradient>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap'); text{font-family:'Inter','Segoe UI',sans-serif;}</style>
+  </defs>
+
+  <rect width="620" height="715" fill="url(#bg)"/>
+  <ellipse cx="310" cy="120" rx="300" ry="290" fill="url(#glow)"/>
+  <rect x="0" y="395" width="620" height="320" fill="url(#vig)"/>
+
+  <rect x="64" y="54" width="12" height="12" rx="2" fill="#F1EF2E" transform="rotate(20 70 60)"/>
+  <rect x="515" y="115" width="10" height="10" rx="2" fill="#ffffff" transform="rotate(-15 520 120)"/>
+  <circle cx="40" cy="250" r="4.5" fill="#ffffff"/>
+  <circle cx="560" cy="300" r="6" fill="#F1EF2E"/>
+  <circle cx="300" cy="180" r="4" fill="#ffffff" opacity="0.8"/>
+  <rect x="84" y="424" width="11" height="11" rx="2" fill="#F1EF2E" transform="rotate(30 90 430)"/>
+  <circle cx="500" cy="410" r="4.5" fill="#ffffff"/>
+  <circle cx="250" cy="95" r="4" fill="#ffffff" opacity="0.7"/>
+  <circle cx="300" cy="360" r="3.5" fill="#F1EF2E" opacity="0.8"/>
+
+  <text x="310" y="62" text-anchor="middle" fill="#ffffff" fill-opacity="0.85" font-size="14" font-weight="600" letter-spacing="5">CANDY · COTILLÓN</text>
+
+  <g transform="translate(90,96)">
+    <path d="M70,200 L110,96 L150,200 Z" fill="#F1EF2E"/>
+    <circle cx="110" cy="90" r="10" fill="#ffffff"/>
+    <circle cx="92" cy="176" r="4.5" fill="#C2005F"/>
+    <circle cx="110" cy="160" r="4.5" fill="#C2005F"/>
+    <circle cx="128" cy="176" r="4.5" fill="#C2005F"/>
+    <g transform="translate(70,150)">
+      <rect x="152" y="96" width="46" height="12" rx="6" fill="#ffffff"/>
+      <path d="M12,88 L-18,66" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+      <path d="M338,88 L368,66" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+      <path d="M100,32 L114.1,67.6 L152.3,70 L122.8,94.4 L132.3,131.5 L100,111 L67.7,131.5 L77.2,94.4 L47.7,70 L85.9,67.6 Z" fill="#ffffff"/>
+      <circle cx="100" cy="100" r="20" fill="#C2005F"/>
+      <circle cx="93" cy="93" r="6" fill="#ffffff" opacity="0.7"/>
+      <path d="M250,32 L264.1,67.6 L302.3,70 L272.8,94.4 L282.3,131.5 L250,111 L217.7,131.5 L227.2,94.4 L197.7,70 L235.9,67.6 Z" fill="#ffffff"/>
+      <circle cx="250" cy="100" r="20" fill="#C2005F"/>
+      <circle cx="243" cy="93" r="6" fill="#ffffff" opacity="0.7"/>
+    </g>
+  </g>
+
+  <text x="310" y="556" text-anchor="middle" fill="#ffffff" font-size="46" font-weight="800" letter-spacing="-1">Disfraces</text>
+  <text x="310" y="602" text-anchor="middle" fill="#ffffff" font-size="46" font-weight="800" letter-spacing="-1">y Accesorios</text>
+
+  <g transform="translate(310,656)">
+    <rect x="-118" y="-25" width="236" height="50" rx="25" fill="#ffffff"/>
+    <text x="0" y="6" text-anchor="middle" fill="#C2005F" font-size="17" font-weight="800">Ver la categoría  ›</text>
+  </g>
+</svg>
