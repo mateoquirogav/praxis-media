@@ -113,6 +113,9 @@
 
 .cfl-stage.cfl-grab {
 	cursor: grabbing;
+}
+
+.cfl-stage.cfl-grab, .cfl-stage.cfl-anim {
 	scroll-snap-type: none;
 }
 

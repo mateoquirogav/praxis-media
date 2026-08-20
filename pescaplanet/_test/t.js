@@ -106,18 +106,40 @@
       timer = setTimeout(function () { ir(i + 1); }, dur());
     }
 
+    /* animacion propia: el scroll suave nativo no es confiable dentro del tema */
+    var raf = null;
+
+    function frenar() {
+      if (raf) { cancelAnimationFrame(raf); raf = null; }
+      stage.classList.remove('cfl-anim');
+    }
+
+    function animar(destino, ms) {
+      frenar();
+      var desde = stage.scrollLeft;
+      var d = destino - desde;
+      if (Math.abs(d) < 1) { stage.scrollLeft = destino; return; }
+      if (reduce || !ms) { stage.scrollLeft = destino; return; }
+      var t0 = 0;
+      stage.classList.add('cfl-anim');
+      raf = requestAnimationFrame(function paso(ts) {
+        if (!t0) { t0 = ts; }
+        var pr = Math.min(1, (ts - t0) / ms);
+        var e = pr < .5 ? 2 * pr * pr : 1 - Math.pow(-2 * pr + 2, 2) / 2;
+        stage.scrollLeft = desde + d * e;
+        if (pr < 1) { raf = requestAnimationFrame(paso); }
+        else { raf = null; stage.classList.remove('cfl-anim'); }
+      });
+    }
+
     function ir(x, instante) {
       i = (x + n) % n;
-      var izq = i * stage.clientWidth;
-      if (stage.scrollTo) {
-        try { stage.scrollTo({left: izq, behavior: instante ? 'auto' : 'smooth'}); }
-        catch (e) { stage.scrollLeft = izq; }
-      } else { stage.scrollLeft = izq; }
+      animar(i * stage.clientWidth, instante ? 0 : 430);
       pintar();
       reloj();
     }
 
-    function marcar() { tocado = true; }
+    function marcar() { tocado = true; frenar(); }
     stage.addEventListener('pointerdown', marcar, {passive: true});
     stage.addEventListener('touchstart', marcar, {passive: true});
     stage.addEventListener('wheel', marcar, {passive: true});
@@ -138,8 +160,9 @@
     /* arrastrar con el mouse en escritorio */
     var down = false, x0 = 0, sl0 = 0, moved = false;
     stage.addEventListener('mousedown', function (e) {
+      frenar();
       down = true; moved = false; tocado = true; x0 = e.clientX; sl0 = stage.scrollLeft;
-      stage.className = 'cfl-stage cfl-grab';
+      stage.classList.add('cfl-grab');
     });
     window.addEventListener('mousemove', function (e) {
       if (!down) return;
@@ -150,7 +173,7 @@
     window.addEventListener('mouseup', function () {
       if (!down) return;
       down = false;
-      stage.className = 'cfl-stage';
+      stage.classList.remove('cfl-grab');
       if (moved) {
         var w = stage.clientWidth || 1;
         ir(Math.round(stage.scrollLeft / w), false);
