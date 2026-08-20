@@ -19,8 +19,6 @@
 
   var FLECHA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>';
 
-  function ahora() { return new Date().getTime(); }
-
   function boot() {
     if (document.querySelector('.cfl')) return;
 
@@ -79,7 +77,7 @@
     var barEls = sec.querySelectorAll('.cfl-bar');
     var num = sec.querySelector('.cfl-n');
     var n = items.length, i = 0;
-    var timer = null, sTimer = null, rTimer = null, lock = 0, visible = true;
+    var timer = null, sTimer = null, rTimer = null, visible = true, tocado = false;
     var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     function dur() { return parseInt(items[i].getAttribute('data-dur'), 10) || 5000; }
@@ -110,7 +108,6 @@
 
     function ir(x, instante) {
       i = (x + n) % n;
-      lock = ahora() + 900;
       var izq = i * stage.clientWidth;
       if (stage.scrollTo) {
         try { stage.scrollTo({left: izq, behavior: instante ? 'auto' : 'smooth'}); }
@@ -120,23 +117,28 @@
       reloj();
     }
 
+    function marcar() { tocado = true; }
+    stage.addEventListener('pointerdown', marcar, {passive: true});
+    stage.addEventListener('touchstart', marcar, {passive: true});
+    stage.addEventListener('wheel', marcar, {passive: true});
+
+    /* la posicion real del scroll manda siempre: no se puede desincronizar */
     stage.addEventListener('scroll', function () {
-      if (ahora() < lock) return;
       clearTimeout(sTimer);
       sTimer = setTimeout(function () {
         var w = stage.clientWidth || 1;
         var idx = Math.round(stage.scrollLeft / w);
         if (idx < 0) idx = 0;
         if (idx > n - 1) idx = n - 1;
-        if (idx !== i) { i = idx; pintar(); }
-        reloj();
-      }, 140);
+        if (idx !== i) { i = idx; tocado = false; pintar(); reloj(); return; }
+        if (tocado) { tocado = false; reloj(); }
+      }, 150);
     }, {passive: true});
 
     /* arrastrar con el mouse en escritorio */
     var down = false, x0 = 0, sl0 = 0, moved = false;
     stage.addEventListener('mousedown', function (e) {
-      down = true; moved = false; x0 = e.clientX; sl0 = stage.scrollLeft;
+      down = true; moved = false; tocado = true; x0 = e.clientX; sl0 = stage.scrollLeft;
       stage.className = 'cfl-stage cfl-grab';
     });
     window.addEventListener('mousemove', function (e) {
@@ -144,7 +146,6 @@
       var d = e.clientX - x0;
       if (Math.abs(d) > 3) { moved = true; e.preventDefault(); }
       stage.scrollLeft = sl0 - d;
-      lock = ahora() + 400;
     });
     window.addEventListener('mouseup', function () {
       if (!down) return;

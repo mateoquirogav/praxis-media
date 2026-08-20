@@ -18,7 +18,7 @@
 }
 
 .cfl-in {
-	max-width: 1060px;
+	max-width: 920px;
 	margin: 0 auto;
 	padding: 0 26px;
 	position: relative;
@@ -122,14 +122,14 @@
 	min-width: 0;
 	scroll-snap-align: start;
 	display: flex;
-	gap: 34px;
+	gap: 40px;
 	align-items: center;
 }
 
 .cfl-media {
-	flex: 0 0 330px;
-	max-width: 330px;
-	height: 412px;
+	flex: 0 0 360px;
+	max-width: 360px;
+	height: 450px;
 	line-height: 0;
 	position: relative;
 	background: #0e2630;
@@ -561,7 +561,7 @@
 		margin-top: 26px;
 		font-size: 13px;
 		padding: 15px 24px;
-		width: 100%;
+		display: flex;
 		justify-content: center;
 	}
 
