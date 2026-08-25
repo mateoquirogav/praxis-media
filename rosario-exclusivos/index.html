@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Propuesta de rediseño · Rosario Exclusivos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0A1E3F; --navy2:#123464; --navy3:#1B4A8A;
+  --blue:#2E5BFF; --blue-d:#1B3FCC; --blue-l:#5B8BFF; --blue-soft:#EEF3FF;
+  --ink:#132242; --gray:#5C6B85; --gray2:#8494AC;
+  --line:#E4EAF3; --bg:#F5F8FD;
+  --gold:#C9A227; --gold-soft:#FBF5E4;
+  --amber:#B7791F; --amber-bg:#FEF8EC; --amber-line:#F0C879;
+  --red:#D6455C; --red-bg:#FDF1F3;
+  --green:#1E9E6A; --green-bg:#EDF9F3;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Poppins',-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  color:var(--ink); background:#DEE5F0; -webkit-font-smoothing:antialiased;
+  print-color-adjust:exact; -webkit-print-color-adjust:exact;
+}
+.page{
+  width:210mm; height:297mm; background:#fff; position:relative; overflow:hidden;
+  margin:0 auto 10mm; padding:15mm 15mm 13mm;
+  box-shadow:0 6px 30px rgba(10,30,63,.18);
+  break-after:page; page-break-after:always;
+}
+.page:last-child{break-after:auto;page-break-after:auto;margin-bottom:0}
+
+/* ---------- cabecera / pie ---------- */
+.hd{display:flex;justify-content:space-between;align-items:center;font-size:6.6pt;letter-spacing:.22em;font-weight:600;text-transform:uppercase}
+.hd .l{color:var(--blue)}
+.hd .r{color:var(--gray2)}
+.ft{position:absolute;left:15mm;right:15mm;bottom:8mm;display:flex;justify-content:space-between;align-items:center;
+    border-top:1px solid var(--line);padding-top:2.5mm;font-size:6.6pt;color:var(--gray2);letter-spacing:.04em}
+.ft b{color:var(--ink);font-size:8pt;font-weight:700}
+
+/* ---------- títulos de sección ---------- */
+.sec{display:flex;gap:9px;align-items:flex-start;margin:7mm 0 3mm}
+.sec .num{flex:0 0 auto;width:11mm;height:11mm;border-radius:8px;background:var(--blue-soft);color:var(--blue);
+  font-weight:700;font-size:11pt;display:flex;align-items:center;justify-content:center}
+.sec .kick{font-size:7pt;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);font-weight:600;margin-bottom:1mm}
+.sec h2{margin:0;font-size:19pt;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.lead{font-size:9pt;line-height:1.65;color:var(--gray);margin:0 0 5mm;max-width:165mm}
+.lead b{color:var(--ink);font-weight:600}
+.rule{height:1px;background:linear-gradient(90deg,var(--blue) 0%,var(--line) 42%,transparent 100%);margin:0 0 5mm}
+
+h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
+.kickline{font-size:6.8pt;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);font-weight:600;margin:0 0 1.5mm}
+
+/* ---------- PORTADA ---------- */
+.cover{background:
+   radial-gradient(120% 80% at 82% 8%, rgba(46,91,255,.42) 0%, rgba(46,91,255,0) 58%),
+   radial-gradient(90% 70% at 8% 96%, rgba(91,139,255,.28) 0%, rgba(91,139,255,0) 60%),
+   linear-gradient(158deg,#081832 0%,#0C2246 38%,#10305E 72%,#16407C 100%);
+  color:#fff;padding:0}
+.cover-in{position:relative;height:100%;display:flex;flex-direction:column;justify-content:center;padding:22mm 20mm}
+.cover .grid-dots{position:absolute;inset:0;
+  background-image:radial-gradient(rgba(255,255,255,.10) 1px, transparent 1px);
+  background-size:16px 16px;opacity:.5}
+.crown{position:absolute;right:16mm;top:16mm;text-align:right;line-height:1.15}
+.crown .cw{font-size:8pt;letter-spacing:.28em;color:rgba(255,255,255,.55);text-transform:uppercase;font-weight:500}
+.crown .cn{font-size:13pt;font-weight:700;color:#fff;letter-spacing:-.01em}
+.crown .cn i{font-style:normal;color:var(--gold)}
+.badge{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;
+  background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.20);border-radius:999px;
+  padding:5px 14px;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#DCE7FF}
+.badge .dot{width:6px;height:6px;border-radius:50%;background:var(--blue-l);box-shadow:0 0 10px var(--blue-l)}
+.cover h1{position:relative;font-size:36pt;line-height:1.06;font-weight:800;letter-spacing:-.03em;margin:7mm 0 0}
+.cover h1 span{background:linear-gradient(90deg,#7FA9FF,#C9DDFF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cover p.sub{position:relative;font-size:10pt;line-height:1.7;color:#C3D2EC;max-width:150mm;margin:6mm 0 0;font-weight:300}
+.cover p.sub b{color:#fff;font-weight:600}
+.pills{position:relative;display:flex;gap:8px;margin:9mm 0 0;flex-wrap:wrap}
+.pill{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:9px 14px;min-width:47mm}
+.pill .t{font-size:8.5pt;font-weight:600;color:#fff}
+.pill .s{font-size:7pt;color:#9FB4D8;margin-top:1px;font-weight:300}
+.meta{position:relative;display:flex;gap:0;margin:11mm 0 0;border-top:1px solid rgba(255,255,255,.16);padding-top:5mm}
+.meta div{flex:1;border-right:1px solid rgba(255,255,255,.12);padding-right:6mm}
+.meta div:last-child{border-right:0}
+.meta .k{font-size:6.4pt;letter-spacing:.22em;text-transform:uppercase;color:#8FA6CC;font-weight:500}
+.meta .v{font-size:11pt;font-weight:600;margin-top:1mm;color:#fff}
+.cover .base{position:absolute;left:20mm;right:20mm;bottom:14mm;font-size:6.6pt;letter-spacing:.28em;
+  text-transform:uppercase;color:#7E96C0;text-align:center;font-weight:500}
+
+/* ---------- tarjetas ---------- */
+.cards{display:flex;flex-direction:column;gap:2.6mm}
+.card{border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:8px;padding:3.4mm 4mm;
+  break-inside:avoid;background:#fff}
+.card .top{display:flex;align-items:center;gap:7px}
+.card .n{font-size:8pt;font-weight:700;color:var(--blue)}
+.card .t{font-size:10pt;font-weight:700;letter-spacing:-.01em}
+.card .tag{margin-left:auto;font-size:6.2pt;letter-spacing:.14em;font-weight:600;text-transform:uppercase;
+  color:var(--blue);background:var(--blue-soft);border-radius:999px;padding:3px 8px}
+.card p{margin:1.6mm 0 0;font-size:8.2pt;line-height:1.6;color:var(--gray)}
+.card p b{color:var(--ink);font-weight:600}
+
+.note{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:3.5mm 4mm;font-size:8.2pt;
+  line-height:1.6;color:var(--gray)}
+.note b{color:var(--ink);font-weight:600}
+.note.amber{background:var(--amber-bg);border-color:var(--amber-line);border-left:3px solid var(--amber)}
+.note.amber b{color:var(--amber)}
+
+/* ---------- diagnóstico ---------- */
+.diag{display:grid;grid-template-columns:74mm 1fr;gap:6mm;align-items:start}
+.shot{border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--bg);padding:3mm}
+.shot img{width:100%;display:block;border-radius:5px;border:1px solid #E9EEF6}
+.shot .cap{font-size:6.4pt;letter-spacing:.16em;text-transform:uppercase;color:var(--gray2);text-align:center;
+  margin-top:2.5mm;font-weight:600}
+.find{display:flex;flex-direction:column;gap:2.2mm}
+.f{display:flex;gap:7px;border:1px solid var(--line);border-radius:7px;padding:2.6mm 3mm;break-inside:avoid}
+.f .ic{flex:0 0 auto;width:5.6mm;height:5.6mm;border-radius:5px;display:flex;align-items:center;justify-content:center;
+  font-size:7pt;font-weight:700;color:#fff;background:var(--red)}
+.f.mid .ic{background:var(--amber)}
+.f .tt{font-size:8.6pt;font-weight:600;line-height:1.35}
+.f .dd{font-size:7.6pt;line-height:1.5;color:var(--gray);margin-top:.8mm}
+.f .dd b{color:var(--ink);font-weight:600}
+
+/* ---------- preguntas ---------- */
+.qs{display:grid;grid-template-columns:1fr 1fr;gap:2.6mm}
+.q{border:1px solid var(--line);border-radius:8px;padding:3mm 3.5mm;display:flex;gap:8px;align-items:flex-start}
+.q .qm{font-size:13pt;font-weight:700;color:var(--blue-l);line-height:1}
+.q .qt{font-size:8.6pt;font-weight:600;line-height:1.35}
+.q .qd{font-size:7.4pt;color:var(--gray);line-height:1.5;margin-top:.8mm}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.flowbox{border:1px solid var(--line);border-radius:9px;padding:4mm;background:#fff}
+.flowbox.bad{background:var(--red-bg);border-color:#F3D2D8}
+.flowbox.good{background:var(--green-bg);border-color:#CFEBDD}
+.flowbox .ttl{font-size:7pt;letter-spacing:.18em;text-transform:uppercase;font-weight:700;margin-bottom:3mm}
+.flowbox.bad .ttl{color:var(--red)}
+.flowbox.good .ttl{color:var(--green)}
+.step{display:flex;align-items:center;gap:6px;font-size:8pt;color:var(--ink);padding:1.6mm 0;font-weight:500}
+.step .b{width:4mm;height:4mm;border-radius:50%;flex:0 0 auto;background:#fff;border:1.5px solid currentColor}
+.flowbox.bad .step .b{color:var(--red)} .flowbox.good .step .b{color:var(--green)}
+.step small{color:var(--gray);font-weight:400;font-size:7.2pt}
+
+/* ---------- mockups ---------- */
+.mock{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:4mm}
+.mockcap{font-size:6.4pt;letter-spacing:.18em;text-transform:uppercase;color:var(--gray2);text-align:center;margin-top:3mm;font-weight:600}
+.pdp{background:#fff;border:1px solid #E7EDF6;border-radius:8px;padding:4mm;box-shadow:0 2px 10px rgba(10,30,63,.05)}
+.pdp .pname{font-size:9pt;font-weight:700;line-height:1.25;letter-spacing:-.01em}
+.pdp .stars{font-size:7pt;color:var(--gold);margin-top:1mm;letter-spacing:.06em}
+.pdp .stars span{color:var(--gray2)}
+.pdp .rowline{display:flex;align-items:baseline;gap:7px;margin-top:3mm}
+.pdp .old{font-size:8pt;color:var(--gray2);text-decoration:line-through}
+.pdp .off{font-size:6.6pt;font-weight:700;color:#fff;background:var(--red);border-radius:4px;padding:2px 6px;letter-spacing:.06em}
+.pdp .big{font-size:17pt;font-weight:800;letter-spacing:-.03em;margin-top:1mm}
+.pdp .transf{margin-top:2.5mm;border:1.5px solid var(--green);background:var(--green-bg);border-radius:7px;
+  padding:2.6mm 3mm;display:flex;align-items:center;justify-content:space-between}
+.pdp .transf .a{font-size:11pt;font-weight:800;color:#14795A;letter-spacing:-.02em}
+.pdp .transf .b{font-size:6.6pt;font-weight:700;color:#14795A;text-transform:uppercase;letter-spacing:.1em;text-align:right;line-height:1.3}
+.pdp .cuotas{margin-top:2mm;background:var(--navy);color:#fff;border-radius:7px;padding:2.6mm 3mm;
+  display:flex;justify-content:space-between;align-items:center}
+.pdp .cuotas .a{font-size:9pt;font-weight:700}
+.pdp .cuotas .b{font-size:6.6pt;color:#A9C0E6;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+.pdp .ship{margin-top:2mm;font-size:7.4pt;font-weight:600;color:var(--ink);background:#F1F5FB;border-radius:6px;padding:2.2mm 3mm}
+.pdp .cta{margin-top:2.5mm;background:var(--blue);color:#fff;border-radius:7px;text-align:center;padding:3mm;
+  font-size:8.4pt;font-weight:700;letter-spacing:.06em}
+.pdp .wsp{margin-top:2mm;border:1.5px solid #25D366;background:#F0FCF4;border-radius:7px;text-align:center;padding:2.6mm;
+  font-size:7.6pt;font-weight:700;color:#0F7A44}
+.pdp .trust{margin-top:2.5mm;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.6mm}
+.pdp .trust div{border:1px solid var(--line);border-radius:6px;padding:2mm 1mm;text-align:center;font-size:6.2pt;
+  font-weight:600;color:var(--gray);line-height:1.3}
+
+/* carrito mockup */
+.cart{background:#fff;border:1px solid #E7EDF6;border-radius:8px;padding:4mm;box-shadow:0 2px 10px rgba(10,30,63,.05)}
+.cart .hdr{font-size:7pt;letter-spacing:.2em;text-transform:uppercase;color:var(--gray2);border-bottom:1px solid var(--line);
+  padding-bottom:2mm;font-weight:600;display:flex;justify-content:space-between}
+.cart .tot{display:flex;justify-content:space-between;align-items:baseline;margin-top:3mm}
+.cart .tot .k{font-size:8.5pt;font-weight:600}
+.cart .tot .v{font-size:13pt;font-weight:800;letter-spacing:-.02em}
+.cart .alt{font-size:7.4pt;color:var(--green);font-weight:600;text-align:right;margin-top:.6mm}
+.stepbox{margin-top:3mm;border:1px solid var(--line);border-radius:8px;background:var(--bg);padding:3.4mm}
+.stepbox .yc{font-size:6.6pt;letter-spacing:.2em;text-transform:uppercase;color:var(--red);font-weight:700}
+.stepbox .h{font-size:9.5pt;font-weight:700;color:var(--navy);margin-top:.6mm}
+.stepbox .sh{font-size:7.2pt;color:var(--gray);margin-top:.6mm}
+.stepbox ol{list-style:none;margin:3mm 0 0;padding:0;position:relative}
+.stepbox li{display:flex;gap:7px;padding:0 0 2.6mm;position:relative}
+.stepbox li:last-child{padding-bottom:0}
+.stepbox .cn{flex:0 0 auto;width:5.4mm;height:5.4mm;border-radius:50%;background:var(--navy);color:#fff;
+  font-size:7pt;font-weight:700;display:flex;align-items:center;justify-content:center}
+.stepbox li.hl .cn{background:var(--red)}
+.stepbox li.hl .body{background:var(--red-bg);border-radius:6px;padding:2mm 2.6mm;margin:-1.6mm -2.6mm}
+.stepbox .st{font-size:8pt;font-weight:700}
+.stepbox .sd{font-size:7.2pt;color:var(--gray);line-height:1.45;margin-top:.4mm}
+.stepbox .off{font-size:6pt;font-weight:700;color:#fff;background:var(--red);border-radius:999px;padding:2px 6px;margin-left:5px;letter-spacing:.06em}
+.stepbox .lock{margin-top:2.6mm;background:#EDF2FA;border-radius:6px;padding:2.2mm 2.6mm;font-size:7pt;color:var(--gray);line-height:1.45}
+.cart .go{margin-top:3mm;background:var(--blue);color:#fff;text-align:center;border-radius:7px;padding:3mm;font-size:8.4pt;font-weight:700;letter-spacing:.08em}
+.cart .ask{margin-top:2mm;border:1.5px solid #25D366;background:#F0FCF4;border-radius:7px;text-align:center;padding:2.6mm;font-size:7.6pt;font-weight:700;color:#0F7A44}
+.cart .sig{margin-top:2mm;text-align:center;font-size:6.4pt;color:var(--gray2)}
+
+/* ---------- identidad ---------- */
+.pal{display:grid;grid-template-columns:repeat(4,1fr);gap:2.6mm}
+.sw{border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.sw .chip{height:16mm}
+.sw .lb{padding:2.2mm 2.6mm}
+.sw .lb .n{font-size:7.6pt;font-weight:600}
+.sw .lb .h{font-size:6.4pt;color:var(--gray2);letter-spacing:.1em;font-weight:500}
+.typo{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.6mm}
+.ty{border:1px solid var(--line);border-radius:8px;padding:3mm}
+.ty .k{font-size:6.2pt;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);font-weight:600}
+.ty .s{font-size:15pt;font-weight:700;letter-spacing:-.02em;margin-top:1mm}
+.ty .d{font-size:7.2pt;color:var(--gray);margin-top:1mm;line-height:1.45}
+.trio{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.6mm}
+.trio .t{border:1px solid var(--line);border-radius:8px;padding:3mm}
+.trio .t .h{font-size:8.4pt;font-weight:700}
+.trio .t .p{font-size:7.4pt;color:var(--gray);line-height:1.5;margin-top:1mm}
+
+/* ---------- metodología ---------- */
+.days{display:flex;align-items:center;gap:6mm;border:1px solid var(--line);border-radius:9px;padding:4mm;background:var(--bg)}
+.days .n{font-size:34pt;font-weight:800;color:var(--blue);letter-spacing:-.04em;line-height:.9}
+.days .tx .a{font-size:9pt;font-weight:700}
+.days .tx .b{font-size:8pt;color:var(--gray);line-height:1.6;margin-top:1mm}
+.et{border:1px solid var(--line);border-radius:8px;padding:3.4mm 4mm;margin-bottom:2.6mm}
+.et .h{display:flex;gap:7px;align-items:center}
+.et .h .c{width:6mm;height:6mm;border-radius:6px;background:var(--blue-soft);color:var(--blue);font-weight:700;font-size:8pt;
+  display:flex;align-items:center;justify-content:center}
+.et .h .t{font-size:9.4pt;font-weight:700}
+.et ul{margin:2mm 0 0;padding-left:5mm}
+.et li{font-size:8pt;color:var(--gray);line-height:1.6}
+.chips{display:flex;flex-wrap:wrap;gap:1.8mm;margin-top:2mm}
+.chips span{font-size:7.2pt;font-weight:600;color:var(--ink);background:var(--bg);border:1px solid var(--line);
+  border-radius:999px;padding:2px 9px}
+
+/* ---------- inversión ---------- */
+.price-main{border:1px solid var(--navy);border-radius:11px;overflow:hidden;background:#fff}
+.price-main .ph{background:var(--navy);color:#fff;padding:4mm 5mm;display:flex;justify-content:space-between;align-items:center}
+.price-main .ph .k{font-size:6.8pt;letter-spacing:.22em;text-transform:uppercase;color:#9FB6DC;font-weight:600}
+.price-main .ph .t{font-size:13pt;font-weight:700;margin-top:.8mm;letter-spacing:-.01em}
+.price-main .ph .amt{font-size:24pt;font-weight:800;letter-spacing:-.03em;line-height:1}
+.price-main .ph .cur{font-size:6.6pt;letter-spacing:.2em;color:#9FB6DC;text-align:right;font-weight:600}
+.price-main .pb{padding:4mm 5mm;display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.price-main .it .n{font-size:6.4pt;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);font-weight:600}
+.price-main .it .h{font-size:8.8pt;font-weight:700;margin-top:.8mm}
+.price-main .it .d{font-size:7.4pt;color:var(--gray);line-height:1.5;margin-top:.8mm}
+.addon{border:1px solid var(--line);border-radius:10px;padding:4mm;display:grid;grid-template-columns:1fr 40mm;gap:4mm;align-items:center}
+.addon .n{font-size:6.6pt;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);font-weight:700}
+.addon h4{margin:1mm 0 0;font-size:11pt;font-weight:700;letter-spacing:-.01em}
+.addon p{margin:1.5mm 0 0;font-size:8pt;color:var(--gray);line-height:1.6}
+.addon .pr{text-align:right;border-left:1px solid var(--line);padding-left:4mm}
+.addon .pr .a{font-size:17pt;font-weight:800;letter-spacing:-.03em;color:var(--ink)}
+.addon .pr .b{font-size:7pt;color:var(--gray);line-height:1.4;margin-top:.6mm}
+.landcap{display:grid;grid-template-columns:34mm 1fr;gap:5mm;align-items:start}
+.landcap .im{border:1px solid var(--line);border-radius:8px;padding:2mm;background:var(--bg)}
+.landcap .im img{width:100%;height:96mm;object-fit:cover;object-position:top center;display:block;border-radius:4px}
+.landcap .im .c{font-size:6pt;letter-spacing:.14em;text-transform:uppercase;color:var(--gray2);text-align:center;margin-top:2mm;font-weight:600}
+.ck{display:flex;gap:6px;font-size:8pt;color:var(--gray);line-height:1.5;margin-bottom:2mm}
+.ck .v{color:var(--green);font-weight:800;flex:0 0 auto}
+.ck b{color:var(--ink);font-weight:600}
+
+/* ---------- recopilar ---------- */
+.rec{display:grid;grid-template-columns:1fr 1fr;gap:2.6mm}
+.rc{border:1px solid var(--line);border-radius:8px;padding:3mm 3.4mm;break-inside:avoid}
+.rc .h{font-size:8.6pt;font-weight:700;color:var(--blue)}
+.rc ul{margin:1.6mm 0 0;padding-left:4mm}
+.rc li{font-size:7.4pt;color:var(--gray);line-height:1.55}
+
+/* ---------- cierre ---------- */
+.close{background:var(--navy);color:#fff;border-radius:11px;padding:7mm 6mm;text-align:center;position:relative;overflow:hidden}
+.close .bg{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.08) 1px,transparent 1px);background-size:14px 14px}
+.close .k{position:relative;font-size:6.8pt;letter-spacing:.24em;text-transform:uppercase;color:#8FA6CC;font-weight:600}
+.close h3{position:relative;margin:2.5mm 0 0;font-size:17pt;font-weight:700;letter-spacing:-.02em;line-height:1.2}
+.close h3 span{color:var(--blue-l)}
+.close p{position:relative;margin:3mm auto 0;max-width:140mm;font-size:8.4pt;line-height:1.7;color:#C3D2EC;font-weight:300}
+.sign{display:flex;align-items:center;justify-content:center;gap:9px;margin-top:6mm}
+.sign .av{width:11mm;height:11mm;border-radius:50%;background:linear-gradient(135deg,var(--navy2),var(--blue));
+  color:#fff;font-weight:700;font-size:9pt;display:flex;align-items:center;justify-content:center}
+.sign .t .a{font-size:6.4pt;letter-spacing:.2em;text-transform:uppercase;color:var(--gray2);font-weight:600}
+.sign .t .b{font-size:10.5pt;font-weight:700;line-height:1.2}
+.sign .t .c{font-size:7.4pt;color:var(--gray)}
+
+/* páginas con aire: se agrandan bloques para llenar el A4 */
+.roomy .cards{gap:3mm}
+.roomy .card{padding:4mm 4.6mm;border-left-width:4px}
+.two.compact{gap:4mm}
+.two.compact .flowbox{padding:3.2mm 3.6mm}
+.two.compact .ttl{margin-bottom:2mm;font-size:6.6pt}
+.roomy .two.compact .step{font-size:8pt;padding:1.3mm 0}
+.note.slim{padding:3.2mm 3.6mm}
+.roomy .note.slim{font-size:8.2pt;line-height:1.6;padding:3.2mm 3.6mm}
+.roomy .card .t{font-size:11.5pt}
+.roomy .card .n{font-size:9pt}
+.roomy .card p{font-size:9pt;line-height:1.7;margin-top:2.2mm}
+.roomy .note{padding:4.6mm 5mm;font-size:9pt;line-height:1.7}
+.roomy .lead{font-size:9.6pt}
+.roomy .q{padding:4mm 4.5mm}
+.roomy .q .qt{font-size:9.4pt}
+.roomy .q .qd{font-size:8.2pt}
+.roomy .q .qm{font-size:15pt}
+.roomy .qs{gap:3.4mm}
+.roomy .flowbox{padding:5mm}
+.roomy .step{font-size:8.8pt;padding:2.6mm 0}
+.roomy .step small{font-size:7.8pt}
+.roomy .sw .chip{height:22mm}
+.roomy .sw .lb{padding:3mm 3.4mm}
+.roomy .sw .lb .n{font-size:8.4pt}
+.roomy .ty{padding:4mm}
+.roomy .ty .s{font-size:17pt}
+.roomy .ty .d{font-size:8pt}
+.roomy .trio .t{padding:4mm}
+.roomy .trio .t .h{font-size:9.4pt}
+.roomy .trio .t .p{font-size:8.2pt;line-height:1.65}
+.roomy h3.blk{font-size:12pt;margin-bottom:4mm}
+
+@media print{
+  body{background:#fff}
+  .page{margin:0;box-shadow:none}
+  @page{size:A4;margin:0}
+}
+@media screen and (max-width:820px){
+  body{background:#DEE5F0;padding:8px 0}
+  .page{width:100%;height:auto;min-height:0;padding:20px 16px 26px;margin-bottom:12px;box-shadow:0 3px 14px rgba(10,30,63,.16)}
+  .cover-in{padding:34px 18px}
+  .cover h1{font-size:27pt}
+  .diag,.two,.qs,.landcap,.addon,.rec,.typo,.trio,.price-main .pb{grid-template-columns:1fr}
+  .pal{grid-template-columns:1fr 1fr}
+  .ft{position:static;left:auto;right:auto;bottom:auto;margin-top:16px}
+  .addon .pr{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:3mm;text-align:left}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ 1 · PORTADA ============ -->
+<section class="page cover">
+  <div class="grid-dots"></div>
+  <div class="crown">
+    <div class="cw">Propuesta para</div>
+    <div class="cn">Rosario <i>Exclusivos</i></div>
+  </div>
+  <div class="cover-in">
+    <span class="badge"><span class="dot"></span>Rediseño de tienda · E-commerce</span>
+    <h1>Tu tienda muestra<br>productos.<br><span>Falta que venda.</span></h1>
+    <p class="sub">Rosario Exclusivos tiene el catálogo, los precios y la logística resueltos. Lo que no tiene es la <b>estructura que convierte al visitante en comprador</b>: hoy entra, ve un banner de promoción bancaria y cae directo en una grilla de 36 productos. Nunca se entera de por qué comprarles a ustedes y no a cualquier otro.</p>
+    <div class="pills">
+      <div class="pill"><div class="t">Página de inicio</div><div class="s">Estructura de conversión completa</div></div>
+      <div class="pill"><div class="t">Página de producto</div><div class="s">Embudo de precios + WhatsApp</div></div>
+      <div class="pill"><div class="t">Carrito</div><div class="s">Menos abandono en el último paso</div></div>
+    </div>
+    <div class="meta">
+      <div><div class="k">Plataforma</div><div class="v">Tiendanube</div></div>
+      <div><div class="k">Enfoque</div><div class="v">Conversión</div></div>
+      <div><div class="k">Desarrollo</div><div class="v">Hasta 10 días</div></div>
+      <div><div class="k">Inversión</div><div class="v">$350.000</div></div>
+    </div>
+  </div>
+  <div class="base">Diagnóstico · Diseño · Programación · Implementación</div>
+</section>
+
+<!-- ============ 2 · DIAGNÓSTICO ============ -->
+<section class="page">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Diagnóstico</span></div>
+  <div class="sec">
+    <div class="num">01</div>
+    <div>
+      <div class="kick">Diagnóstico</div>
+      <h2>Qué está pasando hoy en la tienda</h2>
+    </div>
+  </div>
+  <p class="lead">Analizamos <b>rosarioexclusivos.com</b> como lo hace un cliente que entra por primera vez: el inicio, una ficha de producto y el carrito. Esto es lo que encontramos.</p>
+  <div class="rule"></div>
+
+  <div class="diag">
+    <div class="shot">
+      <img src="re_home_diag.jpg" alt="Inicio actual de Rosario Exclusivos">
+      <div class="cap">La página de inicio hoy</div>
+    </div>
+    <div class="find">
+      <div class="f"><div class="ic">1</div><div><div class="tt">El banner no dice qué hace la marca</div>
+        <div class="dd">El primer impacto es una promoción de banco. Un banner tiene que responder <b>qué damos y qué problema resuelve</b>: “tecnología original, con garantía y en cuotas, comprada a una empresa rosarina con locales”.</div></div></div>
+      <div class="f"><div class="ic">2</div><div><div class="tt">Después del banner arranca el catálogo</div>
+        <div class="dd">36 productos seguidos, sin un solo bloque en el medio que explique nada. La tienda es <b>una vidriera, no un recorrido</b>.</div></div></div>
+      <div class="f"><div class="ic">3</div><div><div class="tt">Los beneficios están, pero escondidos</div>
+        <div class="dd">Envío gratis, 9 cuotas y 10% OFF viven en la barra de anuncios y en el pie, entre emojis. <b>No hay un bloque de beneficios</b> a la vista.</div></div></div>
+      <div class="f"><div class="ic">4</div><div><div class="tt">No hay bloque problema → solución</div>
+        <div class="dd">Nada explica a quién le sirve ni por qué conviene comprar acá y no en un marketplace.</div></div></div>
+      <div class="f"><div class="ic">5</div><div><div class="tt">Cero prueba social</div>
+        <div class="dd">Ni una reseña, ni una foto de cliente, ni el local. En productos de $500.000 a $3.000.000, <b>la confianza es la venta</b>.</div></div></div>
+      <div class="f"><div class="ic">6</div><div><div class="tt">El diferencial no se ve</div>
+        <div class="dd">Empresa rosarina, locales físicos, garantía oficial, atención especializada: todo eso está en el pie de página, donde casi nadie llega.</div></div></div>
+      <div class="f mid"><div class="ic">7</div><div><div class="tt">El producto no tiene embudo de precios</div>
+        <div class="dd">Precio de lista, transferencia y cuotas aparecen <b>al mismo peso visual</b>. El cliente no ve cuánto ahorra ni cuál le conviene. Y no hay botón de WhatsApp para consultar antes de comprar.</div></div></div>
+      <div class="f mid"><div class="ic">8</div><div><div class="tt">No hay preguntas frecuentes ni “cómo comprar”</div>
+        <div class="dd">Las dudas de garantía, envío y stock quedan sin responder justo donde se decide la compra. El carrito tampoco explica qué pasa después de apretar el botón.</div></div></div>
+    </div>
+  </div>
+
+  <div class="note amber" style="margin-top:5mm">
+    <b>La conclusión.</b> No hay que rehacer la tienda desde cero ni cambiar el catálogo: hay que <b>construir el recorrido que hoy falta</b> entre el banner y el botón de comprar. Eso es exactamente lo que se diseña en las próximas páginas.
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>02</b></div>
+</section>
+
+<!-- ============ 3 · ESTRUCTURA ============ -->
+<section class="page roomy">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Estructura de conversión</span></div>
+  <div class="sec">
+    <div class="num">02</div>
+    <div>
+      <div class="kick">Qué incluye</div>
+      <h2>El recorrido que hoy no existe</h2>
+    </div>
+  </div>
+  <p class="lead">En lugar de vender “bloques” sueltos, se diseña una estructura pensada para responder —en el orden correcto— <b>las seis preguntas que todo cliente se hace antes de gastar medio millón de pesos</b> en tecnología. Cada sección de la tienda cumple una función dentro de ese recorrido.</p>
+  <div class="rule"></div>
+
+  <h3 class="blk">Las preguntas que tu tienda va a responder</h3>
+  <div class="qs" style="margin-bottom:6mm">
+    <div class="q"><div class="qm">?</div><div><div class="qt">¿Qué venden y es para mí?</div><div class="qd">Banner con fórmula clara + categorías principales.</div></div></div>
+    <div class="q"><div class="qm">?</div><div><div class="qt">¿Por qué a ustedes y no a otro?</div><div class="qd">Bloque de beneficios + diferencial de la marca.</div></div></div>
+    <div class="q"><div class="qm">?</div><div><div class="qt">¿Puedo confiar en esta empresa?</div><div class="qd">Prueba social, locales, garantía oficial.</div></div></div>
+    <div class="q"><div class="qm">?</div><div><div class="qt">¿Cómo encuentro rápido lo que busco?</div><div class="qd">Categorías visuales y destacados ordenados.</div></div></div>
+    <div class="q"><div class="qm">?</div><div><div class="qt">¿Me conviene el precio?</div><div class="qd">Embudo de precios en la página de producto.</div></div></div>
+    <div class="q"><div class="qm">?</div><div><div class="qt">¿Y si todavía tengo dudas?</div><div class="qd">Preguntas frecuentes + WhatsApp a un clic.</div></div></div>
+  </div>
+
+  <div class="two">
+    <div class="flowbox bad">
+      <div class="ttl">Recorrido actual</div>
+      <div class="step"><span class="b"></span>Banner de promoción bancaria</div>
+      <div class="step"><span class="b"></span>Grilla de 36 productos <small>· sin contexto</small></div>
+      <div class="step"><span class="b"></span>Franja de beneficios <small>· al final</small></div>
+      <div class="step"><span class="b"></span>Marcas e Instagram</div>
+      <div class="step"><span class="b"></span>Producto sin jerarquía de precio</div>
+      <div class="step"><span class="b"></span>Carrito mudo</div>
+      <div class="step" style="color:var(--red);font-weight:700"><span class="b"></span>Se va a comparar a otro lado</div>
+    </div>
+    <div class="flowbox good">
+      <div class="ttl">Recorrido propuesto</div>
+      <div class="step"><span class="b"></span>Banner que explica la propuesta</div>
+      <div class="step"><span class="b"></span>Beneficios visibles <small>· confianza inmediata</small></div>
+      <div class="step"><span class="b"></span>Destacados y ofertas ordenados</div>
+      <div class="step"><span class="b"></span>Problema → solución + prueba social</div>
+      <div class="step"><span class="b"></span>Categorías + preguntas frecuentes</div>
+      <div class="step"><span class="b"></span>Producto con embudo + WhatsApp</div>
+      <div class="step" style="color:var(--green);font-weight:700"><span class="b"></span>Carrito que acompaña hasta el pago</div>
+    </div>
+  </div>
+
+  <div class="note" style="margin-top:6mm">
+    <b>La lógica del diseño.</b> Cada bloque responde una objeción y empuja hacia la compra. El visitante entra, entiende qué venden, se identifica, confía y avanza sin fricción. La tienda deja de ser una vidriera estática y pasa a ser un recorrido guiado.
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>03</b></div>
+</section>
+
+<!-- ============ 4 · HOME 1-4 ============ -->
+<section class="page roomy">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Página de inicio</span></div>
+  <div class="sec">
+    <div class="num">03</div>
+    <div>
+      <div class="kick">Desarrollo de la home</div>
+      <h2>La estructura de tu página principal</h2>
+    </div>
+  </div>
+  <p class="lead">Ocho bloques diseñados y programados a medida —adaptados a computadora y celular— que ordenan el recorrido del visitante desde el primer impacto hasta la decisión de compra.</p>
+  <div class="rule"></div>
+
+  <div class="cards">
+    <div class="card"><div class="top"><span class="n">01</span><span class="t">Banner principal</span><span class="tag">Computadora + celular</span></div>
+      <p>El primer impacto de la tienda. Deja de ser una promo de banco y pasa a comunicar la fórmula de la marca: <b>qué ofrecen y qué le resuelve al cliente</b> —tecnología original, con garantía oficial y en cuotas, de una empresa rosarina con locales. El resto de las promociones se ordenan detrás, no adelante.</p></div>
+
+    <div class="card"><div class="top"><span class="n">02</span><span class="t">Sección de beneficios</span></div>
+      <p>Bloque con íconos y mensajes claros que transmiten confianza y bajan las objeciones antes de comprar: <b>envío gratis desde $100.000, 9 cuotas sin interés, 10% OFF en la primera compra, garantía oficial y atención especializada</b>. Hoy eso vive en la barra de anuncios; ahí se pierde.</p></div>
+
+    <div class="card"><div class="top"><span class="n">03</span><span class="t">Productos destacados y ofertas</span></div>
+      <p>Organización estratégica de los productos más importantes para dirigir la atención hacia <b>lo que la marca quiere vender primero</b> —lo de mayor margen, lo que hay stock, lo que está en promoción— en lugar de volcar el catálogo entero de una.</p></div>
+
+    <div class="card"><div class="top"><span class="n">04</span><span class="t">Bloque de confianza · Problema → Solución</span></div>
+      <p>Conecta con la necesidad real del cliente —<b>“no querés que te vendan un equipo sin garantía ni a quién reclamarle”</b>— demuestra que la marca entiende ese problema y explica por qué comprar acá es mejor que a un revendedor de marketplace.</p></div>
+  </div>
+
+  <div class="note slim" style="margin-top:3mm"><b>Cada bloque se entrega adaptado a computadora y celular</b>, optimizado para mantener una navegación fluida en cualquier dispositivo. En celular no es el mismo diseño comprimido: es un diseño propio pensado para pantalla chica.</div>
+
+  <div class="two compact" style="margin-top:3mm">
+    <div class="flowbox">
+      <div class="ttl" style="color:var(--gray2)">Lo que no se toca</div>
+      <div class="step"><span class="b" style="color:var(--gray2)"></span>El catálogo y la carga de productos</div>
+      <div class="step"><span class="b" style="color:var(--gray2)"></span>Precios, stock y medios de pago</div>
+      <div class="step"><span class="b" style="color:var(--gray2)"></span>Los pedidos y las ventas en curso</div>
+      <div class="step"><span class="b" style="color:var(--gray2)"></span>El dominio y las integraciones actuales</div>
+    </div>
+    <div class="flowbox good">
+      <div class="ttl">Lo que se construye</div>
+      <div class="step"><span class="b"></span>La estructura completa de la home</div>
+      <div class="step"><span class="b"></span>El embudo de precios del producto</div>
+      <div class="step"><span class="b"></span>El carrito guiado con WhatsApp</div>
+      <div class="step"><span class="b"></span>La identidad aplicada de punta a punta</div>
+    </div>
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>04</b></div>
+</section>
+
+<!-- ============ 5 · HOME 5-8 ============ -->
+<section class="page roomy">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Página de inicio</span></div>
+  <div class="sec" style="margin-top:4mm">
+    <div class="num">03</div>
+    <div>
+      <div class="kick">Desarrollo de la home</div>
+      <h2>Los bloques que cierran la venta</h2>
+    </div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cards">
+    <div class="card"><div class="top"><span class="n">05</span><span class="t">Prueba social</span><span class="tag">Lo que más falta hoy</span></div>
+      <p>Bloque de testimonios con experiencias reales de clientes: reseñas de Google, capturas de WhatsApp, fotos del local o de entregas. <b>Es el bloque que más impacto tiene en tickets altos</b>: nadie transfiere $2.000.000 a una tienda que no muestra a nadie que ya le compró.</p></div>
+
+    <div class="card"><div class="top"><span class="n">06</span><span class="t">Categorías principales</span></div>
+      <p>Organización visual de las categorías más importantes —celulares, gaming, audio, smartwatch, computación— para que el usuario <b>encuentre en un clic</b> lo que hoy solo aparece dentro de un menú desplegable de varios niveles.</p></div>
+
+    <div class="card"><div class="top"><span class="n">07</span><span class="t">Preguntas frecuentes</span></div>
+      <p>Responde las dudas más comunes antes de comprar —garantía, envíos, retiro en local, medios de pago, productos originales— <b>reduciendo la incertidumbre</b> y eliminando objeciones de último momento.</p></div>
+
+    <div class="card"><div class="top"><span class="n">08</span><span class="t">Bloque final de comunidad</span></div>
+      <p>Cierre que invita a conocer la marca más allá de la tienda, incentiva a seguir el Instagram y <b>fortalece el vínculo para futuras compras</b> —clave en un rubro donde el cliente vuelve por accesorios y equipos nuevos.</p></div>
+  </div>
+
+  <div class="note amber" style="margin-top:5mm">
+    <b>Objetivo final: guiar al visitante desde que entra hasta que decide comprar.</b> Toda la estructura acompaña al comprador durante el proceso —qué vende la marca, si el producto es para él, por qué elegirla, si puede confiar y cómo continuar la compra de la forma más simple posible. Cada bloque cumple una función dentro de ese recorrido.
+  </div>
+
+  <h3 class="blk" style="margin-top:6mm">El orden final de tu página de inicio</h3>
+  <div class="chips" style="margin-top:0">
+    <span>01 · Banner con propuesta</span><span>02 · Beneficios</span><span>03 · Destacados y ofertas</span>
+    <span>04 · Problema → Solución</span><span>05 · Prueba social</span><span>06 · Categorías</span>
+    <span>07 · Preguntas frecuentes</span><span>08 · Comunidad</span>
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>05</b></div>
+</section>
+
+<!-- ============ 6 · PRODUCTO ============ -->
+<section class="page">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Página de producto</span></div>
+  <div class="sec">
+    <div class="num">04</div>
+    <div>
+      <div class="kick">Página de producto</div>
+      <h2>El embudo de precios y el cierre</h2>
+    </div>
+  </div>
+  <p class="lead">El precio es donde más se define la compra. Hoy el precio de lista, el de transferencia y las cuotas aparecen con el mismo peso: <b>el cliente no ve cuánto ahorra</b>. Se diseña un bloque claro y persuasivo que muestra, de un vistazo, todo el valor de la oferta.</p>
+  <div class="rule"></div>
+
+  <div class="diag" style="grid-template-columns:72mm 1fr">
+    <div>
+      <div class="mock">
+        <div class="pdp">
+          <div class="pname">PLAYSTATION 5 SONY SLIM C/ JOYSTICK<br>C/DISCO ULTRA HD BLU-RAY</div>
+          <div class="stars">★★★★★ <span>4,8 · 127 opiniones</span></div>
+          <div class="rowline"><span class="old">$2.478.600</span><span class="off">25% OFF</span></div>
+          <div class="big">$2.478.600</div>
+          <div class="transf"><span class="a">$1.858.950</span><span class="b">con transferencia<br>ahorrás $619.650</span></div>
+          <div class="cuotas"><span class="a">9 × $275.400</span><span class="b">sin interés</span></div>
+          <div class="ship">Envío gratis a todo el país · Retiro en sucursal</div>
+          <div class="cta">AGREGAR AL CARRITO</div>
+          <div class="wsp">¿Dudas con este equipo? Consultanos por WhatsApp</div>
+          <div class="trust"><div>Producto<br>100% original</div><div>Garantía<br>oficial</div><div>Empresa<br>rosarina</div></div>
+        </div>
+        <div class="mockcap">Ejemplo del bloque de precios</div>
+      </div>
+    </div>
+    <div>
+      <h3 class="blk">El embudo de precios</h3>
+      <div class="cards" style="gap:2.2mm">
+        <div class="card"><div class="top"><span class="n">01</span><span class="t">Precio original</span></div>
+          <p>El valor de lista, como punto de referencia para que el cliente dimensione el descuento.</p></div>
+        <div class="card"><div class="top"><span class="n">02</span><span class="t">Precio tachado</span></div>
+          <p>El precio anterior cruzado para evidenciar el ahorro y generar sensación de oportunidad.</p></div>
+        <div class="card"><div class="top"><span class="n">03</span><span class="t">Precio por transferencia</span></div>
+          <p>El más conveniente, destacado y <b>con el ahorro en pesos escrito</b>, para empujar el medio de pago que más te sirve a vos.</p></div>
+        <div class="card"><div class="top"><span class="n">04</span><span class="t">Cuotas</span></div>
+          <p>El pago dividido en partes, para bajar la barrera de entrada en equipos de ticket alto.</p></div>
+      </div>
+      <div class="note" style="margin-top:3mm;font-size:7.8pt"><b>Se adapta a todo.</b> El bloque se ajusta automáticamente a cualquier precio y a cada producto nuevo que cargues, manteniendo siempre la misma presentación.</div>
+    </div>
+  </div>
+
+  <div class="two" style="margin-top:5mm">
+    <div class="card" style="border-left-color:#25D366">
+      <div class="top"><span class="t">Botón de WhatsApp en el producto</span></div>
+      <p>Un botón que abre WhatsApp <b>con el producto y el link ya cargados en el mensaje</b>. El asesor sabe al instante de qué equipo se trata y cierra la venta asistida. Es la diferencia entre el que duda y se va, y el que pregunta y compra.</p>
+    </div>
+    <div class="card">
+      <div class="top"><span class="t">Preguntas frecuentes y cómo comprar</span></div>
+      <p>Debajo de la descripción: las dudas que hoy llegan por WhatsApp <b>respondidas antes de que se pregunten</b> (garantía, originalidad, plazos, retiro en local) y los pasos de compra explicados en tres líneas.</p>
+    </div>
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>06</b></div>
+</section>
+
+<!-- ============ 7 · CARRITO ============ -->
+<section class="page">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Carrito</span></div>
+  <div class="sec">
+    <div class="num">05</div>
+    <div>
+      <div class="kick">Diseño de carrito</div>
+      <h2>El paso donde más se abandona</h2>
+    </div>
+  </div>
+  <p class="lead">El cliente agrega el producto, abre el carrito y ve un total y un botón. No sabe qué va a pasar cuando lo apriete: si ya le cobran, si puede elegir cómo pagar, si le va a llegar o lo puede retirar. <b>Esa duda es el abandono.</b> El carrito rediseñado la responde antes de que aparezca.</p>
+  <div class="rule"></div>
+
+  <div class="diag" style="grid-template-columns:76mm 1fr">
+    <div class="mock">
+      <div class="cart">
+        <div class="hdr"><span>Carrito de compras</span><span>✕</span></div>
+        <div class="tot"><span class="k">Total</span><span class="v">$2.478.600</span></div>
+        <div class="alt">o $1.858.950 con transferencia</div>
+        <div class="stepbox">
+          <div class="yc">Ya casi</div>
+          <div class="h">Estás a un paso de tu pedido</div>
+          <div class="sh">Así vas a completar tu compra, sin sorpresas:</div>
+          <ol>
+            <li><span class="cn">1</span><div class="body"><div class="st">Completás tus datos</div><div class="sd">Contacto y dirección de envío.</div></div></li>
+            <li class="hl"><span class="cn">2</span><div class="body"><div class="st">Elegís cómo pagar <span class="off">25% OFF</span></div><div class="sd">Con transferencia tenés 25% de descuento, o hasta 9 cuotas sin interés con tarjeta.</div></div></li>
+            <li><span class="cn">3</span><div class="body"><div class="st">Recibís o retirás</div><div class="sd">Te lo enviamos gratis o lo retirás en nuestro local de Rosario.</div></div></li>
+          </ol>
+          <div class="lock">🔒 No pagás nada todavía. Revisás el total y elegís el medio de pago en el último paso.</div>
+        </div>
+        <div class="go">INICIAR COMPRA</div>
+        <div class="ask">¿Querés confirmar stock o garantía? Escribinos</div>
+        <div class="sig">Empresa rosarina · Garantía oficial · Productos 100% originales</div>
+      </div>
+      <div class="mockcap">Ejemplo del carrito rediseñado</div>
+    </div>
+    <div>
+      <h3 class="blk">Qué resuelve</h3>
+      <div class="cards" style="gap:2.2mm">
+        <div class="card"><div class="top"><span class="n">01</span><span class="t">Explica los tres pasos que faltan</span></div>
+          <p>Datos → medio de pago → envío o retiro. El cliente ve el camino completo <b>antes</b> de entrar al checkout, así no lo abandona por miedo a lo desconocido.</p></div>
+        <div class="card"><div class="top"><span class="n">02</span><span class="t">Empuja la transferencia</span></div>
+          <p>El descuento por transferencia aparece <b>en el momento exacto</b> en que el cliente está decidiendo cómo pagar, no diez pantallas antes. Es el medio que más te conviene a vos.</p></div>
+        <div class="card"><div class="top"><span class="n">03</span><span class="t">Saca el miedo a pagar</span></div>
+          <p>El aviso de “no pagás nada todavía” elimina la objeción más común del carrito en compras de ticket alto.</p></div>
+        <div class="card" style="border-left-color:#25D366"><div class="top"><span class="n">04</span><span class="t">Botón a WhatsApp con el pedido cargado</span></div>
+          <p>El que igual duda no se pierde: escribe al asesor <b>con el producto ya en el mensaje</b> y la venta se cierra por chat en lugar de perderse.</p></div>
+        <div class="card"><div class="top"><span class="n">05</span><span class="t">Cierra con confianza</span></div>
+          <p>Empresa rosarina, garantía oficial y productos originales, repetidos justo en el momento de la decisión final.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>07</b></div>
+</section>
+
+<!-- ============ 8 · IDENTIDAD ============ -->
+<section class="page roomy">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Identidad de marca</span></div>
+  <div class="sec">
+    <div class="num">06</div>
+    <div>
+      <div class="kick">Identidad visual</div>
+      <h2>Colores e identidad de marca</h2>
+    </div>
+  </div>
+  <p class="lead">Nos basamos en la estructura y la identidad que <b>Rosario Exclusivos ya tiene</b>: el negro y el dorado de la corona, el aire premium de sus banners de marca. Antes de programar un solo bloque tomamos sus colores, su tono y su estilo, para que la tienda sea una extensión fiel de la marca y no una plantilla más.</p>
+  <div class="rule"></div>
+
+  <h3 class="blk">Paleta de trabajo</h3>
+  <div class="pal" style="margin-bottom:5mm">
+    <div class="sw"><div class="chip" style="background:#0B0B0C"></div><div class="lb"><div class="n">Negro premium</div><div class="h">Primario</div></div></div>
+    <div class="sw"><div class="chip" style="background:#C9A227"></div><div class="lb"><div class="n">Dorado corona</div><div class="h">Acento</div></div></div>
+    <div class="sw"><div class="chip" style="background:#F3EEE2"></div><div class="lb"><div class="n">Crema</div><div class="h">Fondo claro</div></div></div>
+    <div class="sw"><div class="chip" style="background:#1E9E6A"></div><div class="lb"><div class="n">Verde acción</div><div class="h">Precio / compra</div></div></div>
+  </div>
+  <div class="note" style="margin-bottom:6mm;font-size:7.8pt">Estos colores salen de <b>los banners de marca que ya usan</b>. En el desarrollo se ajustan al detalle junto con ustedes, respetando jerarquía y contraste. El verde queda reservado para el precio por transferencia y la acción de compra: nunca compite con la marca.</div>
+
+  <h3 class="blk">Sistema tipográfico</h3>
+  <div class="typo" style="margin-bottom:5mm">
+    <div class="ty"><div class="k">Títulos</div><div class="s">Aa Bb Cc</div><div class="d">Peso alto, para impacto y jerarquía.</div></div>
+    <div class="ty"><div class="k">Texto</div><div class="s" style="font-size:9pt;font-weight:400;letter-spacing:0">La tipografía de lectura mantiene claridad y comodidad en cualquier tamaño.</div></div>
+    <div class="ty"><div class="k">Detalle</div><div class="s" style="font-size:8pt;letter-spacing:.2em">ETIQUETAS · CTA</div><div class="d">Kickers y botones, siempre iguales en toda la tienda.</div></div>
+  </div>
+
+  <div class="trio">
+    <div class="t"><div class="h">Tono de la marca</div><div class="p">Premium accesible: tecnología de primera línea, comprada a una empresa cercana de Rosario. Ni frío corporativo ni de kiosco.</div></div>
+    <div class="t"><div class="h">Íconos de la marca</div><div class="p">Íconos vectoriales coherentes con la estética —<b>no genéricos ni emojis</b>— para un acabado prolijo en toda la tienda.</div></div>
+    <div class="t"><div class="h">Consistencia</div><div class="p">Colores, tipografías, espaciados y botones unificados en inicio, producto y carrito: una sola identidad de punta a punta.</div></div>
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>08</b></div>
+</section>
+
+<!-- ============ 9 · METODOLOGÍA ============ -->
+<section class="page">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Metodología de trabajo</span></div>
+  <div class="sec">
+    <div class="num">07</div>
+    <div>
+      <div class="kick">Metodología</div>
+      <h2>¿Cómo trabajamos?</h2>
+    </div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="days" style="margin-bottom:6mm">
+    <div class="n">10</div>
+    <div class="tx">
+      <div class="a">Días de desarrollo reservados</div>
+      <div class="b">Una vez confirmado el pago se reserva una ventana de hasta <b>10 días hábiles</b>. En muchos casos la entrega es antes —según la carga de trabajo—, pero el plazo reservado garantiza un desarrollo ordenado y sin apuros.</div>
+    </div>
+  </div>
+
+  <h3 class="blk">Etapas del desarrollo</h3>
+  <div class="et">
+    <div class="h"><span class="c">1</span><span class="t">Desarrollo de los bloques</span></div>
+    <ul>
+      <li>Diseño y programación de cada bloque personalizado de la tienda.</li>
+      <li>Adaptación completa para computadora y celular.</li>
+      <li>Optimización para mantener una buena experiencia de navegación.</li>
+    </ul>
+  </div>
+  <div class="et">
+    <div class="h"><span class="c">2</span><span class="t">Implementación en la tienda</span></div>
+    <ul>
+      <li>Integración de todos los bloques dentro de Tiendanube, sobre la tienda que ya está funcionando.</li>
+      <li>Ajustes de funcionamiento, espaciados, adaptación a celular y navegación.</li>
+      <li>Verificación de que toda la estructura funcione correctamente y no se rompa nada de lo actual.</li>
+    </ul>
+  </div>
+  <div class="et">
+    <div class="h"><span class="c">3</span><span class="t">Correcciones finales</span></div>
+    <ul>
+      <li>Entregada la primera versión, se realiza una ronda de ajustes donde pueden pedir cambios sobre:</li>
+    </ul>
+    <div class="chips"><span>Colores</span><span>Textos</span><span>Imágenes</span><span>Videos</span><span>Íconos</span><span>Orden de productos y categorías</span></div>
+  </div>
+
+  <div class="note amber">
+    <b>Importante.</b> Esta instancia no incluye cambios estructurales (agregar, quitar o rediseñar bloques completos), ya que la estructura fue definida y aprobada antes de comenzar el desarrollo.
+  </div>
+
+  <div class="note" style="margin-top:3mm">
+    <b>Forma de trabajo.</b> El proyecto arranca abonando el 50%; con eso queda tomada la ventana en agenda. El saldo se abona contra la entrega de la primera versión, antes de la ronda de correcciones.
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>09</b></div>
+</section>
+
+<!-- ============ 10 · INVERSIÓN ============ -->
+<section class="page">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Inversión</span></div>
+  <div class="sec">
+    <div class="num">08</div>
+    <div>
+      <div class="kick">Inversión</div>
+      <h2>Presupuesto del proyecto</h2>
+    </div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="price-main" style="margin-bottom:5mm">
+    <div class="ph">
+      <div>
+        <div class="k">Proyecto completo</div>
+        <div class="t">Inicio + Producto + Carrito</div>
+      </div>
+      <div>
+        <div class="amt">$350.000</div>
+        <div class="cur">Pesos argentinos</div>
+      </div>
+    </div>
+    <div class="pb">
+      <div class="it"><div class="n">Incluye 01</div><div class="h">Página de inicio</div><div class="d">Los 8 bloques de la estructura de conversión, diseñados y programados a medida, para computadora y celular.</div></div>
+      <div class="it"><div class="n">Incluye 02</div><div class="h">Página de producto</div><div class="d">Embudo de precios aplicado a <b>todos</b> los productos + botón de WhatsApp con el producto cargado + preguntas frecuentes y cómo comprar.</div></div>
+      <div class="it"><div class="n">Incluye 03</div><div class="h">Diseño de carrito</div><div class="d">Carrito que explica los pasos posteriores, empuja la transferencia y suma el botón a WhatsApp con el pedido cargado.</div></div>
+    </div>
+  </div>
+
+  <div class="kickline">Agregado recomendado</div>
+  <div class="addon" style="margin-bottom:4mm">
+    <div>
+      <div class="n">Opcional</div>
+      <h4>Descripción tipo landing page para tus productos</h4>
+      <p>Hoy las descripciones son un párrafo con emojis y una lista de características. La descripción tipo landing convierte cada ficha en <b>una página de venta</b>: qué estás comprando en datos concretos, para qué te sirve, comparativa contra el genérico y un cierre con carrito y WhatsApp. Se aplica de forma masiva a todo el catálogo.</p>
+    </div>
+    <div class="pr">
+      <div class="a">$50.000</div>
+      <div class="b">por cada<br>200 productos</div>
+    </div>
+  </div>
+
+  <div class="landcap">
+    <div class="im">
+      <img src="ejemplo_landing.jpg" alt="Ejemplo de descripción tipo landing">
+      <div class="c">Ejemplo real en producción</div>
+    </div>
+    <div>
+      <h3 class="blk">Qué incluye cada descripción</h3>
+      <div class="ck"><span class="v">✓</span><div><b>Qué estás comprando.</b> Los datos concretos del producto ordenados en ficha, sin códigos de proveedor ni texto de catálogo.</div></div>
+      <div class="ck"><span class="v">✓</span><div><b>Para qué te sirve.</b> Tres razones escritas en beneficio real, no en especificación técnica.</div></div>
+      <div class="ck"><span class="v">✓</span><div><b>Comparativa contra el genérico.</b> Un bloque animado que muestra, punto por punto, qué te llevás comprando acá y qué no.</div></div>
+      <div class="ck"><span class="v">✓</span><div><b>Cierre con doble salida.</b> Agregar al carrito o consultar por WhatsApp, sin que el cliente tenga que volver a subir.</div></div>
+      <div class="ck"><span class="v">✓</span><div><b>Título optimizado para Google</b> en cada producto, distinto del nombre interno.</div></div>
+      <div class="note" style="margin-top:3mm;font-size:7.6pt"><b>Por qué conviene en este catálogo.</b> En tecnología el cliente compara antes de comprar. Una ficha que explica y compara es la que gana la venta contra el marketplace, y además <b>posiciona cada producto en Google</b> con contenido propio.</div>
+    </div>
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>10</b></div>
+</section>
+
+<!-- ============ 11 · RECOPILAR + CIERRE ============ -->
+<section class="page">
+  <div class="hd"><span class="l">Propuesta de rediseño</span><span class="r">Información para recopilar</span></div>
+  <div class="sec">
+    <div class="num">09</div>
+    <div>
+      <div class="kick">Para recopilar</div>
+      <h2>Información para el desarrollo</h2>
+    </div>
+  </div>
+  <p class="lead">Este material lo pueden ir pasando con tranquilidad durante el proyecto: <b>no frena el arranque</b>. Cuanto más completo, más fiel y potente el resultado, pero se puede ir completando sobre la marcha.</p>
+  <div class="rule"></div>
+
+  <div class="rec" style="margin-bottom:5mm">
+    <div class="rc"><div class="h">Recursos visuales</div><ul>
+      <li>Imágenes y videos de productos y del local.</li>
+      <li>Si lo autorizan, se pueden tomar del Instagram de la marca para agilizar.</li></ul></div>
+    <div class="rc"><div class="h">Beneficios de la marca</div><ul>
+      <li>Envíos · Garantía oficial · Medios de pago.</li>
+      <li>Cambios y devoluciones.</li>
+      <li>Atención especializada y retiro en local.</li>
+      <li>Cualquier diferencial que hoy usen para vender.</li></ul></div>
+    <div class="rc"><div class="h">Reseñas</div><ul>
+      <li>Link de Google, Mercado Libre u otra plataforma con opiniones.</li>
+      <li>Capturas de WhatsApp de clientes conformes.</li>
+      <li>Si no hay reseñas, indicar de dónde se obtienen los testimonios.</li></ul></div>
+    <div class="rc"><div class="h">Preguntas frecuentes</div><ul>
+      <li>Las consultas que más reciben por WhatsApp, Instagram o en el local.</li>
+      <li>No hace falta redactarlas prolijas: con la idea general alcanza.</li></ul></div>
+    <div class="rc"><div class="h">Información del negocio</div><ul>
+      <li>Historia de la marca y público objetivo.</li>
+      <li>Qué los diferencia de la competencia.</li>
+      <li>Productos y categorías más importantes.</li>
+      <li>Objetivos de la tienda y tono de comunicación.</li></ul></div>
+    <div class="rc"><div class="h">Redes y contacto</div><ul>
+      <li>Instagram de la marca.</li>
+      <li>Número de WhatsApp para el botón de consultas.</li>
+      <li>Direcciones y horarios de los locales.</li></ul></div>
+  </div>
+
+  <div class="close">
+    <div class="bg"></div>
+    <div class="k">El objetivo de todo esto</div>
+    <h3>Una tienda que no solo se ve bien:<br><span>vende mejor.</span></h3>
+    <p>Cada bloque de la página de inicio, cada sección del producto y cada paso del carrito están pensados para acompañar al cliente desde que entra hasta que compra —respondiendo sus dudas, generando confianza y quitando fricción en el camino. Eso es lo que convierte una web bonita en una herramienta de venta.</p>
+  </div>
+
+  <div class="sign">
+    <div class="av">MQ</div>
+    <div class="t">
+      <div class="a">Desarrollador</div>
+      <div class="b">Mateo Quiroga</div>
+      <div class="c">Diseño y programación de tiendas de conversión · @mateoquirogav</div>
+    </div>
+  </div>
+
+  <div class="ft"><span>Rosario Exclusivos · Propuesta de rediseño</span><b>11</b></div>
+</section>
+
+</body>
+</html>
