@@ -214,7 +214,7 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
 
 /* ---------- metodología ---------- */
 .days{display:flex;align-items:center;gap:6mm;border:1px solid var(--line);border-radius:9px;padding:4mm;background:var(--bg)}
-.days .n{font-size:34pt;font-weight:800;color:var(--blue);letter-spacing:-.04em;line-height:.9}
+.days .n{white-space:nowrap;font-size:34pt;font-weight:800;color:var(--blue);letter-spacing:-.04em;line-height:.9}
 .days .tx .a{font-size:9pt;font-weight:700}
 .days .tx .b{font-size:8pt;color:var(--gray);line-height:1.6;margin-top:1mm}
 .et{border:1px solid var(--line);border-radius:8px;padding:3.4mm 4mm;margin-bottom:2.6mm}
@@ -236,6 +236,7 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
 .price-main .ph .amt{font-size:24pt;font-weight:800;letter-spacing:-.03em;line-height:1}
 .price-main .ph .cur{font-size:6.6pt;letter-spacing:.2em;color:#9FB6DC;text-align:right;font-weight:600}
 .price-main .pb{padding:4mm 5mm;display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.price-main .pb.four{grid-template-columns:1fr 1fr;gap:3mm 5mm}
 .price-main .it .n{font-size:6.4pt;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);font-weight:600}
 .price-main .it .h{font-size:8.8pt;font-weight:700;margin-top:.8mm}
 .price-main .it .d{font-size:7.4pt;color:var(--gray);line-height:1.5;margin-top:.8mm}
@@ -303,7 +304,7 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
 .roomy .ty{padding:4mm}
 .roomy .ty .s{font-size:17pt}
 .roomy .ty .d{font-size:8pt}
-.roomy .trio .t{padding:4mm}
+.roomy .trio .t{padding:3.4mm}
 .roomy .trio .t .h{font-size:9.4pt}
 .roomy .trio .t .p{font-size:8.2pt;line-height:1.65}
 .roomy h3.blk{font-size:12pt;margin-bottom:4mm}
@@ -346,7 +347,7 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
     <div class="meta">
       <div><div class="k">Plataforma</div><div class="v">Tiendanube</div></div>
       <div><div class="k">Enfoque</div><div class="v">Conversión</div></div>
-      <div><div class="k">Desarrollo</div><div class="v">Hasta 10 días</div></div>
+      <div><div class="k">Desarrollo</div><div class="v">10 a 14 días</div></div>
       <div><div class="k">Inversión</div><div class="v">$350.000</div></div>
     </div>
   </div>
@@ -493,6 +494,7 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
       <div class="step"><span class="b"></span>La estructura completa de la home</div>
       <div class="step"><span class="b"></span>El embudo de precios del producto</div>
       <div class="step"><span class="b"></span>El carrito guiado con WhatsApp</div>
+      <div class="step"><span class="b"></span>Todas las imágenes de producto al mismo tamaño</div>
       <div class="step"><span class="b"></span>La identidad aplicada de punta a punta</div>
     </div>
   </div>
@@ -664,30 +666,37 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
     <div class="num">06</div>
     <div>
       <div class="kick">Identidad visual</div>
-      <h2>Colores e identidad de marca</h2>
+      <h2>Cómo definimos el diseño</h2>
     </div>
   </div>
-  <p class="lead">Nos basamos en la estructura y la identidad que <b>Rosario Exclusivos ya tiene</b>: el negro y el dorado de la corona, el aire premium de sus banners de marca. Antes de programar un solo bloque tomamos sus colores, su tono y su estilo, para que la tienda sea una extensión fiel de la marca y no una plantilla más.</p>
+  <p class="lead">No arrancamos de un gusto personal ni de una plantilla. Antes de programar un solo bloque hacemos un <b>análisis de la marca</b>: a quién le vende, qué identidad ya construyó y contra quién compite. De ahí salen los colores, la tipografía y el tono. La tienda tiene que ser una extensión fiel de la marca, no una versión más linda de cualquier otra.</p>
   <div class="rule"></div>
 
-  <h3 class="blk">Paleta de trabajo</h3>
-  <div class="pal" style="margin-bottom:5mm">
-    <div class="sw"><div class="chip" style="background:#0B0B0C"></div><div class="lb"><div class="n">Negro premium</div><div class="h">Primario</div></div></div>
-    <div class="sw"><div class="chip" style="background:#C9A227"></div><div class="lb"><div class="n">Dorado corona</div><div class="h">Acento</div></div></div>
-    <div class="sw"><div class="chip" style="background:#F3EEE2"></div><div class="lb"><div class="n">Crema</div><div class="h">Fondo claro</div></div></div>
-    <div class="sw"><div class="chip" style="background:#1E9E6A"></div><div class="lb"><div class="n">Verde acción</div><div class="h">Precio / compra</div></div></div>
+  <h3 class="blk">El análisis previo · tres lentes</h3>
+  <div class="trio" style="margin-bottom:5mm">
+    <div class="t"><div class="h">01 · El público</div><div class="p">Quién compra y cómo decide: edad, si es una compra de impulso o meditada, cuánto sabe del producto y qué le da miedo antes de pagar. En tickets altos el diseño tiene que <b>tranquilizar</b>, no gritar.</div></div>
+    <div class="t"><div class="h">02 · La marca</div><div class="p">Qué identidad ya existe: logo, colores, tipografías, el tono con el que hablan en redes y en el local. <b>Se trabaja sobre lo que la marca ya es</b>, no se inventa una nueva.</div></div>
+    <div class="t"><div class="h">03 · El rubro</div><div class="p">Contra quién se compite y cómo se ve esa competencia, para que la tienda se distinga en lugar de parecerse. Lo que hacen todos, no nos sirve.</div></div>
   </div>
-  <div class="note" style="margin-bottom:6mm;font-size:7.8pt">Estos colores salen de <b>los banners de marca que ya usan</b>. En el desarrollo se ajustan al detalle junto con ustedes, respetando jerarquía y contraste. El verde queda reservado para el precio por transferencia y la acción de compra: nunca compite con la marca.</div>
 
-  <h3 class="blk">Sistema tipográfico</h3>
-  <div class="typo" style="margin-bottom:5mm">
+  <h3 class="blk">Lo que sale de ese análisis</h3>
+  <div class="pal" style="margin-bottom:4mm">
+    <div class="sw"><div class="chip" style="background:linear-gradient(135deg,#DDE4EF,#C6D0E0)"></div><div class="lb"><div class="n">Color 01</div><div class="h">Primario</div></div></div>
+    <div class="sw"><div class="chip" style="background:linear-gradient(135deg,#D6DEEC,#BDC8DB)"></div><div class="lb"><div class="n">Color 02</div><div class="h">Acento</div></div></div>
+    <div class="sw"><div class="chip" style="background:linear-gradient(135deg,#E6EBF3,#D2DAE7)"></div><div class="lb"><div class="n">Color 03</div><div class="h">Secundario</div></div></div>
+    <div class="sw"><div class="chip" style="background:linear-gradient(135deg,#F0F3F8,#E1E7F0)"></div><div class="lb"><div class="n">Color 04</div><div class="h">Fondo</div></div></div>
+  </div>
+  <div class="note slim" style="margin-bottom:4mm"><b>La paleta se define con ustedes al inicio del proyecto.</b> Se toma la identidad que la marca ya usa, se ordena en una jerarquía —qué color manda, cuál acompaña, cuál se reserva para la acción de compra— y se verifica el contraste para que todo se lea bien en computadora y en celular.</div>
+
+  <h3 class="blk">Sistema tipográfico y detalles</h3>
+  <div class="typo" style="margin-bottom:3mm">
     <div class="ty"><div class="k">Títulos</div><div class="s">Aa Bb Cc</div><div class="d">Peso alto, para impacto y jerarquía.</div></div>
     <div class="ty"><div class="k">Texto</div><div class="s" style="font-size:9pt;font-weight:400;letter-spacing:0">La tipografía de lectura mantiene claridad y comodidad en cualquier tamaño.</div></div>
     <div class="ty"><div class="k">Detalle</div><div class="s" style="font-size:8pt;letter-spacing:.2em">ETIQUETAS · CTA</div><div class="d">Kickers y botones, siempre iguales en toda la tienda.</div></div>
   </div>
 
   <div class="trio">
-    <div class="t"><div class="h">Tono de la marca</div><div class="p">Premium accesible: tecnología de primera línea, comprada a una empresa cercana de Rosario. Ni frío corporativo ni de kiosco.</div></div>
+    <div class="t"><div class="h">Tono de la marca</div><div class="p">Se adapta el lenguaje visual al tono que corresponda —más premium, más cercano o más urbano— según el análisis.</div></div>
     <div class="t"><div class="h">Íconos de la marca</div><div class="p">Íconos vectoriales coherentes con la estética —<b>no genéricos ni emojis</b>— para un acabado prolijo en toda la tienda.</div></div>
     <div class="t"><div class="h">Consistencia</div><div class="p">Colores, tipografías, espaciados y botones unificados en inicio, producto y carrito: una sola identidad de punta a punta.</div></div>
   </div>
@@ -708,10 +717,10 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
   <div class="rule"></div>
 
   <div class="days" style="margin-bottom:6mm">
-    <div class="n">10</div>
+    <div class="n" style="font-size:27pt">10<span style="font-size:15pt;color:var(--gray2);font-weight:600"> a </span>14</div>
     <div class="tx">
       <div class="a">Días de desarrollo reservados</div>
-      <div class="b">Una vez confirmado el pago se reserva una ventana de hasta <b>10 días hábiles</b>. En muchos casos la entrega es antes —según la carga de trabajo—, pero el plazo reservado garantiza un desarrollo ordenado y sin apuros.</div>
+      <div class="b">Una vez confirmado el pago se reserva una ventana de <b>10 a 14 días hábiles</b>. En muchos casos la entrega es antes —según la carga de trabajo—, pero el plazo reservado garantiza un desarrollo ordenado y sin apuros.</div>
     </div>
   </div>
 
@@ -774,10 +783,11 @@ h3.blk{font-size:11pt;font-weight:700;margin:0 0 3mm;letter-spacing:-.01em}
         <div class="cur">Pesos argentinos</div>
       </div>
     </div>
-    <div class="pb">
+    <div class="pb four">
       <div class="it"><div class="n">Incluye 01</div><div class="h">Página de inicio</div><div class="d">Los 8 bloques de la estructura de conversión, diseñados y programados a medida, para computadora y celular.</div></div>
       <div class="it"><div class="n">Incluye 02</div><div class="h">Página de producto</div><div class="d">Embudo de precios aplicado a <b>todos</b> los productos + botón de WhatsApp con el producto cargado + preguntas frecuentes y cómo comprar.</div></div>
       <div class="it"><div class="n">Incluye 03</div><div class="h">Diseño de carrito</div><div class="d">Carrito que explica los pasos posteriores, empuja la transferencia y suma el botón a WhatsApp con el pedido cargado.</div></div>
+      <div class="it"><div class="n">Incluye 04</div><div class="h">Imágenes al mismo tamaño</div><div class="d">Un sistema que unifica todas las fotos de producto en un mismo marco —galería y grilla— para que la tienda se vea pareja, sin recortar el producto ni volver a subir nada.</div></div>
     </div>
   </div>
 
