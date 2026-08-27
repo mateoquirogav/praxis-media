@@ -222,13 +222,16 @@
       r.estado='no'; r.msg='Te queda tensa. Esta línea se cuelga hasta ' + fmt(m.dmax) + '.'; return r;
     }
     if(D < m.dmin){
-      r.estado='ajuste'; r.msg='Sobra tela para ' + fmt(D) + '. Colgala más alto: a ' + fmt(alturaIdeal) + '.'; return r;
+      r.estado='ajuste'; r.motivo='corta';
+      r.msg='Recomendada desde ' + fmt(m.dmin) + '. En ' + fmt(D) + ' entra, colgándola a ' + fmt(alturaIdeal) + '.'; return r;
     }
     if(piso < 0.20){
-      r.estado='ajuste'; r.msg='Con esa altura toca el piso. Subí los ganchos a ' + fmt(alturaIdeal) + '.'; return r;
+      r.estado='ajuste'; r.motivo='baja';
+      r.msg='Con esa altura toca el piso. Subí los ganchos a ' + fmt(alturaIdeal) + '.'; return r;
     }
     if(piso > 0.75){
-      r.estado='ajuste'; r.msg='Te queda alta para sentarte. Bajala a ' + fmt(alturaIdeal) + '.'; return r;
+      r.estado='ajuste'; r.motivo='alta';
+      r.msg='Te queda alta para sentarte. Bajala a ' + fmt(alturaIdeal) + '.'; return r;
     }
     r.estado='ideal'; r.msg='Entra perfecta: te queda a ' + cm(piso) + ' del piso.';
     return r;
@@ -377,8 +380,13 @@
       t = 'La ' + sel.m.nombre + ' es ideal para tu espacio.';
       p = 'Con <b>'+fmt(D)+'</b> entre puntos y los ganchos a <b>'+fmt(H)+'</b>, queda a <b>'+cm(sel.piso)+'</b> del piso: la altura justa para sentarse y levantarse sin esfuerzo.';
     } else if(sel.estado === 'ajuste'){
-      t = 'La ' + sel.m.nombre + ' entra, ajustando la altura.';
-      p = 'Con <b>'+fmt(D)+'</b> entre puntos, colgala a <b>'+fmt(sel.alturaIdeal)+'</b> y te va a quedar a 45 cm del piso. ' + (H < sel.alturaIdeal ? 'Hoy la tenés más baja.' : 'Hoy la tenés más alta.');
+      if(sel.motivo === 'corta'){
+        t = 'La ' + sel.m.nombre + ' entra, pero no es la que mejor le queda a tu espacio.';
+        p = 'El fabricante la recomienda desde <b>'+fmt(sel.m.dmin)+'</b> y vos tenés <b>'+fmt(D)+'</b>. Va a colgar más honda: para que quede a 45 cm del piso hay que subir los ganchos a <b>'+fmt(sel.alturaIdeal)+'</b>. Si no llegás a esa altura, conviene otro modelo.';
+      } else {
+        t = 'La ' + sel.m.nombre + ' entra, ajustando la altura.';
+        p = 'Con <b>'+fmt(D)+'</b> entre puntos, colgala a <b>'+fmt(sel.alturaIdeal)+'</b> y te va a quedar a 45 cm del piso. ' + (H < sel.alturaIdeal ? 'Hoy la tenés más baja.' : 'Hoy la tenés más alta.');
+      }
     } else {
       t = 'Con ' + fmt(D) + ', esta no es la indicada.';
       p = sel.msg + ' Mirá los otros modelos: alguno se adapta mejor a tu espacio.';
