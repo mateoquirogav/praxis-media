@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caribe Tienda · Cotizador de espacio para hamacas</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#f2f7fa;font-family:Roboto,system-ui,sans-serif}
+  .demo-note{max-width:1120px;margin:22px auto 14px;padding:0 18px;color:#5b6b78;font-size:13.5px;line-height:1.6}
+  .demo-note b{color:#045f77}
+</style>
+</head>
+<body>
+
+<div class="demo-note">
+  <b>Vista previa — Cotizador de espacio · Caribe Tienda.</b>
+  Datos reales tomados del catálogo. Probá cambiar la distancia y la altura: el dibujo y las recomendaciones se recalculan solos.
+</div>
+
+<!-- ══════════════════ INICIO DEL BLOQUE (esto es lo que se inyecta en Tiendanube) ══════════════════ -->
+<div id="cbz" class="cbz">
+<style>
+.cbz{
+  --cbz-primary:#045f77; --cbz-primary-d:#03485a; --cbz-sec:#5c97a7; --cbz-soft:#e0f3ff;
+  --cbz-ink:#12333d; --cbz-mut:#5b7480; --cbz-line:#cfe4ec; --cbz-ok:#1f9d55; --cbz-warn:#c77700;
+  font-family:Roboto,system-ui,sans-serif; color:var(--cbz-ink);
+  max-width:1120px; margin:0 auto 34px; padding:0 14px; box-sizing:border-box;
+}
+.cbz *{box-sizing:border-box}
+.cbz__card{background:#fff;border:1px solid var(--cbz-line);border-radius:16px;overflow:hidden;box-shadow:0 2px 14px rgba(4,95,119,.07)}
+.cbz__head{padding:20px 22px 0}
+.cbz__eyebrow{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cbz-sec)}
+.cbz__eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--cbz-primary)}
+.cbz__h2{font-size:26px;font-weight:900;letter-spacing:-.4px;margin:8px 0 6px;line-height:1.15}
+.cbz__sub{font-size:14.5px;color:var(--cbz-mut);line-height:1.55;margin:0;max-width:640px}
+
+.cbz__main{display:grid;grid-template-columns:298px 1fr;gap:0;margin-top:18px;border-top:1px solid var(--cbz-line)}
+.cbz__form{padding:20px 22px;border-right:1px solid var(--cbz-line);background:linear-gradient(180deg,#f7fcfe,#fff)}
+.cbz__stage{padding:16px 18px;background:#fbfeff;min-width:0}
+
+.cbz__lab{display:block;font-size:12.5px;font-weight:700;color:var(--cbz-ink);margin:0 0 6px}
+.cbz__lab i{display:block;font-style:normal;font-weight:400;font-size:11.5px;color:var(--cbz-mut);margin-top:2px}
+.cbz__inwrap{position:relative;margin-bottom:16px}
+.cbz__in{width:100%;height:46px;border:1.6px solid var(--cbz-line);border-radius:10px;padding:0 62px 0 14px;font-size:19px;font-weight:700;color:var(--cbz-ink);font-family:inherit;background:#fff;outline:none;-moz-appearance:textfield}
+.cbz__in::-webkit-outer-spin-button,.cbz__in::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.cbz__in:focus{border-color:var(--cbz-primary);box-shadow:0 0 0 3px rgba(4,95,119,.10)}
+.cbz__unit{position:absolute;right:13px;top:50%;transform:translateY(-50%);font-size:12.5px;color:var(--cbz-mut);font-weight:500;pointer-events:none}
+.cbz__range{width:100%;margin:2px 0 0;accent-color:#045f77}
+.cbz__btn{display:block;width:100%;border:0;border-radius:10px;background:var(--cbz-primary);color:#fff;font-family:inherit;font-size:14px;font-weight:700;letter-spacing:.02em;padding:14px;cursor:pointer;text-align:center;text-decoration:none}
+.cbz__btn:hover{background:var(--cbz-primary-d)}
+.cbz__help{margin:14px 0 0;font-size:12.5px;color:var(--cbz-mut);line-height:1.5}
+.cbz__help b{display:block;color:var(--cbz-ink);font-size:12.5px;margin-bottom:3px}
+.cbz__helpbox{margin-top:14px;background:var(--cbz-soft);border-radius:10px;padding:12px 14px}
+
+.cbz__svgwrap{width:100%;overflow:hidden;border-radius:12px;background:#fff;border:1px solid var(--cbz-line)}
+.cbz__svgwrap svg{display:block;width:100%;height:auto}
+
+.cbz__models{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:0 18px 16px}
+.cbz__m{border:1.6px solid var(--cbz-line);border-radius:12px;padding:12px 13px;background:#fff;cursor:pointer;text-align:left;font-family:inherit;position:relative;transition:border-color .15s,box-shadow .15s}
+.cbz__m:hover{border-color:var(--cbz-sec)}
+.cbz__m[aria-pressed="true"]{border-color:var(--cbz-primary);box-shadow:0 0 0 3px rgba(4,95,119,.10);background:#f7fcfe}
+.cbz__m__top{display:flex;align-items:center;justify-content:space-between;gap:9px}
+.cbz__m__name{font-size:13.5px;font-weight:700;line-height:1.25;color:var(--cbz-ink);flex:1}
+.cbz__m__img{width:38px;height:38px;border-radius:8px;object-fit:cover;flex:none;background:#eef5f8}
+.cbz__m__st{width:20px;height:20px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;background:#c9d6dd}
+.cbz__m__msg{font-size:11.5px;line-height:1.4;color:var(--cbz-mut);margin-top:6px;min-height:30px}
+.cbz__m__foot{display:flex;align-items:baseline;justify-content:space-between;gap:6px;margin-top:8px;padding-top:8px;border-top:1px solid #edf4f7}
+.cbz__m__price{font-size:15px;font-weight:900;color:var(--cbz-ink)}
+.cbz__m__kg{font-size:11px;color:var(--cbz-mut);font-weight:500}
+
+.cbz__verdict{margin:0 18px 18px;border-radius:12px;background:var(--cbz-soft);padding:16px 18px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.cbz__verdict__t{flex:1;min-width:230px}
+.cbz__verdict__t h3{margin:0 0 5px;font-size:16.5px;font-weight:900;color:var(--cbz-primary);line-height:1.25}
+.cbz__verdict__t p{margin:0;font-size:13.5px;line-height:1.55;color:#25505e}
+.cbz__verdict__t p b{color:var(--cbz-ink);font-weight:700}
+.cbz__cta{flex:none;background:var(--cbz-primary);color:#fff;border:0;border-radius:10px;padding:14px 24px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.cbz__cta:hover{background:var(--cbz-primary-d)}
+
+.cbz__nums{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 18px 18px}
+.cbz__num{border:1px solid var(--cbz-line);border-radius:10px;padding:11px 13px;background:#fff}
+.cbz__num span{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--cbz-sec);font-weight:700}
+.cbz__num b{display:block;font-size:19px;font-weight:900;margin-top:3px;line-height:1.1}
+.cbz__num i{display:block;font-style:normal;font-size:11.5px;color:var(--cbz-mut);margin-top:2px}
+
+.cbz__addon{margin:0 18px 18px;border:1px dashed var(--cbz-line);border-radius:12px;padding:13px 15px;display:flex;gap:14px;align-items:center;background:#fff}
+.cbz__addon img{width:52px;height:52px;object-fit:cover;border-radius:8px;flex:none;background:#eef5f8}
+.cbz__addon__t{flex:1;min-width:150px}
+.cbz__addon__t b{display:block;font-size:13.5px;font-weight:700}
+.cbz__addon__t span{display:block;font-size:12px;color:var(--cbz-mut);line-height:1.45;margin-top:2px}
+.cbz__addon a{flex:none;font-size:12.5px;font-weight:700;color:var(--cbz-primary);text-decoration:none;border:1.5px solid var(--cbz-primary);border-radius:8px;padding:9px 15px}
+.cbz__addon a:hover{background:var(--cbz-primary);color:#fff}
+
+@media (max-width:860px){
+  .cbz__main{grid-template-columns:1fr}
+  .cbz__form{border-right:0;border-bottom:1px solid var(--cbz-line)}
+  .cbz__models{grid-template-columns:1fr}
+  .cbz__m__msg{min-height:0}
+  .cbz__nums{grid-template-columns:1fr}
+  .cbz__h2{font-size:22px}
+  .cbz__cta{width:100%;text-align:center}
+}
+</style>
+
+<div class="cbz__card">
+  <div class="cbz__head">
+    <span class="cbz__eyebrow">Antes de comprar</span>
+    <h2 class="cbz__h2">¿Cuál queda mejor en tu espacio?</h2>
+    <p class="cbz__sub">Ingresá la distancia entre los dos puntos donde la vas a colgar y a qué altura están. Te decimos cuál entra, a qué altura colgarla y a cuánto del piso te va a quedar.</p>
+  </div>
+
+  <div class="cbz__main">
+    <div class="cbz__form">
+      <label class="cbz__lab" for="cbzD">Distancia entre puntos <i>De pared a pared, o entre los dos árboles</i></label>
+      <div class="cbz__inwrap">
+        <input class="cbz__in" id="cbzD" type="number" step="0.05" min="2" max="6" value="3.50">
+        <span class="cbz__unit">metros</span>
+        <input class="cbz__range" id="cbzDr" type="range" min="2" max="6" step="0.05" value="3.50">
+      </div>
+
+      <label class="cbz__lab" for="cbzH">Altura de los puntos <i>Del piso al gancho</i></label>
+      <div class="cbz__inwrap">
+        <input class="cbz__in" id="cbzH" type="number" step="0.05" min="1" max="3" value="1.80">
+        <span class="cbz__unit">metros</span>
+        <input class="cbz__range" id="cbzHr" type="range" min="1" max="3" step="0.05" value="1.80">
+      </div>
+
+      <button class="cbz__btn" id="cbzFit" type="button">Ponerla a la altura ideal</button>
+
+      <div class="cbz__helpbox">
+        <p class="cbz__help"><b>¿No sabés cómo medir?</b>
+        Medí de gancho a gancho (o de árbol a árbol) al ras de la pared, y después del piso hasta donde va cada gancho. Si todavía no los pusiste, probá con la altura que tengas pensada.</p>
+      </div>
+    </div>
+
+    <div class="cbz__stage">
+      <div class="cbz__svgwrap" id="cbzSvg"></div>
+    </div>
+  </div>
+
+  <div class="cbz__nums" id="cbzNums"></div>
+  <div class="cbz__models" id="cbzModels"></div>
+  <div class="cbz__verdict" id="cbzVerdict"></div>
+  <div class="cbz__addon">
+    <img src="https://dcdn-us.mitiendanube.com/stores/001/861/181/products/d_nq_np_759418-mla97546779016_112025-f-4b5420a359e5d95fe617775200196242-640-0.webp" alt="Kit de ganchos">
+    <div class="cbz__addon__t">
+      <b>¿Ya tenés con qué colgarla?</b>
+      <span>Kit de 2 ganchos de acero galvanizado hasta 300 kg, con 8 tarugos y 8 tirafondos. Sirve para cualquier tipo de pared.</span>
+    </div>
+    <a href="https://caribetienda.com.ar/productos/kit-ganchos-hamaca-paraguaya-hasta-300-kilos-resistencia-xyhkz/">Sumar por $13.000</a>
+  </div>
+</div>
+
+<script>
+(function(){
+  var root = document.getElementById('cbz');
+  if(!root || root.dataset.cbzOn) return;
+  root.dataset.cbzOn = '1';
+
+  /* ---------- catálogo real de Caribe Tienda ---------- */
+  var MODELOS = [
+    { id:'clasica', nombre:'Clásica 200 kg',
+      L:3.75, dmin:3.50, dmax:4.00, kg:200, ancho:1.55, largo:'2,50 a 2,70 m',
+      precio:60999, bastidor:false,
+      img:'https://dcdn-us.mitiendanube.com/stores/001/861/181/products/amarillo-1-4308d55f71f08bc21c17823307088791-640-0.webp',
+      url:'https://caribetienda.com.ar/productos/hamaca-paraguaya-clasica-lisa-200-kilos-copia-437by/' },
+    { id:'premium', nombre:'Premium XL 300 kg',
+      L:4.20, dmin:3.50, dmax:4.00, kg:300, ancho:1.60, largo:'2,60 m',
+      precio:96000, bastidor:false,
+      img:'https://dcdn-us.mitiendanube.com/stores/001/861/181/products/img-20220104-wa00111-a88325f5e507d0433116435740592712-640-0.jpg',
+      url:'https://caribetienda.com.ar/productos/hamaca-linea-premium-xl-300-kilos1/' },
+    { id:'bastidor', nombre:'Bastidores XL 250 kg',
+      L:3.80, dmin:3.10, dmax:3.60, kg:250, ancho:1.25, largo:'2,70 m',
+      precio:109000, bastidor:true,
+      img:'https://dcdn-us.mitiendanube.com/stores/001/861/181/products/d_nq_np_618371-mla99997152287_112025-o-e54cad249bd54a1a6f17775201049576-640-0.webp',
+      url:'https://caribetienda.com.ar/productos/hamacas-paraguayas-caribe-tienda-premium-xl-algodon-250-kg-1bd4a/' }
+  ];
+
+  var SENTADO = 0.45;          /* altura ideal del punto más bajo, en metros */
+  var ESTIRA  = 1.035;         /* el algodón cede con el peso */
+
+  var $D = document.getElementById('cbzD'),  $Dr = document.getElementById('cbzDr');
+  var $H = document.getElementById('cbzH'),  $Hr = document.getElementById('cbzHr');
+  var $svg = document.getElementById('cbzSvg'), $nums = document.getElementById('cbzNums');
+  var $models = document.getElementById('cbzModels'), $verdict = document.getElementById('cbzVerdict');
+  var elegido = null;
+
+  /* ---------- catenaria: dado el largo L y la separación D, cuánto cuelga ---------- */
+  function flecha(L, D){
+    if(D <= 0) return L/2;
+    if(L <= D) return 0;                      /* tensa: no cuelga */
+    var lo = 0.02, hi = 500, c, i;
+    for(i=0;i<80;i++){                        /* bisección sobre el parámetro c */
+      c = (lo+hi)/2;
+      var largo = 2*c*Math.sinh(D/(2*c));
+      if(largo > L) lo = c; else hi = c;      /* c chico => más largo */
+    }
+    c = (lo+hi)/2;
+    return c*(Math.cosh(D/(2*c)) - 1);
+  }
+  function paramC(L, D){
+    var lo=0.02, hi=500, c, i;
+    for(i=0;i<80;i++){ c=(lo+hi)/2; if(2*c*Math.sinh(D/(2*c)) > L) lo=c; else hi=c; }
+    return (lo+hi)/2;
+  }
+
+  function fmt(m){ return m.toFixed(2).replace('.', ',') + ' m'; }
+  function cm(m){ return Math.round(m*100) + ' cm'; }
+  function pesos(n){ return '$' + n.toLocaleString('es-AR'); }
+
+  /* ---------- evaluación de un modelo para el espacio del cliente ---------- */
+  function evaluar(m, D, H){
+    var f = flecha(m.L * ESTIRA, D);
+    var piso = H - f;
+    var alturaIdeal = SENTADO + f;
+    var r = { m:m, f:f, piso:piso, alturaIdeal:alturaIdeal };
+
+    if(D > m.L * 0.99){
+      r.estado='no'; r.msg='No alcanza: hacen falta menos de ' + fmt(m.L) + ' entre puntos.'; return r;
+    }
+    if(D > m.dmax){
+      r.estado='no'; r.msg='Te queda tensa. Esta línea se cuelga hasta ' + fmt(m.dmax) + '.'; return r;
+    }
+    if(D < m.dmin){
+      r.estado='ajuste'; r.msg='Sobra tela para ' + fmt(D) + '. Colgala más alto: a ' + fmt(alturaIdeal) + '.'; return r;
+    }
+    if(piso < 0.20){
+      r.estado='ajuste'; r.msg='Con esa altura toca el piso. Subí los ganchos a ' + fmt(alturaIdeal) + '.'; return r;
+    }
+    if(piso > 0.75){
+      r.estado='ajuste'; r.msg='Te queda alta para sentarte. Bajala a ' + fmt(alturaIdeal) + '.'; return r;
+    }
+    r.estado='ideal'; r.msg='Entra perfecta: te queda a ' + cm(piso) + ' del piso.';
+    return r;
+  }
+
+  /* ---------- dibujo ---------- */
+  function dibujar(D, H, ev){
+    var W = 760, Hpx = 420;
+    var mundoW = D + 2.0, mundoH = Math.max(H, 2.1) + 0.55;
+    var esc = Math.min((W-150)/mundoW, (Hpx-70)/mundoH);
+    var pisoY = Hpx - 46;
+    var x0 = (W - D*esc)/2, x1 = x0 + D*esc;
+    var topY = pisoY - H*esc;
+
+    var s = '<svg viewBox="0 0 '+W+' '+Hpx+'" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tu espacio con la hamaca">';
+    s += '<rect x="0" y="0" width="'+W+'" height="'+Hpx+'" fill="#ffffff"/>';
+
+    /* piso */
+    s += '<line x1="20" y1="'+pisoY+'" x2="'+(W-20)+'" y2="'+pisoY+'" stroke="#9fb9c4" stroke-width="2"/>';
+    var hx; for(hx=24; hx<W-20; hx+=16){
+      s += '<line x1="'+hx+'" y1="'+pisoY+'" x2="'+(hx-9)+'" y2="'+(pisoY+9)+'" stroke="#cfe0e8" stroke-width="1.6"/>';
+    }
+
+    /* postes / paredes */
+    s += '<rect x="'+(x0-11)+'" y="'+topY+'" width="11" height="'+(pisoY-topY)+'" fill="#e6eef2" stroke="#a9c3cd" stroke-width="1.4"/>';
+    s += '<rect x="'+x1+'" y="'+topY+'" width="11" height="'+(pisoY-topY)+'" fill="#e6eef2" stroke="#a9c3cd" stroke-width="1.4"/>';
+    s += '<circle cx="'+x0+'" cy="'+topY+'" r="4.2" fill="#045f77"/>';
+    s += '<circle cx="'+x1+'" cy="'+topY+'" r="4.2" fill="#045f77"/>';
+
+    if(ev && ev.estado !== 'no'){
+      var f = ev.f, L = ev.m.L*ESTIRA, c = paramC(L, D), bajoY = topY + f*esc;
+      var pts = [], pts2 = [], i, x, y, t;
+      var telaIni = ev.m.bastidor ? 0.02 : 0.13;   /* dónde arranca la tela respecto de las puntas */
+      for(i=0;i<=60;i++){
+        t = i/60; x = t*D;
+        y = (H - f) + c*(Math.cosh((x - D/2)/c) - 1);
+        pts.push([x0 + x*esc, pisoY - y*esc]);
+      }
+      /* cuerda completa */
+      var d1 = 'M' + pts.map(function(p){return p[0].toFixed(1)+','+p[1].toFixed(1);}).join(' L');
+      s += '<path d="'+d1+'" fill="none" stroke="#8a6c4f" stroke-width="2.2" stroke-linecap="round"/>';
+
+      /* cuerpo de tela (banda gruesa en el centro) */
+      var a = Math.round(60*telaIni), b = 60-a, band = [];
+      for(i=a;i<=b;i++) band.push(pts[i]);
+      var grosor = 26;
+      var dTela = 'M' + band.map(function(p){return p[0].toFixed(1)+','+p[1].toFixed(1);}).join(' L');
+      var back = band.slice().reverse().map(function(p){return p[0].toFixed(1)+','+(p[1]-grosor).toFixed(1);});
+      dTela += ' L' + back.join(' L') + ' Z';
+      s += '<path d="'+dTela+'" fill="#f0e2c8" stroke="#d8c39c" stroke-width="1.6"/>';
+      /* trama */
+      for(i=a+2;i<b;i+=3){
+        s += '<line x1="'+pts[i][0].toFixed(1)+'" y1="'+pts[i][1].toFixed(1)+'" x2="'+pts[i][0].toFixed(1)+'" y2="'+(pts[i][1]-grosor).toFixed(1)+'" stroke="#e0cda8" stroke-width="1"/>';
+      }
+      /* bastidores */
+      if(ev.m.bastidor){
+        s += '<line x1="'+(pts[a][0]).toFixed(1)+'" y1="'+(pts[a][1]-grosor-10).toFixed(1)+'" x2="'+(pts[a][0]).toFixed(1)+'" y2="'+(pts[a][1]+10).toFixed(1)+'" stroke="#8a6c4f" stroke-width="5" stroke-linecap="round"/>';
+        s += '<line x1="'+(pts[b][0]).toFixed(1)+'" y1="'+(pts[b][1]-grosor-10).toFixed(1)+'" x2="'+(pts[b][0]).toFixed(1)+'" y2="'+(pts[b][1]+10).toFixed(1)+'" stroke="#8a6c4f" stroke-width="5" stroke-linecap="round"/>';
+      }
+
+      /* cota vertical: del punto más bajo al piso */
+      var midX = x0 + (D/2)*esc, bajo = bajoY;
+      s += '<line x1="'+midX+'" y1="'+bajo+'" x2="'+midX+'" y2="'+pisoY+'" stroke="#045f77" stroke-width="1.4" stroke-dasharray="4 3"/>';
+      s += '<line x1="'+(midX-6)+'" y1="'+bajo+'" x2="'+(midX+6)+'" y2="'+bajo+'" stroke="#045f77" stroke-width="1.6"/>';
+      var etY = (bajo + pisoY)/2;
+      var pisoM = (pisoY - bajo)/esc;
+      s += '<rect x="'+(midX+9)+'" y="'+(etY-11)+'" width="66" height="22" rx="5" fill="#045f77"/>';
+      s += '<text x="'+(midX+42)+'" y="'+(etY+5)+'" font-family="Roboto,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">'+fmt(Math.max(0,pisoM))+'</text>';
+    } else {
+      s += '<line x1="'+x0+'" y1="'+topY+'" x2="'+x1+'" y2="'+topY+'" stroke="#d4b0b0" stroke-width="2.4" stroke-dasharray="7 5"/>';
+      s += '<text x="'+((x0+x1)/2)+'" y="'+(topY+26)+'" font-family="Roboto,sans-serif" font-size="13.5" font-weight="700" fill="#b06a6a" text-anchor="middle">Este modelo no entra en esa distancia</text>';
+    }
+
+    /* cota horizontal: distancia */
+    var cotaY = topY - 26;
+    s += '<line x1="'+x0+'" y1="'+cotaY+'" x2="'+x1+'" y2="'+cotaY+'" stroke="#5c97a7" stroke-width="1.5"/>';
+    s += '<line x1="'+x0+'" y1="'+(cotaY-6)+'" x2="'+x0+'" y2="'+(cotaY+6)+'" stroke="#5c97a7" stroke-width="1.8"/>';
+    s += '<line x1="'+x1+'" y1="'+(cotaY-6)+'" x2="'+x1+'" y2="'+(cotaY+6)+'" stroke="#5c97a7" stroke-width="1.8"/>';
+    s += '<rect x="'+((x0+x1)/2-38)+'" y="'+(cotaY-13)+'" width="76" height="24" rx="6" fill="#ffffff" stroke="#cfe4ec" stroke-width="1.2"/>';
+    s += '<text x="'+((x0+x1)/2)+'" y="'+(cotaY+4)+'" font-family="Roboto,sans-serif" font-size="13.5" font-weight="700" fill="#12333d" text-anchor="middle">'+fmt(D)+'</text>';
+
+    /* cota vertical: altura de los puntos */
+    var cx = x1 + 44;
+    s += '<line x1="'+cx+'" y1="'+topY+'" x2="'+cx+'" y2="'+pisoY+'" stroke="#5c97a7" stroke-width="1.5"/>';
+    s += '<line x1="'+(cx-6)+'" y1="'+topY+'" x2="'+(cx+6)+'" y2="'+topY+'" stroke="#5c97a7" stroke-width="1.8"/>';
+    s += '<line x1="'+(cx-6)+'" y1="'+pisoY+'" x2="'+(cx+6)+'" y2="'+pisoY+'" stroke="#5c97a7" stroke-width="1.8"/>';
+    s += '<line x1="'+x1+'" y1="'+topY+'" x2="'+cx+'" y2="'+topY+'" stroke="#cfe4ec" stroke-width="1.2" stroke-dasharray="3 3"/>';
+    s += '<rect x="'+(cx-37)+'" y="'+((topY+pisoY)/2-13)+'" width="74" height="24" rx="6" fill="#ffffff" stroke="#cfe4ec" stroke-width="1.2"/>';
+    s += '<text x="'+cx+'" y="'+((topY+pisoY)/2+4)+'" font-family="Roboto,sans-serif" font-size="13.5" font-weight="700" fill="#12333d" text-anchor="middle">'+fmt(H)+'</text>';
+
+    /* persona de referencia, 1,70 m */
+    var px = x0 - 52, ph = 1.70*esc, hd = ph*0.13;
+    s += '<g opacity="0.32" fill="none" stroke="#5c97a7" stroke-width="2.2" stroke-linecap="round">';
+    s += '<circle cx="'+px+'" cy="'+(pisoY-ph+hd)+'" r="'+hd+'" fill="#5c97a7" stroke="none" opacity="0.5"/>';
+    s += '<line x1="'+px+'" y1="'+(pisoY-ph+hd*2)+'" x2="'+px+'" y2="'+(pisoY-ph*0.42)+'"/>';
+    s += '<line x1="'+px+'" y1="'+(pisoY-ph*0.42)+'" x2="'+(px-hd*0.72)+'" y2="'+pisoY+'"/>';
+    s += '<line x1="'+px+'" y1="'+(pisoY-ph*0.42)+'" x2="'+(px+hd*0.72)+'" y2="'+pisoY+'"/>';
+    s += '<line x1="'+px+'" y1="'+(pisoY-ph*0.72)+'" x2="'+(px-hd*1.05)+'" y2="'+(pisoY-ph*0.44)+'"/>';
+    s += '<line x1="'+px+'" y1="'+(pisoY-ph*0.72)+'" x2="'+(px+hd*1.05)+'" y2="'+(pisoY-ph*0.44)+'"/>';
+    s += '</g>';
+    s += '<text x="'+px+'" y="'+(pisoY+22)+'" font-family="Roboto,sans-serif" font-size="10.5" fill="#8ea9b5" text-anchor="middle">1,70 m</text>';
+
+    s += '</svg>';
+    $svg.innerHTML = s;
+  }
+
+  /* ---------- render ---------- */
+  function render(){
+    var D = Math.min(6, Math.max(2, parseFloat($D.value) || 3.5));
+    var H = Math.min(3, Math.max(1, parseFloat($H.value) || 1.8));
+    $Dr.value = D; $Hr.value = H;
+
+    var evs = MODELOS.map(function(m){ return evaluar(m, D, H); });
+
+    if(!elegido || !evs.some(function(e){ return e.m.id === elegido && e.estado !== 'no'; })){
+      var mejor = evs.filter(function(e){ return e.estado === 'ideal'; })[0]
+               || evs.filter(function(e){ return e.estado === 'ajuste'; })[0]
+               || evs[0];
+      elegido = mejor.m.id;
+    }
+    var sel = evs.filter(function(e){ return e.m.id === elegido; })[0];
+
+    /* tarjetas de modelo */
+    $models.innerHTML = evs.map(function(e){
+      var ico = e.estado==='ideal' ? '&#10003;' : (e.estado==='ajuste' ? '!' : '&#215;');
+      var col = e.estado==='ideal' ? '#1f9d55' : (e.estado==='ajuste' ? '#e0a02a' : '#cf7b7b');
+      return '<button type="button" class="cbz__m" data-id="'+e.m.id+'" aria-pressed="'+(e.m.id===elegido)+'">'
+        + '<div class="cbz__m__top"><img class="cbz__m__img" src="'+e.m.img+'" alt="" loading="lazy">'
+        + '<div class="cbz__m__name">'+e.m.nombre+'</div>'
+        + '<div class="cbz__m__st" style="background:'+col+'">'+ico+'</div></div>'
+        + '<div class="cbz__m__msg">'+e.msg+'</div>'
+        + '<div class="cbz__m__foot"><div class="cbz__m__price">'+pesos(e.m.precio)+'</div>'
+        + '<div class="cbz__m__kg">hasta '+e.m.kg+' kg</div></div></button>';
+    }).join('');
+
+    /* números del modelo elegido */
+    var noEntra = (sel.estado === 'no');
+    $nums.innerHTML =
+        '<div class="cbz__num"><span>Altura ideal del gancho</span><b>'+(noEntra ? '—' : fmt(sel.alturaIdeal))+'</b><i>'+(noEntra ? 'este modelo no entra en tu espacio' : 'para que quede a 45 cm del piso')+'</i></div>'
+      + '<div class="cbz__num"><span>Con tu altura actual</span><b>'+(noEntra ? '—' : cm(Math.max(0, sel.piso)))+'</b><i>del piso al punto más bajo</i></div>'
+      + '<div class="cbz__num"><span>Ancho que ocupa</span><b>'+fmt(sel.m.ancho)+'</b><i>'+(sel.m.bastidor?'ancho del bastidor':'tela abierta')+'</i></div>';
+
+    /* veredicto */
+    var t, p;
+    if(sel.estado === 'ideal'){
+      t = 'La ' + sel.m.nombre + ' es ideal para tu espacio.';
+      p = 'Con <b>'+fmt(D)+'</b> entre puntos y los ganchos a <b>'+fmt(H)+'</b>, queda a <b>'+cm(sel.piso)+'</b> del piso: la altura justa para sentarse y levantarse sin esfuerzo.';
+    } else if(sel.estado === 'ajuste'){
+      t = 'La ' + sel.m.nombre + ' entra, ajustando la altura.';
+      p = 'Con <b>'+fmt(D)+'</b> entre puntos, colgala a <b>'+fmt(sel.alturaIdeal)+'</b> y te va a quedar a 45 cm del piso. ' + (H < sel.alturaIdeal ? 'Hoy la tenés más baja.' : 'Hoy la tenés más alta.');
+    } else {
+      t = 'Con ' + fmt(D) + ', esta no es la indicada.';
+      p = sel.msg + ' Mirá los otros modelos: alguno se adapta mejor a tu espacio.';
+    }
+    $verdict.innerHTML = '<div class="cbz__verdict__t"><h3>'+t+'</h3><p>'+p+'</p></div>'
+      + '<a class="cbz__cta" href="'+sel.m.url+'">Elegir esta hamaca</a>';
+
+    dibujar(D, H, sel);
+
+    try{ localStorage.setItem('cbzMedidas', JSON.stringify({d:D, h:H})); }catch(e){}
+  }
+
+  /* ---------- eventos ---------- */
+  function sync(a, b){
+    a.addEventListener('input', function(){ b.value = a.value; render(); });
+    b.addEventListener('input', function(){ a.value = b.value; render(); });
+  }
+  sync($D, $Dr); sync($H, $Hr);
+
+  $models.addEventListener('click', function(ev){
+    var b = ev.target.closest('.cbz__m');
+    if(!b) return;
+    elegido = b.dataset.id;
+    render();
+  });
+
+  document.getElementById('cbzFit').addEventListener('click', function(){
+    var D = parseFloat($D.value) || 3.5;
+    var sel = MODELOS.filter(function(m){ return m.id === elegido; })[0] || MODELOS[0];
+    var f = flecha(sel.L * ESTIRA, D);
+    var ideal = Math.min(3, Math.max(1, SENTADO + f));
+    $H.value = ideal.toFixed(2); $Hr.value = ideal;
+    render();
+  });
+
+  try{
+    var g = JSON.parse(localStorage.getItem('cbzMedidas') || 'null');
+    if(g && g.d && g.h){ $D.value = (+g.d).toFixed(2); $H.value = (+g.h).toFixed(2); }
+  }catch(e){}
+  /* permite compartir un link con las medidas ya cargadas: ?d=3.5&h=1.8 */
+  try{
+    var q = new URLSearchParams(location.search);
+    if(q.get('d')) $D.value = (+q.get('d')).toFixed(2);
+    if(q.get('h')) $H.value = (+q.get('h')).toFixed(2);
+  }catch(e){}
+
+  render();
+})();
+</script>
+</div>
+<!-- ══════════════════ FIN DEL BLOQUE ══════════════════ -->
+
+</body>
+</html>
