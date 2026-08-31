@@ -1,4 +1,4 @@
-<script>
+
 (function(){
   if(window.JAAV_BOXER_LANDING_MOUNTED) return;
   window.JAAV_BOXER_LANDING_MOUNTED = true;
@@ -563,4 +563,3 @@
   setTimeout(renderLanding, 3000);
 
 })();
-</script>
