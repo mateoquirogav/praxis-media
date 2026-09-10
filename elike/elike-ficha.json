@@ -1,0 +1,7781 @@
+{
+ "fuente": "matriz.json de Gustavo · generado por clientes/elike/armar-ficha.py",
+ "fichas": {
+  "LK0124": {
+   "sku": "LK0124",
+   "nombre": "Elike Londres Full",
+   "que_es": "Cierre automático/ Full / Calidad / Diseño /Robustez",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 45 × 7,8 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 45 cm de alto por 7,8 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "45x7.8 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 50), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "50"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -25 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-25º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por electrónico y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (50)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 2"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-25º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "30-100 mm"
+    ],
+    [
+     "Medidas del panel",
+     "45x7.8 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 30-100 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0192": {
+   "sku": "LK0192",
+   "nombre": "Elike Glasgow",
+   "que_es": "Impermeable / Diseño único",
+   "usos": "Casa/Oficina/AirBnb/Hoteles",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 6,5 cm de ancho",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 28 cm de alto por 6,5 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "28x6,5 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 150), código (hasta 150), tarjeta RFID (hasta 150) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "150"
+      ],
+      [
+       "Códigos",
+       "150"
+      ],
+      [
+       "Tarjetas RFID",
+       "150"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "A la intemperie",
+     "titulo": "Aguanta la lluvia y el sol de frente",
+     "texto": "Uso previsto: exterior o interior. Resistencia declarada: impermeable IP66. Trabaja entre -10 °C y +50 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Impermeable IP66"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por electrónico. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (150)"
+      ],
+      [
+       "Código",
+       "Si (150)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (150)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "28x6,5 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "5050"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "7cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Sí. Es impermeable ip66, así que aguanta lluvia y sol directo."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0097": {
+   "sku": "LK0097",
+   "nombre": "Elike Florencia",
+   "que_es": "Contacto Magnetico  -  Puertas de Vidrio - Fácil Instalar - Automática",
+   "usos": "Puerta Vidrio - Oficina",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 17 × 63 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 17 cm de alto por 63 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "17x63/33 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -25 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-25º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo y traba de privacidad por no.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "no"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "No"
+      ],
+      [
+       "Traba de privacidad",
+       "No"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-25º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "10-12mm"
+    ],
+    [
+     "Medidas del panel",
+     "17x63/33"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "Magnetica"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 10-12mm mm de espesor. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0196": {
+   "sku": "Lk0196",
+   "nombre": "Elike Lisboa",
+   "que_es": "Reconocimiento Facial 3D / automática / linea full pero accesible",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 43 × 7,7 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 43 cm de alto por 7,7 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "43x7,7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +50 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 2"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "43x7,7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<70mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0208": {
+   "sku": "LK0208",
+   "nombre": "Elike Monaco",
+   "que_es": "Reconocimiento Facial / automática / linea full accesible",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 44 × 7,5 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 44 cm de alto por 7,5 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "44x7,5 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +50 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 1"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "44x7,5 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0257": {
+   "sku": "LK0257",
+   "nombre": "Elike Sevilla",
+   "que_es": "La mas completa / automática / reconocimiento facial y reconocimiento de palma",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 42 × 7,5 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 42 cm de alto por 7,5 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "42x7,5 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "6 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D, reconocimiento de palma 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Palma 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +50 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 4"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "42x7,5 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0216": {
+   "sku": "LK0216",
+   "nombre": "Elike Venecia",
+   "que_es": "Reconocimiento Facial / automática / puertas delgadas/ Impermeable / puertas corredizas o de abrir",
+   "usos": "Casa/Oficina/AirBnb",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 3,8 cm de ancho",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 32 cm de alto por 3,8 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "32x3,8 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 50), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "50"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "A la intemperie",
+     "titulo": "Aguanta la lluvia y el sol de frente",
+     "texto": "Uso previsto: exterior o interior. Resistencia declarada: impermeable IP66. Trabaja entre -10 °C y +50 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Impermeable IP66"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por electrónico y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (50)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 3"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "35-70 mm"
+    ],
+    [
+     "Medidas del panel",
+     "32x3,8 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "3585"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "5cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<50mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 10 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 35-70 mm de espesor, con el barral a un mínimo de 10 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Sí. Es impermeable ip66, así que aguanta lluvia y sol directo."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0173": {
+   "sku": "LK0173",
+   "nombre": "Elike Niza",
+   "que_es": "Automática / Diseño exclusivo / muy versátil/ tamaño ideal",
+   "usos": "Casa/Oficina/AirBnb",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 26,5 × 50 cm",
+     "texto": "Estructura de aleación aluminio en gris oscuro. El panel exterior mide 26,5 cm de alto por 50 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "26,5x50 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Gris Oscuro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 50) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "50"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -20 °C y +65 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-20º / +65º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por electrónico. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (50)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Gris Oscuro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 5"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-20º  / +65º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-120 mm"
+    ],
+    [
+     "Medidas del panel",
+     "26,5x50 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "5050"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "7cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<70mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-120 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0114": {
+   "sku": "LK0114",
+   "nombre": "Elike Miami",
+   "que_es": "Accesible / Versátil/waterproof",
+   "usos": "Picaporte - Casa/Oficina",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 2,8 cm de ancho",
+     "texto": "Estructura de aleación aluminio en negro/plata. El panel exterior mide 16,5 cm de alto por 2,8 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "16,5x2,8 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro/Plata"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "2 formas de entrar",
+     "texto": "Se abre con huella (hasta 50) y código (hasta 50). Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "50"
+      ],
+      [
+       "Códigos",
+       "50"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Puertas internas",
+     "titulo": "Pensada para adentro",
+     "texto": "Uso previsto: interior. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +60 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "No"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "Se maneja desde el teléfono",
+     "texto": "Se vincula por Bluetooth: el teléfono la maneja estando cerca de la puerta. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "BLE"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "No"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae clave anti-espía y traba de privacidad por no. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "no"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (50)"
+      ],
+      [
+       "Código",
+       "Si (50)"
+      ],
+      [
+       "Tarjeta RFID",
+       "No"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "BLE"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "No"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "No"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "No"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro/Plata"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AAA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "38.55 mm"
+    ],
+    [
+     "Medidas del panel",
+     "16,5x2,8 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "SingleBolt"
+    ],
+    [
+     "Frente de la mortaja",
+     "5.5"
+    ],
+    [
+     "Profundidad requerida",
+     "7cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "SingleBolt"
+    ],
+    [
+     "Ancho de cerradura",
+     "<70mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 38.55 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "No. Se vincula por Bluetooth desde el teléfono, estando cerca de la puerta."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0143": {
+   "sku": "LK0143",
+   "nombre": "Elike Chicago",
+   "que_es": "Fácil Instalación / Acero Inox / seguridad en el interior de la casa",
+   "usos": "Picaporte - Casa/Oficina",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 5,9 cm de ancho",
+     "texto": "Estructura de aluminio + acero inox en negro/plata. El panel exterior mide 7,5 cm de alto por 5,9 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "7,5x5,9 cm"
+      ],
+      [
+       "Estructura",
+       "Aluminio + Acero Inox"
+      ],
+      [
+       "Color",
+       "Negro/Plata"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "Una forma de entrar",
+     "texto": "Se abre con huella (hasta 20). Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "20"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Puertas internas",
+     "titulo": "Pensada para adentro",
+     "texto": "Uso previsto: interior. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +60 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "No"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "Se maneja desde el teléfono",
+     "texto": "Se vincula por Bluetooth: el teléfono la maneja estando cerca de la puerta. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "BLE"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "No"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae traba de privacidad por no.",
+     "datos": [
+      [
+       "Traba de privacidad",
+       "no"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (20)"
+      ],
+      [
+       "Código",
+       "No"
+      ],
+      [
+       "Tarjeta RFID",
+       "No"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "BLE"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "No"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "No"
+      ],
+      [
+       "Anti-peep",
+       "No"
+      ],
+      [
+       "Traba de privacidad",
+       "No"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aluminio + Acero Inox"
+      ],
+      [
+       "Color",
+       "Negro/Plata"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "Litio"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "35-55 mm"
+    ],
+    [
+     "Medidas del panel",
+     "7,5x5,9 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "SingleBolt"
+    ],
+    [
+     "Frente de la mortaja",
+     "5.5"
+    ],
+    [
+     "Profundidad requerida",
+     "7cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "SingleBolt"
+    ],
+    [
+     "Ancho de cerradura",
+     "<70mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 35-55 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "No. Se vincula por Bluetooth desde el teléfono, estando cerca de la puerta."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0117": {
+   "sku": "LK0117",
+   "nombre": "Elike Paris",
+   "que_es": "Puerta Exterior/Waterproof/ automática",
+   "usos": "Casa/Oficina/AirBnb",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 16,8 × 6,8 cm",
+     "texto": "Estructura de acero inox en negro. El panel exterior mide 16,8 cm de alto por 6,8 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "16,8x6,8 cm"
+      ],
+      [
+       "Estructura",
+       "Acero inox"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "3 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100) y tarjeta RFID (hasta 100). Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "A la intemperie",
+     "titulo": "Aguanta la lluvia y el sol de frente",
+     "texto": "Uso previsto: exterior o interior. Resistencia declarada: impermeable IP66. Trabaja entre -10 °C y +60 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Impermeable IP66"
+      ],
+      [
+       "Temperatura",
+       "-10º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "Se maneja desde el teléfono",
+     "texto": "Se vincula por Bluetooth: el teléfono la maneja estando cerca de la puerta. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "No"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae clave anti-espía y traba de privacidad por no. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "no"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "No"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "No"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "No"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Acero inox"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "35-60 mm"
+    ],
+    [
+     "Medidas del panel",
+     "16,8x6,8 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "Magnetica"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 35-60 mm de espesor. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Sí. Es impermeable ip66, así que aguanta lluvia y sol directo."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0162-WF": {
+   "sku": "LK0162-WF",
+   "nombre": "Elike Boston",
+   "que_es": "Práctica / Versátil / accesible",
+   "usos": "Casa/Oficina/AirBnb/Hoteles",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 6,1 cm de ancho",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 26,8 cm de alto por 6,1 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "26,8x6,1 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -25 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-25º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por no. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "no"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "No"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-25º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "26,8x6,1 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "5050"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "7cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<70mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0162-BT": {
+   "sku": "LK0162-BT",
+   "nombre": "Elike Boston",
+   "que_es": "Práctica / Versátil / accesible",
+   "usos": "Casa/Oficina/AirBnb/Hoteles",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 6,1 cm de ancho",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 26,8 cm de alto por 6,1 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "26,8x6,1 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -25 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-25º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "Se maneja desde el teléfono",
+     "texto": "Se vincula por Bluetooth: el teléfono la maneja estando cerca de la puerta. Corre en la app TTLOCK. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "BLE"
+      ],
+      [
+       "App",
+       "TTLOCK"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por no. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "no"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "BLE"
+      ],
+      [
+       "App",
+       "TTLOCK"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "No"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-25º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "26,8x6,1 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "5050"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "7cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<70mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "No. Se vincula por Bluetooth desde el teléfono, estando cerca de la puerta."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0142-WF": {
+   "sku": "LK0142-WF",
+   "nombre": "Elike Budapest",
+   "que_es": "Elegante -Robusta -Versátil",
+   "usos": "Casa/Oficina/AirBnb - Interno",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 38 × 7 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 38 cm de alto por 7 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "38x7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por pestillo. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "35-60 mm"
+    ],
+    [
+     "Medidas del panel",
+     "38x7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 35-60 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0142-BT": {
+   "sku": "LK0142-BT",
+   "nombre": "Elike Budapest",
+   "que_es": "Elegante -Robusta -Versátil",
+   "usos": "Casa/Oficina/AirBnb - Interno",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 38 × 7 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 38 cm de alto por 7 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "38x7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "Se maneja desde el teléfono",
+     "texto": "Se vincula por Bluetooth: el teléfono la maneja estando cerca de la puerta. Corre en la app TTLOCK. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "BLE"
+      ],
+      [
+       "App",
+       "TTLOCK"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por pestillo. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "BLE"
+      ],
+      [
+       "App",
+       "TTLOCK"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "35-60 mm"
+    ],
+    [
+     "Medidas del panel",
+     "38x7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 35-60 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "No. Se vincula por Bluetooth desde el teléfono, estando cerca de la puerta."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0113": {
+   "sku": "LK0113",
+   "nombre": "Elike Oslo",
+   "que_es": "Puerta marco delgado / Waterproof",
+   "usos": "Casa/Oficina/AirBnb/Hoteles",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 3,9 cm de ancho",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 35 cm de alto por 3,9 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "35x3,9 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "A la intemperie",
+     "titulo": "Aguanta la lluvia y el sol de frente",
+     "texto": "Uso previsto: exterior o interior. Resistencia declarada: impermeable IP66. Trabaja entre -10 °C y +60 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Impermeable IP66"
+      ],
+      [
+       "Temperatura",
+       "-10º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por electrónico. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Inglés?"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "35-55 mm"
+    ],
+    [
+     "Medidas del panel",
+     "35x3,9 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "3585"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "5cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Simple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<50mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 10 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 35-55 mm de espesor, con el barral a un mínimo de 10 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Sí. Es impermeable ip66, así que aguanta lluvia y sol directo."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0113-H": {
+   "sku": "LK0113-H",
+   "nombre": "Elike Oslo corrediza",
+   "que_es": "Puerta marco delgado / Waterproof",
+   "usos": "Casa/Oficina/AirBnb/Hoteles",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Angosta de verdad: 3,9 cm de ancho",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 35 cm de alto por 3,9 cm de ancho: esa es la franja de puerta que ocupa.",
+     "datos": [
+      [
+       "Panel exterior",
+       "35x3,9 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "4 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100) y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "A la intemperie",
+     "titulo": "Aguanta la lluvia y el sol de frente",
+     "texto": "Uso previsto: exterior o interior. Resistencia declarada: impermeable IP66. Trabaja entre -10 °C y +60 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Impermeable IP66"
+      ],
+      [
+       "Temperatura",
+       "-10º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía y traba de privacidad por electrónico. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Semiautomático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "No"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Electrónico"
+      ],
+      [
+       "Cámara / mirilla",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "No"
+      ],
+      [
+       "Idioma",
+       "Inglés?"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "4 AA"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "35-55 mm"
+    ],
+    [
+     "Medidas del panel",
+     "35x3,9 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "3585"
+    ],
+    [
+     "Frente de la mortaja",
+     "27cm"
+    ],
+    [
+     "Profundidad requerida",
+     "5cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Hook"
+    ],
+    [
+     "Ancho de cerradura",
+     "<50mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 10 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 35-55 mm de espesor, con el barral a un mínimo de 10 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Sí. Es impermeable ip66, así que aguanta lluvia y sol directo."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "L0135": {
+   "sku": "L0135",
+   "nombre": "Elike Tokio VIP",
+   "que_es": "Cierre automático/ Full / Calidad / Diseño /Estructura reforzada",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 41,5 × 7,8 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 41,5 cm de alto por 7,8 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "41,5 X7,8 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 50), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "50"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +50 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (50)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 1"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "30-100 mm"
+    ],
+    [
+     "Medidas del panel",
+     "41,5 X7,8 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 30-100 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0109": {
+   "sku": "LK0109",
+   "nombre": "Elike Dubai Extreme",
+   "que_es": "Cierre automático/ Full / Calidad / Diseño moderno / estructura reforzada",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 42 × 7 cm",
+     "texto": "Estructura de aleación aluminio en gris oscuro. El panel exterior mide 42 cm de alto por 7 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "42x7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Gris Oscuro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 50), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "50"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +50 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (50)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Gris Oscuro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 4"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "30-100 mm"
+    ],
+    [
+     "Medidas del panel",
+     "42x7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 30-100 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0170": {
+   "sku": "LK0170",
+   "nombre": "Elike Roma",
+   "que_es": "Reconocimiento Facial / automática / linea full accesible",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 44 × 7,5 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 44 cm de alto por 7,5 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "44x7,5 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -10 °C y +50 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-10º / +50º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Inglés"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Batería",
+       "TIPO 1"
+      ],
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-10º  / +50º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "44x7,5 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0263": {
+   "sku": "LK0263",
+   "nombre": "BERLIN",
+   "que_es": "Reconocimiento Facial / automática / linea full accesible",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 42 × 7 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 42 cm de alto por 7 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "42x7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 100), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "100"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -20 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-20º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (100)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "No"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-20º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "42x7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0276-S": {
+   "sku": "Lk0276-S",
+   "nombre": "SEUL",
+   "que_es": "Cierre automático/ Full / Calidad / Diseño moderno / estructura reforzada/Impermeable/ Radar Sensor / Scaneo infrarojo",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 42 × 7 cm",
+     "texto": "Estructura de aleación aluminio en plata. El panel exterior mide 42 cm de alto por 7 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "42x7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Plata"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 150), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "150"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "A la intemperie",
+     "titulo": "Aguanta la lluvia y el sol de frente",
+     "texto": "Uso previsto: exterior o interior. Resistencia declarada: impermeable IP66. Trabaja entre -20 °C y +60 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Impermeable IP66"
+      ],
+      [
+       "Temperatura",
+       "-20º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora. Se integra con Google Assistant y Alexa.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (150)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Monitoreo inteligente",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Plata"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-20º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "42x7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Sí. Es impermeable ip66, así que aguanta lluvia y sol directo."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0276-B": {
+   "sku": "Lk0276-B",
+   "nombre": "SEUL",
+   "que_es": "Cierre automático/ Full / Calidad / Diseño moderno / estructura reforzada/Impermeable/ Radar Sensor / Scaneo infrarojo",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 42 × 7 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 42 cm de alto por 7 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "42x7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "5 formas de entrar",
+     "texto": "Se abre con huella (hasta 150), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "150"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "A la intemperie",
+     "titulo": "Aguanta la lluvia y el sol de frente",
+     "texto": "Uso previsto: exterior o interior. Resistencia declarada: impermeable IP66. Trabaja entre -20 °C y +60 °C.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Impermeable IP66"
+      ],
+      [
+       "Temperatura",
+       "-20º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora. Se integra con Google Assistant y Alexa.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (150)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "No"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Monitoreo inteligente",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-20º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-110 mm"
+    ],
+    [
+     "Medidas del panel",
+     "42x7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-110 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Sí. Es impermeable ip66, así que aguanta lluvia y sol directo."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  },
+  "LK0311": {
+   "sku": "LK0311",
+   "nombre": "DUBLIN",
+   "que_es": "Reconocimiento Facial y Palma /cristla CNC/ IA / automática / Tope de gama",
+   "usos": "Casa/Oficina/AirBnb -",
+   "secciones": [
+    {
+     "clave": "diseno",
+     "ojo": "El panel",
+     "titulo": "Un panel de 42 × 7 cm",
+     "texto": "Estructura de aleación aluminio en negro. El panel exterior mide 42 cm de alto por 7 cm de ancho: esa es la franja de puerta que ocupa. Del lado de adentro lleva pantalla propia.",
+     "datos": [
+      [
+       "Panel exterior",
+       "42x7 cm"
+      ],
+      [
+       "Estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "accesos",
+     "ojo": "Accesos",
+     "titulo": "6 formas de entrar",
+     "texto": "Se abre con huella (hasta 150), código (hasta 100), tarjeta RFID (hasta 100), reconocimiento facial 3D, reconocimiento de palma 3D y la app. Y trae llave física, que es la salida cuando falla todo lo demás. Podés dar una clave temporal a quien viene una sola vez y se vence sola.",
+     "datos": [
+      [
+       "Huellas",
+       "150"
+      ],
+      [
+       "Códigos",
+       "100"
+      ],
+      [
+       "Tarjetas RFID",
+       "100"
+      ],
+      [
+       "Facial 3D",
+       "Sí"
+      ],
+      [
+       "Palma 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Incluida"
+      ]
+     ]
+    },
+    {
+     "clave": "donde",
+     "ojo": "Interior y exterior",
+     "titulo": "Va afuera, pero bajo techo",
+     "texto": "Uso previsto: interior o externo sin exposición directa a la lluvia. Resistencia declarada: polvo y salpicaduras. Trabaja entre -20 °C y +60 °C. Un ingreso donde le pega la lluvia de lleno pide un modelo IP66.",
+     "datos": [
+      [
+       "Interior",
+       "Sí"
+      ],
+      [
+       "Exterior",
+       "Sí"
+      ],
+      [
+       "Resistencia",
+       "Polvo y Salpicaduras"
+      ],
+      [
+       "Temperatura",
+       "-20º / +60º"
+      ]
+     ]
+    },
+    {
+     "clave": "app",
+     "ojo": "Desde el celular",
+     "titulo": "La puerta de tu casa, en el bolsillo",
+     "texto": "Se conecta por WiFi, así que la abrís y la mirás desde donde estés. Corre en la app Tuya. Guarda el registro de quién entró y a qué hora. Se integra con Google Assistant y Alexa.",
+     "datos": [
+      [
+       "Conexión",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "clave": "seguridad",
+     "ojo": "Seguridad",
+     "titulo": "Lo que pasa cuando alguien insiste",
+     "texto": "Trae alarma antivandalismo, clave anti-espía, traba de privacidad por pestillo y videollamada desde la puerta. La clave anti-espía deja tipear números de relleno antes y después de la clave real: quien mira de costado no se lleva nada.",
+     "datos": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    }
+   ],
+   "especificaciones": [
+    {
+     "grupo": "Accesos",
+     "filas": [
+      [
+       "Mecanismo de apertura",
+       "Automático"
+      ],
+      [
+       "Huella",
+       "Si (150)"
+      ],
+      [
+       "Código",
+       "Si (100)"
+      ],
+      [
+       "Tarjeta RFID",
+       "Si (100)"
+      ],
+      [
+       "Reconocimiento facial 3D",
+       "Sí"
+      ],
+      [
+       "Reconocimiento de palma 3D",
+       "Sí"
+      ],
+      [
+       "Llave física",
+       "Sí"
+      ],
+      [
+       "Videollamada",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Conectividad",
+     "filas": [
+      [
+       "Tecnología",
+       "WIFI"
+      ],
+      [
+       "App",
+       "Tuya"
+      ],
+      [
+       "Acceso remoto",
+       "Sí"
+      ],
+      [
+       "Registro de accesos",
+       "Sí"
+      ],
+      [
+       "Claves temporales",
+       "Sí"
+      ],
+      [
+       "Google Assistant / Alexa",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "grupo": "Seguridad",
+     "filas": [
+      [
+       "Alarma antivandalismo",
+       "Sí"
+      ],
+      [
+       "Anti-peep",
+       "Sí"
+      ],
+      [
+       "Traba de privacidad",
+       "Pestillo"
+      ],
+      [
+       "Monitoreo inteligente",
+       "Sí"
+      ],
+      [
+       "Cámara / mirilla",
+       "Si - HD"
+      ]
+     ]
+    },
+    {
+     "grupo": "Construcción",
+     "filas": [
+      [
+       "Material de la estructura",
+       "Aleación Aluminio"
+      ],
+      [
+       "Color",
+       "Negro"
+      ],
+      [
+       "Pantalla interna",
+       "Sí"
+      ],
+      [
+       "Idioma",
+       "Español"
+      ]
+     ]
+    },
+    {
+     "grupo": "Energía",
+     "filas": [
+      [
+       "Alimentación de emergencia",
+       "USB"
+      ],
+      [
+       "Rango de trabajo",
+       "-20º  / +60º"
+      ]
+     ]
+    }
+   ],
+   "medidas": [
+    [
+     "Espesor de puerta admitido",
+     "40-120 mm"
+    ],
+    [
+     "Medidas del panel",
+     "42x7 cm"
+    ],
+    [
+     "Tipo de mortaja incluida",
+     "6068"
+    ],
+    [
+     "Frente de la mortaja",
+     "24cm"
+    ],
+    [
+     "Profundidad requerida",
+     "9cm"
+    ],
+    [
+     "Pestillos de la mortaja",
+     "Triple"
+    ],
+    [
+     "Ancho de cerradura",
+     "<90mm"
+    ],
+    [
+     "Separación mínima del barral",
+     "Un mínimo de 15 cm"
+    ]
+   ],
+   "faq": [
+    {
+     "q": "¿Entra en mi puerta?",
+     "a": "Este modelo trabaja en puertas de 40-120 mm de espesor, con el barral a un mínimo de 15 cm del borde. Si no sabés cuál es tu caso, el test de compatibilidad te lo dice en cinco preguntas y no recomienda nada que no entre.",
+     "link": [
+      "/test-de-compatibilidad/",
+      "Hacer el test"
+     ]
+    },
+    {
+     "q": "¿La puedo poner en una puerta que da a la calle?",
+     "a": "Va afuera siempre que esté bajo techo: la resistencia declarada es polvo y salpicaduras, no impermeable. Para un ingreso donde le pega la lluvia de lleno hay modelos IP66."
+    },
+    {
+     "q": "¿Qué pasa si se queda sin batería?",
+     "a": "No te quedás afuera: tiene alimentación de emergencia por USB y trae llave física."
+    },
+    {
+     "q": "¿Necesito internet en casa?",
+     "a": "Para abrir no. El WiFi hace falta solo para lo remoto: abrir a distancia, mandar claves temporales y ver el registro."
+    },
+    {
+     "q": "¿La instalan ustedes?",
+     "a": "Sí, con técnicos propios en CABA y Gran Buenos Aires. El precio depende de tu zona y lo podés ver ahora, antes de comprar.",
+     "link": [
+      "/cotizador-de-instalacion/",
+      "Cotizar la instalación"
+     ]
+    }
+   ],
+   "caja": [],
+   "comparar": "/comparador/"
+  }
+ }
+}
