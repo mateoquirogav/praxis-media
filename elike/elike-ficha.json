@@ -79,7 +79,7 @@
       ],
       [
        "Temperatura",
-       "-25º / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     },
@@ -150,15 +150,15 @@
       ],
       [
        "Huella",
-       "Si (50)"
+       "Hasta 50"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -183,7 +183,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -224,7 +224,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -262,7 +262,7 @@
       ],
       [
        "Rango de trabajo",
-       "-25º  / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     }
@@ -274,7 +274,7 @@
     ],
     [
      "Medidas del panel",
-     "45x7.8 cm"
+     "45 × 7.8 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -282,11 +282,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -294,7 +294,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -408,7 +408,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -471,15 +471,15 @@
       ],
       [
        "Huella",
-       "Si (150)"
+       "Hasta 150"
       ],
       [
        "Código",
-       "Si (150)"
+       "Hasta 150"
       ],
       [
        "Tarjeta RFID",
-       "Si (150)"
+       "Hasta 150"
       ],
       [
        "Reconocimiento facial 3D",
@@ -504,7 +504,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -579,7 +579,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -591,7 +591,7 @@
     ],
     [
      "Medidas del panel",
-     "28x6,5 cm"
+     "28 × 6,5 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -599,11 +599,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "7cm"
+     "7 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -611,7 +611,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -725,7 +725,7 @@
       ],
       [
        "Temperatura",
-       "-25º / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     },
@@ -784,15 +784,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -817,7 +817,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -896,7 +896,7 @@
       ],
       [
        "Rango de trabajo",
-       "-25º  / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     }
@@ -904,11 +904,11 @@
    "medidas": [
     [
      "Espesor de puerta admitido",
-     "10-12mm"
+     "10-12 mm"
     ],
     [
      "Medidas del panel",
-     "17x63/33"
+     "17 × 63/33"
     ],
     [
      "Tipo de mortaja incluida",
@@ -1030,7 +1030,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -1101,15 +1101,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -1134,7 +1134,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -1175,7 +1175,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -1213,7 +1213,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -1225,7 +1225,7 @@
     ],
     [
      "Medidas del panel",
-     "43x7,7 cm"
+     "43 × 7,7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -1233,11 +1233,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -1245,7 +1245,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<70mm"
+     "Menos de 70 mm"
     ],
     [
      "Separación mínima del barral",
@@ -1363,7 +1363,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -1434,15 +1434,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -1467,7 +1467,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -1508,7 +1508,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -1546,7 +1546,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -1558,7 +1558,7 @@
     ],
     [
      "Medidas del panel",
-     "44x7,5 cm"
+     "44 × 7,5 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -1566,11 +1566,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -1578,7 +1578,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -1700,7 +1700,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -1771,15 +1771,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -1804,7 +1804,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -1845,7 +1845,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -1879,7 +1879,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -1891,7 +1891,7 @@
     ],
     [
      "Medidas del panel",
-     "42x7,5 cm"
+     "42 × 7,5 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -1899,11 +1899,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -1911,7 +1911,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -2029,7 +2029,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -2096,15 +2096,15 @@
       ],
       [
        "Huella",
-       "Si (50)"
+       "Hasta 50"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -2129,7 +2129,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -2208,7 +2208,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -2220,7 +2220,7 @@
     ],
     [
      "Medidas del panel",
-     "32x3,8 cm"
+     "32 × 3,8 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -2228,11 +2228,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "5cm"
+     "5 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -2240,7 +2240,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<50mm"
+     "Menos de 50 mm"
     ],
     [
      "Separación mínima del barral",
@@ -2354,7 +2354,7 @@
       ],
       [
        "Temperatura",
-       "-20º / +65º"
+       "-20 °C a +65 °C"
       ]
      ]
     },
@@ -2417,15 +2417,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (50)"
+       "Hasta 50"
       ],
       [
        "Reconocimiento facial 3D",
@@ -2450,7 +2450,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -2529,7 +2529,7 @@
       ],
       [
        "Rango de trabajo",
-       "-20º  / +65º"
+       "-20 °C a +65 °C"
       ]
      ]
     }
@@ -2541,7 +2541,7 @@
     ],
     [
      "Medidas del panel",
-     "26,5x50 cm"
+     "26,5 × 50 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -2549,11 +2549,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "7cm"
+     "7 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -2561,7 +2561,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<70mm"
+     "Menos de 70 mm"
     ],
     [
      "Separación mínima del barral",
@@ -2671,7 +2671,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     },
@@ -2730,11 +2730,11 @@
       ],
       [
        "Huella",
-       "Si (50)"
+       "Hasta 50"
       ],
       [
        "Código",
-       "Si (50)"
+       "Hasta 50"
       ],
       [
        "Tarjeta RFID",
@@ -2763,7 +2763,7 @@
      "filas": [
       [
        "Tecnología",
-       "BLE"
+       "Bluetooth"
       ],
       [
        "App",
@@ -2842,7 +2842,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     }
@@ -2854,7 +2854,7 @@
     ],
     [
      "Medidas del panel",
-     "16,5x2,8 cm"
+     "16,5 × 2,8 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -2866,7 +2866,7 @@
     ],
     [
      "Profundidad requerida",
-     "7cm"
+     "7 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -2874,7 +2874,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<70mm"
+     "Menos de 70 mm"
     ],
     [
      "Separación mínima del barral",
@@ -2980,7 +2980,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     },
@@ -3035,7 +3035,7 @@
       ],
       [
        "Huella",
-       "Si (20)"
+       "Hasta 20"
       ],
       [
        "Código",
@@ -3068,7 +3068,7 @@
      "filas": [
       [
        "Tecnología",
-       "BLE"
+       "Bluetooth"
       ],
       [
        "App",
@@ -3143,7 +3143,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     }
@@ -3155,7 +3155,7 @@
     ],
     [
      "Medidas del panel",
-     "7,5x5,9 cm"
+     "7,5 × 5,9 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -3167,7 +3167,7 @@
     ],
     [
      "Profundidad requerida",
-     "7cm"
+     "7 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -3175,7 +3175,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<70mm"
+     "Menos de 70 mm"
     ],
     [
      "Separación mínima del barral",
@@ -3289,7 +3289,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     },
@@ -3348,15 +3348,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -3381,7 +3381,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -3460,7 +3460,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     }
@@ -3472,7 +3472,7 @@
     ],
     [
      "Medidas del panel",
-     "16,8x6,8 cm"
+     "16,8 × 6,8 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -3484,7 +3484,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ]
    ],
    "faq": [
@@ -3594,7 +3594,7 @@
       ],
       [
        "Temperatura",
-       "-25º / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     },
@@ -3657,15 +3657,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -3690,7 +3690,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -3769,7 +3769,7 @@
       ],
       [
        "Rango de trabajo",
-       "-25º  / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     }
@@ -3781,7 +3781,7 @@
     ],
     [
      "Medidas del panel",
-     "26,8x6,1 cm"
+     "26,8 × 6,1 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -3789,11 +3789,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "7cm"
+     "7 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -3801,7 +3801,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<70mm"
+     "Menos de 70 mm"
     ],
     [
      "Separación mínima del barral",
@@ -3915,7 +3915,7 @@
       ],
       [
        "Temperatura",
-       "-25º / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     },
@@ -3978,15 +3978,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -4011,7 +4011,7 @@
      "filas": [
       [
        "Tecnología",
-       "BLE"
+       "Bluetooth"
       ],
       [
        "App",
@@ -4090,7 +4090,7 @@
       ],
       [
        "Rango de trabajo",
-       "-25º  / +60º"
+       "-25 °C a +60 °C"
       ]
      ]
     }
@@ -4102,7 +4102,7 @@
     ],
     [
      "Medidas del panel",
-     "26,8x6,1 cm"
+     "26,8 × 6,1 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -4110,11 +4110,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "7cm"
+     "7 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -4122,7 +4122,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<70mm"
+     "Menos de 70 mm"
     ],
     [
      "Separación mínima del barral",
@@ -4236,7 +4236,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     },
@@ -4299,15 +4299,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -4332,7 +4332,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -4411,7 +4411,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     }
@@ -4423,7 +4423,7 @@
     ],
     [
      "Medidas del panel",
-     "38x7 cm"
+     "38 × 7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -4431,11 +4431,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -4443,7 +4443,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -4557,7 +4557,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     },
@@ -4620,15 +4620,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -4653,7 +4653,7 @@
      "filas": [
       [
        "Tecnología",
-       "BLE"
+       "Bluetooth"
       ],
       [
        "App",
@@ -4732,7 +4732,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     }
@@ -4744,7 +4744,7 @@
     ],
     [
      "Medidas del panel",
-     "38x7 cm"
+     "38 × 7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -4752,11 +4752,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -4764,7 +4764,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -4878,7 +4878,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     },
@@ -4941,15 +4941,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -4974,7 +4974,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -5053,7 +5053,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     }
@@ -5065,7 +5065,7 @@
     ],
     [
      "Medidas del panel",
-     "35x3,9 cm"
+     "35 × 3,9 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -5073,11 +5073,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "5cm"
+     "5 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -5085,7 +5085,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<50mm"
+     "Menos de 50 mm"
     ],
     [
      "Separación mínima del barral",
@@ -5199,7 +5199,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     },
@@ -5262,15 +5262,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -5295,7 +5295,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -5374,7 +5374,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +60º"
+       "-10 °C a +60 °C"
       ]
      ]
     }
@@ -5386,7 +5386,7 @@
     ],
     [
      "Medidas del panel",
-     "35x3,9 cm"
+     "35 × 3,9 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -5394,11 +5394,11 @@
     ],
     [
      "Frente de la mortaja",
-     "27cm"
+     "27 cm"
     ],
     [
      "Profundidad requerida",
-     "5cm"
+     "5 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -5406,7 +5406,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<50mm"
+     "Menos de 50 mm"
     ],
     [
      "Separación mínima del barral",
@@ -5524,7 +5524,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -5595,15 +5595,15 @@
       ],
       [
        "Huella",
-       "Si (50)"
+       "Hasta 50"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -5628,7 +5628,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -5669,7 +5669,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -5707,7 +5707,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -5719,7 +5719,7 @@
     ],
     [
      "Medidas del panel",
-     "41,5 X7,8 cm"
+     "41,5 × 7,8 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -5727,11 +5727,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -5739,7 +5739,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -5857,7 +5857,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -5928,15 +5928,15 @@
       ],
       [
        "Huella",
-       "Si (50)"
+       "Hasta 50"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -5961,7 +5961,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -6002,7 +6002,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -6040,7 +6040,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -6052,7 +6052,7 @@
     ],
     [
      "Medidas del panel",
-     "42x7 cm"
+     "42 × 7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -6060,11 +6060,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -6072,7 +6072,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -6190,7 +6190,7 @@
       ],
       [
        "Temperatura",
-       "-10º / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     },
@@ -6261,15 +6261,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -6294,7 +6294,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -6335,7 +6335,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -6373,7 +6373,7 @@
       ],
       [
        "Rango de trabajo",
-       "-10º  / +50º"
+       "-10 °C a +50 °C"
       ]
      ]
     }
@@ -6385,7 +6385,7 @@
     ],
     [
      "Medidas del panel",
-     "44x7,5 cm"
+     "44 × 7,5 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -6393,11 +6393,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -6405,7 +6405,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -6523,7 +6523,7 @@
       ],
       [
        "Temperatura",
-       "-20º / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     },
@@ -6594,15 +6594,15 @@
       ],
       [
        "Huella",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -6627,7 +6627,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -6668,7 +6668,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -6702,7 +6702,7 @@
       ],
       [
        "Rango de trabajo",
-       "-20º  / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     }
@@ -6714,7 +6714,7 @@
     ],
     [
      "Medidas del panel",
-     "42x7 cm"
+     "42 × 7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -6722,11 +6722,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -6734,7 +6734,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -6852,7 +6852,7 @@
       ],
       [
        "Temperatura",
-       "-20º / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     },
@@ -6923,15 +6923,15 @@
       ],
       [
        "Huella",
-       "Si (150)"
+       "Hasta 150"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -6956,7 +6956,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -7001,7 +7001,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -7035,7 +7035,7 @@
       ],
       [
        "Rango de trabajo",
-       "-20º  / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     }
@@ -7047,7 +7047,7 @@
     ],
     [
      "Medidas del panel",
-     "42x7 cm"
+     "42 × 7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -7055,11 +7055,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -7067,7 +7067,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -7185,7 +7185,7 @@
       ],
       [
        "Temperatura",
-       "-20º / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     },
@@ -7256,15 +7256,15 @@
       ],
       [
        "Huella",
-       "Si (150)"
+       "Hasta 150"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -7289,7 +7289,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -7334,7 +7334,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -7368,7 +7368,7 @@
       ],
       [
        "Rango de trabajo",
-       "-20º  / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     }
@@ -7380,7 +7380,7 @@
     ],
     [
      "Medidas del panel",
-     "42x7 cm"
+     "42 × 7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -7388,11 +7388,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -7400,7 +7400,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
@@ -7522,7 +7522,7 @@
       ],
       [
        "Temperatura",
-       "-20º / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     },
@@ -7593,15 +7593,15 @@
       ],
       [
        "Huella",
-       "Si (150)"
+       "Hasta 150"
       ],
       [
        "Código",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Tarjeta RFID",
-       "Si (100)"
+       "Hasta 100"
       ],
       [
        "Reconocimiento facial 3D",
@@ -7626,7 +7626,7 @@
      "filas": [
       [
        "Tecnología",
-       "WIFI"
+       "WiFi"
       ],
       [
        "App",
@@ -7671,7 +7671,7 @@
       ],
       [
        "Cámara / mirilla",
-       "Si - HD"
+       "Sí · HD"
       ]
      ]
     },
@@ -7705,7 +7705,7 @@
       ],
       [
        "Rango de trabajo",
-       "-20º  / +60º"
+       "-20 °C a +60 °C"
       ]
      ]
     }
@@ -7717,7 +7717,7 @@
     ],
     [
      "Medidas del panel",
-     "42x7 cm"
+     "42 × 7 cm"
     ],
     [
      "Tipo de mortaja incluida",
@@ -7725,11 +7725,11 @@
     ],
     [
      "Frente de la mortaja",
-     "24cm"
+     "24 cm"
     ],
     [
      "Profundidad requerida",
-     "9cm"
+     "9 cm"
     ],
     [
      "Pestillos de la mortaja",
@@ -7737,7 +7737,7 @@
     ],
     [
      "Ancho de cerradura",
-     "<90mm"
+     "Menos de 90 mm"
     ],
     [
      "Separación mínima del barral",
