@@ -1,5 +1,43 @@
 {
  "fuente": "matriz.json de Gustavo · generado por clientes/elike/armar-ficha.py",
+ "porSlug": {
+  "cerradura-inteligente-elike-londres-reconocimiento-facial": "LK0124",
+  "cerradura-inteligente-elike-glasgow-wifi-tuya-impermeable": "LK0192",
+  "cerradura-inteligente-elike-florencia": "LK0097",
+  "cerradura-inteligente-elike-lisboa": "LK0196",
+  "cerradura-inteligente-elike-monaco-reconocimiento-facial-3d-automatica-copia": "LK0208",
+  "cerradura-inteligente-elike-sevilla": "LK0257",
+  "cerradura-inteligente-venecia-puerta-delgada-reconocimiento-facil": "LK0216",
+  "cerradura-inteligente-elike-niza-automatica-diseno-unico-87oxd": "LK0173",
+  "cerradura-inteligente-elike-paris-automatica-impermeable": "LK0117",
+  "cerradura-inteligente-elike-boston": "LK0162-WF",
+  "cerradura-inteligente-elike-budapest-wifi-y-bluetooth-reforzada": "LK0142-BT",
+  "cerradura-inteligente-elike": "LK0113",
+  "cerradura-inteligente-elike-tokio": "L0135",
+  "cerradura-inteligente-elike-dubai": "LK0109",
+  "cerradura-inteligente-elike-roma": "LK0170",
+  "cerradura-inteligente-bluetooth": "LK0114",
+  "cerradura-pomo-inteligente-elike": "LK0143"
+ },
+ "porId": {
+  "321318948": "LK0124",
+  "319570589": "LK0192",
+  "321314711": "LK0097",
+  "321314976": "LK0196",
+  "339139947": "LK0208",
+  "321315056": "LK0257",
+  "321315117": "LK0216",
+  "336364439": "LK0173",
+  "319570583": "LK0117",
+  "319570597": "LK0162-WF",
+  "319570580": "LK0142-BT",
+  "322808347": "LK0113",
+  "319570584": "L0135",
+  "319570591": "LK0109",
+  "319570586": "LK0170",
+  "322812449": "LK0114",
+  "322810005": "LK0143"
+ },
  "fichas": {
   "LK0124": {
    "sku": "LK0124",
