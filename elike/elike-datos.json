@@ -3,7 +3,7 @@
  "modelos": [
   {
    "sku": "LK0311",
-   "nombre": "DUBLIN",
+   "nombre": "Elike Dublin",
    "que_es": "Tope de Gama, Full con IA. Maxima calidad y ultima tecnologia. Interactiva. Multiples alarmas.",
    "mecanismo": "Automatico",
    "espesor": "35-110",
@@ -65,7 +65,7 @@
   },
   {
    "sku": "Lk0276-B",
-   "nombre": "SEUL",
+   "nombre": "Elike Seul",
    "que_es": "Linea Premium, Full con reconocimiento de Palma, Diseño Moderno, Alta calidad constructiva y maxima seguridada. Impermeable",
    "mecanismo": "Automatico",
    "espesor": "35-110",
@@ -96,7 +96,7 @@
   },
   {
    "sku": "Lk0276-S",
-   "nombre": "SEUL",
+   "nombre": "Elike Seul",
    "que_es": "Linea Premium, Full con reconocimiento de Palma, Diseño Moderno, Alta calidad constructiva y maxima seguridad. Impermeable",
    "mecanismo": "Automatico",
    "espesor": "35-110",
@@ -220,7 +220,7 @@
   },
   {
    "sku": "LK0263",
-   "nombre": "BERLIN",
+   "nombre": "Elike Berlin",
    "que_es": "Entrada de gama para automaticas- Diseño Sobrio. Full con reconocimiento Palma. Tecnologia accesible.",
    "mecanismo": "Automatico",
    "espesor": "35-110",
