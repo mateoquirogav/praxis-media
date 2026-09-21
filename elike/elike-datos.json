@@ -1352,1335 +1352,1720 @@
   {
    "zona": "CABA",
    "precio": 135000,
+   "lista": 135000,
+   "transferencia": 121500,
+   "directo": 95000,
+   "producto": 322808759,
+   "url": "/productos/servicio-de-instalacion-de-cerradura-inteligente-elike-gba/",
    "localidades": [
     "Ciudad Autónoma de Buenos Aires"
    ]
   },
   {
-   "zona": "GBA Zona 1",
+   "zona": "GBA 1",
    "precio": 135000,
-   "localidades": [
-    "Escobar",
-    "Malvinas Argentinas",
-    "Pilar",
-    "San Fernando",
-    "San Isidro",
-    "San Miguel",
-    "Tigre",
-    "Tres de Febrero",
-    "Vicente López"
-   ]
+   "lista": 135000,
+   "transferencia": 121500,
+   "directo": 95000,
+   "producto": 322808759,
+   "url": "/productos/servicio-de-instalacion-de-cerradura-inteligente-elike-gba/"
   },
   {
-   "zona": "GBA Zona 2",
-   "precio": 160000,
-   "localidades": [
-    "General Rodríguez",
-    "General San Martín",
-    "Hurlingham",
-    "Ituzaingó",
-    "José C. Paz",
-    "La Matanza",
-    "Luján",
-    "Marcos Paz",
-    "Merlo",
-    "Moreno",
-    "Morón"
-   ]
-  },
-  {
-   "zona": "GBA Zona 3",
-   "precio": 170000,
-   "localidades": [
-    "Almirante Brown",
-    "Avellaneda",
-    "Berazategui",
-    "Berisso",
-    "Cañuelas",
-    "Ensenada",
-    "La Plata",
-    "Lanús",
-    "Lomas de Zamora",
-    "Presidente Perón",
-    "Quilmes",
-    "San Vicente"
-   ]
+   "zona": "GBA 2",
+   "precio": 150000,
+   "lista": 150000,
+   "transferencia": 135000,
+   "directo": 105000,
+   "producto": 347051604,
+   "url": "/productos/gba-zona-2-servicio-de-instalacion-de-cerradura-inteligente-elike/"
   }
  ],
  "whatsapp": "5491131291243",
  "cp": {
   "1515": {
-   "a": -34.50242,
+   "p": "Malvinas Argentinas",
    "l": "Grand Bourg",
+   "a": -34.50242,
    "o": -58.71435,
-   "p": "Malvinas Argentinas"
+   "g": 1
   },
   "1602": {
-   "a": -34.52882,
-   "l": "Florida",
-   "o": -58.49199,
-   "p": "Vicente López"
+   "p": "Vicente López",
+   "l": null,
+   "a": -34.53526,
+   "o": -58.50414,
+   "g": 1
   },
   "1603": {
-   "a": -34.54579,
+   "p": "Vicente López",
    "l": "Villa Martelli",
-   "o": -58.50478,
-   "p": "Vicente López"
+   "a": -34.5513,
+   "o": -58.50663,
+   "g": 1
   },
   "1604": {
-   "a": -34.5394,
+   "p": "Vicente López",
    "l": "Florida Oeste",
+   "a": -34.5394,
    "o": -58.51401,
-   "p": "Vicente López"
+   "g": 1
   },
   "1605": {
-   "a": -34.52691,
-   "l": "Munro",
-   "o": -58.52003,
-   "p": "Vicente López"
+   "p": "Vicente López",
+   "l": null,
+   "a": -34.529,
+   "o": -58.52989,
+   "g": 1
   },
   "1607": {
-   "a": -34.52015,
-   "l": "Villa Adelina",
-   "o": -58.5529,
-   "p": "San Isidro"
+   "p": "San Isidro / Vicente López",
+   "l": null,
+   "a": -34.52268,
+   "o": -58.54641,
+   "g": 1
   },
   "1609": {
-   "a": -34.4967,
+   "p": "San Isidro",
    "l": "Boulogne Sur Mer",
-   "o": -58.57056,
-   "p": "San Isidro"
+   "a": -34.50948,
+   "o": -58.56691,
+   "g": 1
   },
   "1610": {
-   "a": -34.45688,
+   "p": "Tigre",
    "l": "Ricardo Rojas",
+   "a": -34.45688,
    "o": -58.68056,
-   "p": "Tigre"
+   "g": 1
   },
   "1611": {
-   "a": -34.49136,
-   "l": "Don Torcuato",
-   "o": -58.61985,
-   "p": "Tigre"
+   "p": "Tigre",
+   "l": null,
+   "a": -34.49442,
+   "o": -58.62114,
+   "g": 1
   },
   "1612": {
-   "a": -34.51182,
+   "p": "Tigre",
    "l": "Don Torcuato",
+   "a": -34.51182,
    "o": -58.60991,
-   "p": "Tigre"
+   "g": 1
   },
   "1613": {
-   "a": -34.5035,
-   "l": "Los Polvorines",
-   "o": -58.6911,
-   "p": "Malvinas Argentinas"
+   "p": "Malvinas Argentinas",
+   "l": null,
+   "a": -34.49153,
+   "o": -58.69172,
+   "g": 1
   },
   "1614": {
-   "a": -34.50881,
+   "p": "Malvinas Argentinas",
    "l": "Villa de Mayo",
+   "a": -34.50881,
    "o": -58.67322,
-   "p": "Malvinas Argentinas"
+   "g": 1
   },
   "1615": {
-   "a": -34.4882,
+   "p": "Malvinas Argentinas",
    "l": "Grand Bourg",
-   "o": -58.71507,
-   "p": "Malvinas Argentinas"
+   "a": -34.48901,
+   "o": -58.72639,
+   "g": 1
   },
   "1616": {
-   "a": -34.48499,
+   "p": "Malvinas Argentinas",
    "l": "Grand Bourg",
+   "a": -34.48499,
    "o": -58.71578,
-   "p": "Malvinas Argentinas"
+   "g": 1
   },
   "1617": {
-   "a": -34.45473,
-   "l": "General Pacheco",
-   "o": -58.63431,
-   "p": "Tigre"
+   "p": "Tigre",
+   "l": null,
+   "a": -34.45925,
+   "o": -58.64775,
+   "g": 1
   },
   "1618": {
-   "a": -34.47336,
+   "p": "Tigre",
    "l": "El Talar",
+   "a": -34.47336,
    "o": -58.66097,
-   "p": "Tigre"
+   "g": 1
   },
   "1619": {
-   "a": -34.423,
+   "p": "Escobar",
    "l": "Garín",
-   "o": -58.73789,
-   "p": "Escobar"
+   "a": -34.42303,
+   "o": -58.73946,
+   "g": 1
   },
   "1620": {
-   "a": -34.40783,
+   "p": "Escobar",
    "l": "Maquinista Savio",
+   "a": -34.40783,
    "o": -58.7715,
-   "p": "Escobar"
+   "g": 1
   },
   "1621": {
-   "a": -34.40398,
-   "l": "La Bota",
-   "o": -58.72171,
-   "p": "Tigre"
+   "p": "Tigre",
+   "l": "Benavídez",
+   "a": -34.41157,
+   "o": -58.68993,
+   "g": 1
   },
   "1623": {
-   "a": -34.38989,
-   "l": "Parque Los Naranjos",
-   "o": -58.75804,
-   "p": "Escobar"
+   "p": "Berisso / Escobar / Tigre",
+   "l": null,
+   "a": -34.55386,
+   "o": -58.4029,
+   "g": 0
   },
   "1624": {
-   "a": -34.40306,
+   "p": "Tigre",
    "l": "Rincón de Milberg",
+   "a": -34.40306,
    "o": -58.63757,
-   "p": "Tigre"
+   "g": 1
   },
   "1625": {
-   "a": -34.34446,
-   "l": "Belén de Escobar",
-   "o": -58.79701,
-   "p": "Escobar"
+   "p": "Escobar",
+   "l": null,
+   "a": -34.35255,
+   "o": -58.77782,
+   "g": 1
   },
   "1627": {
-   "a": -34.38141,
-   "l": "Villa Rosa",
-   "o": -58.8599,
-   "p": "Pilar"
+   "p": "Escobar / Pilar",
+   "l": null,
+   "a": -34.37841,
+   "o": -58.84863,
+   "g": 1
   },
   "1628": {
-   "a": -34.32944,
+   "p": "Escobar",
    "l": "Loma Verde",
+   "a": -34.32944,
    "o": -58.83853,
-   "p": "Escobar"
+   "g": 1
   },
   "1629": {
-   "a": -34.45072,
-   "l": "Pilar",
-   "o": -58.89967,
-   "p": "Pilar"
+   "p": "Pilar",
+   "l": null,
+   "a": -34.44238,
+   "o": -58.84226,
+   "g": 1
   },
   "1630": {
-   "a": -34.44904,
+   "p": "Pilar",
    "l": "Pilar",
+   "a": -34.44904,
    "o": -58.89748,
-   "p": "Pilar"
+   "g": 1
   },
   "1631": {
-   "a": -34.42777,
+   "p": "Pilar",
    "l": "Villa Rosa",
-   "o": -58.8667,
-   "p": "Pilar"
+   "a": -34.41529,
+   "o": -58.86955,
+   "g": 1
   },
   "1633": {
-   "a": -34.47492,
-   "l": "Pilar",
-   "o": -58.89967,
-   "p": "Pilar"
+   "p": "Pilar",
+   "l": null,
+   "a": -34.46825,
+   "o": -58.92751,
+   "g": 1
   },
   "1635": {
-   "a": -34.49073,
+   "p": "Pilar",
    "l": "Presidente Derqui",
-   "o": -58.84092,
-   "p": "Pilar"
+   "a": -34.49227,
+   "o": -58.83902,
+   "g": 1
   },
   "1636": {
-   "a": -34.50283,
-   "l": "La Lucila",
-   "o": -58.4902,
-   "p": "Vicente López"
+   "p": "Vicente López",
+   "l": null,
+   "a": -34.50401,
+   "o": -58.485,
+   "g": 1
   },
   "1637": {
-   "a": -34.49924,
+   "p": "Vicente López",
    "l": "La Lucila",
+   "a": -34.49924,
    "o": -58.48347,
-   "p": "Vicente López"
+   "g": 1
   },
   "1638": {
-   "a": -34.5243,
-   "cur": 1,
-   "l": "",
-   "o": -58.50743,
-   "p": "Vicente López"
+   "p": "Vicente López",
+   "l": "Vicente López",
+   "a": -34.52574,
+   "o": -58.47415,
+   "g": 1
   },
   "1639": {
-   "a": -34.47658,
+   "p": "Pilar",
    "l": "San Francisco",
+   "a": -34.47658,
    "o": -58.92295,
-   "p": "Pilar"
+   "g": 1
   },
   "1640": {
-   "a": -34.48886,
+   "p": "San Isidro",
    "l": "Martínez",
-   "o": -58.50071,
-   "p": "San Isidro"
+   "a": -34.48901,
+   "o": -58.49938,
+   "g": 1
   },
   "1641": {
-   "a": -34.47727,
+   "p": "San Isidro",
    "l": "Acassuso",
+   "a": -34.47727,
    "o": -58.49983,
-   "p": "San Isidro"
+   "g": 1
   },
   "1642": {
-   "a": -34.47389,
-   "l": "San Isidro",
-   "o": -58.52051,
-   "p": "San Isidro"
+   "p": "San Isidro",
+   "l": null,
+   "a": -34.47406,
+   "o": -58.50699,
+   "g": 1
   },
   "1643": {
-   "a": -34.46444,
+   "p": "San Isidro",
    "l": "Béccar",
-   "o": -58.53859,
-   "p": "San Isidro"
+   "a": -34.4602,
+   "o": -58.53136,
+   "g": 1
   },
   "1644": {
-   "a": -34.44898,
-   "cur": 1,
-   "l": "",
-   "o": -58.55917,
-   "p": "San Fernando"
+   "p": "San Fernando",
+   "l": "Victoria",
+   "a": -34.45305,
+   "o": -58.54219,
+   "g": 1
   },
   "1645": {
-   "a": -34.45215,
+   "p": "San Fernando",
    "l": "Virreyes",
+   "a": -34.45215,
    "o": -58.55748,
-   "p": "San Fernando"
+   "g": 1
   },
   "1646": {
-   "a": -34.44581,
-   "l": "San Fernando",
-   "o": -58.56085,
-   "p": "San Fernando"
+   "p": "San Fernando",
+   "l": null,
+   "a": -34.44871,
+   "o": -58.55649,
+   "g": 1
   },
   "1648": {
-   "a": -34.42328,
-   "l": "Tigre",
-   "o": -58.58014,
-   "p": "Tigre"
+   "p": "Tigre",
+   "l": null,
+   "a": -34.43713,
+   "o": -58.61848,
+   "g": 1
   },
   "1649": {
-   "a": -34.41333,
+   "p": "Tigre",
    "l": "Tigre",
+   "a": -34.41333,
    "o": -58.58736,
-   "p": "Tigre"
+   "g": 1
   },
   "1650": {
-   "a": -34.57491,
-   "l": "Ciudad del Libertador General San Martín",
-   "o": -58.54463,
-   "p": "General San Martín"
+   "p": "General San Martín",
+   "l": null,
+   "a": -34.56453,
+   "o": -58.55555,
+   "g": 1
   },
   "1651": {
-   "a": -34.55333,
-   "l": "Villa Marqués Alejandro María de Aguado",
-   "o": -58.5392,
-   "p": "General San Martín"
+   "p": "General San Martín",
+   "l": "Villa San Andrés",
+   "a": -34.56507,
+   "o": -58.54187,
+   "g": 1
   },
   "1652": {
-   "a": -34.52714,
+   "p": "Vicente López",
    "l": "Villa Adelina",
+   "a": -34.52714,
    "o": -58.54754,
-   "p": "Vicente López"
+   "g": 1
   },
   "1653": {
-   "a": -34.54929,
-   "l": "Villa General José Tomás Guido",
-   "o": -58.56055,
-   "p": "General San Martín"
+   "p": "General San Martín",
+   "l": "Villa Ballester",
+   "a": -34.54808,
+   "o": -58.55708,
+   "g": 1
   },
   "1655": {
-   "a": -34.53923,
-   "l": "Villa Independencia",
-   "o": -58.58682,
-   "p": "General San Martín"
+   "p": "General San Martín",
+   "l": "Villa José León Suárez",
+   "a": -34.531,
+   "o": -58.57631,
+   "g": 1
   },
   "1657": {
-   "a": -34.55999,
-   "l": "El Libertador",
-   "o": -58.60418,
-   "p": "Tres de Febrero"
+   "p": "General San Martín / Tres de Febrero",
+   "l": null,
+   "a": -34.5654,
+   "o": -58.60681,
+   "g": 1
   },
   "1659": {
-   "a": -34.54969,
+   "p": "San Miguel",
    "l": "Campo de Mayo",
-   "o": -58.67332,
-   "p": "San Miguel"
+   "a": -34.55506,
+   "o": -58.65221,
+   "g": 1
   },
   "1660": {
-   "a": -34.51588,
+   "p": "Malvinas Argentinas",
    "l": "Villa de Mayo",
+   "a": -34.51588,
    "o": -58.67388,
-   "p": "Malvinas Argentinas"
+   "g": 1
   },
   "1661": {
-   "a": -34.57053,
-   "l": "",
-   "o": -58.68296,
-   "p": "San Miguel"
+   "p": "San Miguel",
+   "l": "Bella Vista",
+   "a": -34.56827,
+   "o": -58.68206,
+   "g": 1
   },
   "1662": {
-   "a": -34.582,
+   "p": "San Miguel",
    "l": "Santa María",
+   "a": -34.582,
    "o": -58.73212,
-   "p": "San Miguel"
+   "g": 1
   },
   "1663": {
-   "a": -34.55265,
-   "l": "Bella Vista",
-   "o": -58.68627,
-   "p": "San Miguel"
+   "p": "San Miguel",
+   "l": null,
+   "a": -34.54781,
+   "o": -58.707,
+   "g": 1
   },
   "1664": {
-   "a": -34.57975,
+   "p": "Moreno",
    "l": "Trujui",
-   "o": -58.75695,
-   "p": "Moreno"
+   "a": -34.59074,
+   "o": -58.75563,
+   "g": 1
   },
   "1665": {
-   "a": -34.46183,
-   "cur": 1,
-   "l": "",
-   "o": -58.80939,
-   "p": "José C. Paz"
+   "p": "José C. Paz",
+   "l": "José C. Paz",
+   "a": -34.52175,
+   "o": -58.75537,
+   "g": 2
   },
   "1667": {
-   "a": -34.46787,
-   "l": "Tortuguitas",
-   "o": -58.75378,
-   "p": "Malvinas Argentinas"
+   "p": "José C. Paz / Malvinas Argentinas / Pilar",
+   "l": null,
+   "a": -34.4745,
+   "o": -58.76547,
+   "g": 0
   },
   "1669": {
-   "a": -34.45017,
-   "cur": 1,
-   "l": "",
-   "o": -58.8839,
-   "p": "Pilar"
+   "p": "José C. Paz / Pilar",
+   "l": null,
+   "a": -34.45826,
+   "o": -58.81469,
+   "g": 0
   },
   "1670": {
-   "a": -34.40235,
+   "p": "Tigre",
    "l": "",
+   "a": -34.40235,
    "o": -58.66076,
-   "p": "Tigre"
+   "g": 1
   },
   "1672": {
-   "a": -34.58996,
+   "p": "General San Martín",
    "l": "Villa Lynch",
-   "o": -58.52301,
-   "p": "General San Martín"
+   "a": -34.59214,
+   "o": -58.52406,
+   "g": 1
   },
   "1674": {
-   "a": -34.60245,
-   "l": "Sáenz Peña",
-   "o": -58.53078,
-   "p": "Tres de Febrero"
+   "p": "Tres de Febrero",
+   "l": null,
+   "a": -34.60428,
+   "o": -58.52927,
+   "g": 1
   },
   "1675": {
-   "a": -34.71807,
+   "p": "La Matanza",
    "l": "Isidro Casanova",
+   "a": -34.71807,
    "o": -58.58809,
-   "p": "La Matanza"
+   "g": 1
   },
   "1676": {
-   "a": -34.60034,
+   "p": "Tres de Febrero",
    "l": "Santos Lugares",
-   "o": -58.54742,
-   "p": "Tres de Febrero"
+   "a": -34.60301,
+   "o": -58.54082,
+   "g": 1
   },
   "1678": {
-   "a": -34.60943,
-   "l": "",
-   "o": -58.56851,
-   "p": "Tres de Febrero"
+   "p": "Tres de Febrero",
+   "l": null,
+   "a": -34.57415,
+   "o": -58.59928,
+   "g": 1
   },
   "1682": {
-   "a": -34.58673,
-   "l": "Villa Bosch",
-   "o": -58.57979,
-   "p": "Tres de Febrero"
+   "p": "Tres de Febrero",
+   "l": null,
+   "a": -34.5853,
+   "o": -58.58526,
+   "g": 1
   },
   "1683": {
-   "a": -34.55452,
+   "p": "Tres de Febrero",
    "l": "Churruca",
+   "a": -34.55452,
    "o": -58.62978,
-   "p": "Tres de Febrero"
+   "g": 1
   },
   "1684": {
-   "a": -34.6156,
-   "l": "El Palomar",
-   "o": -58.59764,
-   "p": "Morón"
+   "p": "Morón / Tres de Febrero",
+   "l": null,
+   "a": -34.60646,
+   "o": -58.59374,
+   "g": 1
   },
   "1685": {
-   "a": -34.60634,
+   "p": "Morón",
    "l": "El Palomar",
+   "a": -34.60634,
    "o": -58.59499,
-   "p": "Morón"
+   "g": 1
   },
   "1686": {
-   "a": -34.59028,
-   "l": "Hurlingham",
-   "o": -58.63902,
-   "p": "Hurlingham"
+   "p": "Hurlingham",
+   "l": null,
+   "a": -34.5965,
+   "o": -58.64489,
+   "g": 1
   },
   "1687": {
-   "a": -34.58433,
+   "p": "Tres de Febrero",
    "l": "Pablo Podestá",
+   "a": -34.58433,
    "o": -58.61133,
-   "p": "Tres de Febrero"
+   "g": 1
   },
   "1688": {
-   "a": -34.62413,
+   "p": "Hurlingham",
    "l": "Villa Tesei",
+   "a": -34.62413,
    "o": -58.63635,
-   "p": "Hurlingham"
+   "g": 1
   },
   "1689": {
-   "a": -34.5688,
+   "p": "Tres de Febrero",
    "l": "Remedios de Escalada de San Martín",
+   "a": -34.5688,
    "o": -58.62056,
-   "p": "Tres de Febrero"
+   "g": 1
   },
   "1698": {
-   "a": -34.83201,
+   "p": "Esteban Echeverría",
    "l": "Monte Grande",
+   "a": -34.83201,
    "o": -58.45604,
-   "p": "Esteban Echeverría"
+   "g": 1
   },
   "1702": {
-   "a": -34.63329,
-   "l": "Ciudadela",
-   "o": -58.54347,
-   "p": "Tres de Febrero"
+   "p": "Tres de Febrero",
+   "l": null,
+   "a": -34.62754,
+   "o": -58.53764,
+   "g": 1
   },
   "1704": {
-   "a": -34.64757,
+   "p": "La Matanza",
    "l": "Ramos Mejía",
-   "o": -58.55801,
-   "p": "La Matanza"
+   "a": -34.6455,
+   "o": -58.55967,
+   "g": 1
   },
   "1706": {
-   "a": -34.64052,
+   "p": "Morón",
    "l": "Haedo",
-   "o": -58.58409,
-   "p": "Morón"
+   "a": -34.64361,
+   "o": -58.59452,
+   "g": 1
   },
   "1708": {
-   "a": -34.6599,
-   "l": "Morón",
-   "o": -58.61444,
-   "p": "Morón"
+   "p": "Morón",
+   "l": null,
+   "a": -34.64041,
+   "o": -58.59614,
+   "g": 1
   },
   "1712": {
-   "a": -34.6625,
+   "p": "Morón",
    "l": "Castelar",
-   "o": -58.6387,
-   "p": "Morón"
+   "a": -34.65182,
+   "o": -58.64605,
+   "g": 1
   },
   "1713": {
-   "a": -34.65839,
-   "l": "Ituzaingó",
-   "o": -58.68257,
-   "p": "Ituzaingó"
+   "p": "Ituzaingó",
+   "l": "Villa Gobernador Udadondo",
+   "a": -34.61835,
+   "o": -58.69672,
+   "g": 1
   },
   "1714": {
-   "a": -34.64223,
-   "cur": 1,
-   "l": "",
-   "o": -58.68853,
-   "p": "Ituzaingó"
+   "p": "Ituzaingó",
+   "l": null,
+   "a": -34.64424,
+   "o": -58.67797,
+   "g": 1
   },
   "1715": {
-   "a": -34.62607,
+   "p": "Ituzaingó",
    "l": "Villa Udaondo",
+   "a": -34.62607,
    "o": -58.69449,
-   "p": "Ituzaingó"
+   "g": 1
   },
   "1716": {
-   "a": -34.69718,
+   "p": "Merlo",
    "l": "Libertad",
-   "o": -58.68355,
-   "p": "Merlo"
+   "a": -34.69864,
+   "o": -58.69023,
+   "g": 1
   },
   "1718": {
-   "a": -34.66841,
+   "p": "Merlo",
    "l": "San Antonio de Padua",
-   "o": -58.70036,
-   "p": "Merlo"
+   "a": -34.66267,
+   "o": -58.69813,
+   "g": 1
   },
   "1720": {
-   "a": -34.62689,
+   "p": "Tres de Febrero",
    "l": "Ciudadela",
+   "a": -34.62689,
    "o": -58.56306,
-   "p": "Tres de Febrero"
+   "g": 1
   },
   "1721": {
-   "a": -34.6898,
+   "p": "Merlo",
    "l": "Parque San Martín",
+   "a": -34.6898,
    "o": -58.75426,
-   "p": "Merlo"
+   "g": 2
   },
   "1722": {
-   "a": -34.69786,
-   "cur": 1,
-   "l": "",
-   "o": -58.74368,
-   "p": "Merlo"
+   "p": "Merlo",
+   "l": "Merlo",
+   "a": -34.66697,
+   "o": -58.72795,
+   "g": 1
   },
   "1723": {
-   "a": -34.71746,
+   "p": "Merlo",
    "l": "Mariano Acosta",
-   "o": -58.79294,
-   "p": "Merlo"
+   "a": -34.72292,
+   "o": -58.79541,
+   "g": 2
   },
   "1724": {
-   "a": -34.69209,
+   "p": "Merlo",
    "l": "Mariano Acosta",
+   "a": -34.69209,
    "o": -58.84019,
-   "p": "Merlo"
+   "g": 2
   },
   "1727": {
-   "a": -34.78007,
-   "l": "Marcos Paz",
-   "o": -58.83035,
-   "p": "Marcos Paz"
+   "p": "Marcos Paz",
+   "l": null,
+   "a": -34.8453,
+   "o": -58.77094,
+   "g": 2
   },
   "1731": {
-   "a": -34.8271,
+   "p": "General Las Heras",
    "l": "Villars",
+   "a": -34.8271,
    "o": -58.94171,
-   "p": "General Las Heras"
+   "g": 2
   },
   "1733": {
-   "a": -34.79288,
+   "p": "General Las Heras",
    "l": "Plomer",
-   "o": -59.03122,
-   "p": "General Las Heras"
+   "a": -34.79457,
+   "o": -59.03116,
+   "g": 2
   },
   "1736": {
-   "a": -34.58329,
+   "p": "Moreno",
    "l": "Trujui",
+   "a": -34.58329,
    "o": -58.75119,
-   "p": "Moreno"
+   "g": 1
   },
   "1737": {
-   "a": -34.7818,
-   "l": "",
-   "o": -59.11068,
-   "p": "General Las Heras"
+   "p": "General Las Heras",
+   "l": "La Choza",
+   "a": -34.78285,
+   "o": -59.10965,
+   "g": 2
+  },
+  "1739": {
+   "p": "General Las Heras",
+   "l": "General Hornos",
+   "a": -34.89232,
+   "o": -58.91847,
+   "g": 2
   },
   "1741": {
-   "a": -34.92622,
+   "p": "General Las Heras",
    "l": "General Las Heras",
-   "o": -58.94703,
-   "p": "General Las Heras"
+   "a": -34.92691,
+   "o": -58.94671,
+   "g": 2
   },
   "1742": {
-   "a": -34.64365,
+   "p": "Moreno",
    "l": "Paso del Rey",
-   "o": -58.7575,
-   "p": "Moreno"
+   "a": -34.65313,
+   "o": -58.76124,
+   "g": 2
   },
   "1743": {
-   "a": -34.54791,
+   "p": "Moreno",
    "l": "Cuartel V",
+   "a": -34.54791,
    "o": -58.8125,
-   "p": "Moreno"
+   "g": 2
   },
   "1744": {
-   "a": -34.60219,
-   "l": "Moreno",
-   "o": -58.78779,
-   "p": "Moreno"
+   "p": "Moreno",
+   "l": null,
+   "a": -34.61158,
+   "o": -58.8085,
+   "g": 2
   },
   "1746": {
-   "a": -34.63349,
+   "p": "Moreno",
    "l": "Francisco Álvarez",
-   "o": -58.8575,
-   "p": "Moreno"
+   "a": -34.63319,
+   "o": -58.85547,
+   "g": 2
   },
   "1748": {
-   "a": -34.61193,
-   "l": "",
-   "o": -58.93786,
-   "p": "General Rodríguez"
+   "p": "General Rodríguez",
+   "l": null,
+   "a": -34.60977,
+   "o": -58.93844,
+   "g": 2
   },
   "1751": {
-   "a": -34.70009,
+   "p": "La Matanza",
    "l": "San Justo",
+   "a": -34.70009,
    "o": -58.5515,
-   "p": "La Matanza"
+   "g": 1
   },
   "1752": {
-   "a": -34.66766,
+   "p": "La Matanza",
    "l": "Lomas del Mirador",
-   "o": -58.52775,
-   "p": "La Matanza"
+   "a": -34.66528,
+   "o": -58.53177,
+   "g": 1
   },
   "1753": {
-   "a": -34.6658,
+   "p": "La Matanza",
    "l": "Villa Luzuriaga",
+   "a": -34.6658,
    "o": -58.58933,
-   "p": "La Matanza"
+   "g": 1
   },
   "1754": {
-   "a": -34.67818,
-   "l": "San Justo",
-   "o": -58.56182,
-   "p": "La Matanza"
+   "p": "La Matanza",
+   "l": null,
+   "a": -34.70786,
+   "o": -58.56189,
+   "g": 1
   },
   "1755": {
-   "a": -34.71292,
+   "p": "La Matanza",
    "l": "Rafael Castillo",
-   "o": -58.61821,
-   "p": "La Matanza"
+   "a": -34.7091,
+   "o": -58.62563,
+   "g": 1
   },
   "1756": {
-   "a": -34.67454,
+   "p": "La Matanza",
    "l": "La Tablada",
+   "a": -34.67454,
    "o": -58.52873,
-   "p": "La Matanza"
+   "g": 1
   },
   "1757": {
-   "a": -34.7476,
+   "p": "La Matanza",
    "l": "Gregorio de Laferrere",
+   "a": -34.7476,
    "o": -58.59419,
-   "p": "La Matanza"
+   "g": 1
   },
   "1758": {
-   "a": -34.79922,
+   "p": "La Matanza",
    "l": "González Catán",
+   "a": -34.79922,
    "o": -58.6254,
-   "p": "La Matanza"
+   "g": 1
   },
   "1759": {
-   "a": -34.77405,
+   "p": "La Matanza",
    "l": "González Catán",
+   "a": -34.77405,
    "o": -58.62571,
-   "p": "La Matanza"
+   "g": 1
   },
   "1761": {
-   "a": -34.73846,
-   "l": "Pontevedra",
-   "o": -58.70809,
-   "p": "Merlo"
+   "p": "La Matanza / Merlo",
+   "l": null,
+   "a": -34.7632,
+   "o": -58.71542,
+   "g": 0
   },
   "1763": {
-   "a": -34.82829,
-   "l": "Virrey Del Pino",
-   "o": -58.64754,
-   "p": "La Matanza"
+   "p": "La Matanza",
+   "l": "Virrey del Pino",
+   "a": -34.83765,
+   "o": -58.64697,
+   "g": 2
   },
   "1765": {
-   "a": -34.68313,
-   "l": "San Justo",
-   "o": -58.56594,
-   "p": "La Matanza"
+   "p": "La Matanza",
+   "l": "Isidro Casanova",
+   "a": -34.71097,
+   "o": -58.58581,
+   "g": 1
   },
   "1766": {
-   "a": -34.68415,
+   "p": "La Matanza",
    "l": "La Tablada",
+   "a": -34.68415,
    "o": -58.53211,
-   "p": "La Matanza"
+   "g": 1
   },
   "1768": {
-   "a": -34.68893,
+   "p": "La Matanza",
    "l": "Villa Madero",
+   "a": -34.68893,
    "o": -58.49876,
-   "p": "La Matanza"
+   "g": 1
   },
   "1770": {
-   "a": -34.70521,
-   "l": "Aldo Bonzi",
-   "o": -58.51414,
-   "p": "La Matanza"
+   "p": "La Matanza",
+   "l": null,
+   "a": -34.70302,
+   "o": -58.51351,
+   "g": 1
   },
   "1771": {
-   "a": -34.70606,
+   "p": "La Matanza",
    "l": "Tapiales",
+   "a": -34.70606,
    "o": -58.49485,
-   "p": "La Matanza"
+   "g": 1
   },
   "1772": {
-   "a": -34.69435,
+   "p": "La Matanza",
    "l": "Villa Celina",
+   "a": -34.69435,
    "o": -58.48436,
-   "p": "La Matanza"
+   "g": 1
   },
   "1774": {
-   "a": -34.60378,
+   "p": "Moreno",
    "l": "Trujui",
+   "a": -34.60378,
    "o": -58.73089,
-   "p": "Moreno"
+   "g": 1
   },
   "1775": {
-   "a": -34.71143,
+   "p": "La Matanza",
    "l": "Ciudad Evita",
+   "a": -34.71143,
    "o": -58.53618,
-   "p": "La Matanza"
+   "g": 1
   },
   "1776": {
-   "a": -34.75459,
-   "l": "9 de Abril",
-   "o": -58.49152,
-   "p": "Esteban Echeverría"
+   "p": "Esteban Echeverría / La Plata",
+   "l": null,
+   "a": -34.81973,
+   "o": -58.28577,
+   "g": 0
   },
   "1778": {
-   "a": -34.71438,
+   "p": "La Matanza",
    "l": "Ciudad Evita",
+   "a": -34.71438,
    "o": -58.54423,
-   "p": "La Matanza"
+   "g": 1
   },
   "1779": {
-   "a": -34.74403,
+   "p": "Quilmes",
    "l": "Quilmes Oeste",
+   "a": -34.74403,
    "o": -58.2894,
-   "p": "Quilmes"
+   "g": 1
   },
   "1785": {
-   "a": -34.68721,
+   "p": "La Matanza",
    "l": "Villa Luzuriaga",
+   "a": -34.68721,
    "o": -58.59653,
-   "p": "La Matanza"
+   "g": 1
   },
   "1786": {
-   "a": -34.78036,
+   "p": "La Matanza",
    "l": "Veinte de Junio",
+   "a": -34.78036,
    "o": -58.73801,
-   "p": "La Matanza"
+   "g": 2
   },
   "1801": {
-   "a": -34.87469,
+   "p": "Ezeiza",
    "l": "Canning",
+   "a": -34.87469,
    "o": -58.50714,
-   "p": "Ezeiza"
+   "g": 1
   },
   "1802": {
-   "a": -34.81586,
+   "p": "Esteban Echeverría",
    "l": "El Jagüel",
+   "a": -34.81586,
    "o": -58.50856,
-   "p": "Esteban Echeverría"
+   "g": 1
   },
   "1804": {
-   "a": -34.85275,
-   "l": "Ezeiza",
-   "o": -58.52815,
-   "p": "Ezeiza"
+   "p": "Esteban Echeverría / Ezeiza",
+   "l": null,
+   "a": -34.85105,
+   "o": -58.51905,
+   "g": 1
   },
   "1806": {
-   "a": -34.88273,
+   "p": "Ezeiza",
    "l": "Tristán Suárez",
-   "o": -58.55764,
-   "p": "Ezeiza"
+   "a": -34.89096,
+   "o": -58.56655,
+   "g": 2
   },
   "1807": {
-   "a": -34.86432,
+   "p": "Esteban Echeverría",
    "l": "Canning",
+   "a": -34.86432,
    "o": -58.49822,
-   "p": "Esteban Echeverría"
+   "g": 1
   },
   "1808": {
-   "a": -34.97477,
-   "l": "",
-   "o": -58.67434,
-   "p": "Cañuelas"
+   "p": "Cañuelas",
+   "l": "Vicente Casares",
+   "a": -34.96554,
+   "o": -58.65184,
+   "g": 2
   },
   "1812": {
-   "a": -34.91707,
+   "p": "Ezeiza",
    "l": "Carlos Spegazzini",
-   "o": -58.59413,
-   "p": "Ezeiza"
+   "a": -34.91175,
+   "o": -58.59217,
+   "g": 2
   },
   "1814": {
-   "a": -35.04471,
-   "l": "Cañuelas",
-   "o": -58.75536,
-   "p": "Cañuelas"
+   "p": "Cañuelas",
+   "l": null,
+   "a": -35.0343,
+   "o": -58.76728,
+   "g": 2
+  },
+  "1815": {
+   "p": "Cañuelas",
+   "l": "Uribelarrea",
+   "a": -35.12383,
+   "o": -58.89204,
+   "g": 2
   },
   "1816": {
-   "a": -34.95633,
+   "p": "Cañuelas",
    "l": "",
+   "a": -34.95633,
    "o": -58.73336,
-   "p": "Cañuelas"
+   "g": 2
   },
   "1822": {
-   "a": -34.67073,
+   "p": "Lanús",
    "l": "Valentín Alsina",
-   "o": -58.40961,
-   "p": "Lanús"
+   "a": -34.67141,
+   "o": -58.40905,
+   "g": 1
   },
   "1823": {
-   "a": -34.69885,
+   "p": "Lanús",
    "l": "Lanús Este",
+   "a": -34.69885,
    "o": -58.38199,
-   "p": "Lanús"
+   "g": 1
   },
   "1824": {
-   "a": -34.70489,
-   "l": "Lanús Oeste",
-   "o": -58.39708,
-   "p": "Lanús"
+   "p": "Lanús",
+   "l": null,
+   "a": -34.70867,
+   "o": -58.38837,
+   "g": 1
   },
   "1825": {
-   "a": -34.71909,
-   "l": "Lanús Este",
-   "o": -58.36859,
-   "p": "Lanús"
+   "p": "Lanús",
+   "l": "Monte Chingolo",
+   "a": -34.72959,
+   "o": -58.35422,
+   "g": 1
   },
   "1826": {
-   "a": -34.72333,
-   "l": "Remedios de Escalada",
-   "o": -58.39713,
-   "p": "Lanús"
+   "p": "Lanús",
+   "l": "Remedios de Escalada de San Martín",
+   "a": -34.72591,
+   "o": -58.3967,
+   "g": 1
   },
   "1827": {
-   "a": -34.70704,
+   "p": "Lomas de Zamora",
    "l": "Villa Fiorito",
+   "a": -34.70704,
    "o": -58.43968,
-   "p": "Lomas de Zamora"
+   "g": 1
   },
   "1828": {
-   "a": -34.74342,
-   "l": "Banfield",
-   "o": -58.38925,
-   "p": "Lomas de Zamora"
+   "p": "Lomas de Zamora",
+   "l": null,
+   "a": -34.73604,
+   "o": -58.41176,
+   "g": 1
   },
   "1832": {
-   "a": -34.75874,
-   "l": "Lomas de Zamora",
-   "o": -58.39605,
-   "p": "Lomas de Zamora"
+   "p": "Berisso / Lomas de Zamora",
+   "l": null,
+   "a": -34.78249,
+   "o": -58.23448,
+   "g": 0
   },
   "1834": {
-   "a": -34.77805,
-   "l": "Temperley",
-   "o": -58.39251,
-   "p": "Lomas de Zamora"
+   "p": "Lomas de Zamora",
+   "l": null,
+   "a": -34.7818,
+   "o": -58.3974,
+   "g": 1
   },
   "1835": {
-   "a": -34.75984,
+   "p": "Lomas de Zamora",
    "l": "San José",
+   "a": -34.75984,
    "o": -58.36846,
-   "p": "Lomas de Zamora"
+   "g": 1
   },
   "1836": {
-   "a": -34.79871,
+   "p": "Lomas de Zamora",
    "l": "Llavallol",
-   "o": -58.41721,
-   "p": "Lomas de Zamora"
+   "a": -34.79307,
+   "o": -58.42628,
+   "g": 1
   },
   "1838": {
-   "a": -34.80015,
+   "p": "Esteban Echeverría",
    "l": "Luis Guillón",
-   "o": -58.45326,
-   "p": "Esteban Echeverría"
+   "a": -34.80264,
+   "o": -58.45068,
+   "g": 1
   },
   "1839": {
-   "a": -34.75601,
+   "p": "Esteban Echeverría",
    "l": "9 de Abril",
+   "a": -34.75601,
    "o": -58.48404,
-   "p": "Esteban Echeverría"
+   "g": 1
   },
   "1842": {
-   "a": -34.81611,
-   "l": "Monte Grande",
-   "o": -58.46962,
-   "p": "Esteban Echeverría"
+   "p": "Esteban Echeverría",
+   "l": null,
+   "a": -34.82361,
+   "o": -58.48157,
+   "g": 1
   },
   "1843": {
-   "a": -34.78901,
+   "p": "Almirante Brown",
    "l": "San Francisco Solano",
+   "a": -34.78901,
    "o": -58.3209,
-   "p": "Almirante Brown"
+   "g": 1
   },
   "1844": {
-   "a": -34.76625,
+   "p": "Lomas de Zamora",
    "l": "San José",
+   "a": -34.76625,
    "o": -58.36216,
-   "p": "Lomas de Zamora"
+   "g": 1
   },
   "1845": {
-   "a": -34.90289,
+   "p": "Almirante Brown",
    "l": "Partido de Almirante Brown",
+   "a": -34.90289,
    "o": -58.39966,
-   "p": "Almirante Brown"
+   "g": 1
   },
   "1846": {
-   "a": -34.79365,
-   "l": "José Mármol",
-   "o": -58.38054,
-   "p": "Almirante Brown"
+   "p": "Almirante Brown",
+   "l": null,
+   "a": -34.79707,
+   "o": -58.37338,
+   "g": 1
   },
   "1847": {
-   "a": -34.78267,
+   "p": "Almirante Brown",
    "l": "Rafael Calzada",
-   "o": -58.33731,
-   "p": "Almirante Brown"
+   "a": -34.79736,
+   "o": -58.36167,
+   "g": 1
   },
   "1848": {
-   "a": -34.86002,
+   "p": "Almirante Brown",
    "l": "Ministro Rivadavia",
+   "a": -34.86002,
    "o": -58.36031,
-   "p": "Almirante Brown"
+   "g": 1
   },
   "1849": {
-   "a": -34.81513,
-   "l": "Claypole",
-   "o": -58.35115,
-   "p": "Almirante Brown"
+   "p": "Almirante Brown / La Plata",
+   "l": null,
+   "a": -34.86594,
+   "o": -58.16846,
+   "g": 0
   },
   "1851": {
-   "a": -34.8166,
+   "p": "Almirante Brown",
    "l": "Partido de Almirante Brown",
+   "a": -34.8166,
    "o": -58.41929,
-   "p": "Almirante Brown"
+   "g": 1
   },
   "1852": {
-   "a": -34.82751,
-   "l": "Burzaco",
-   "o": -58.38582,
-   "p": "Almirante Brown"
+   "p": "Almirante Brown / Presidente Perón",
+   "l": null,
+   "a": -34.85181,
+   "o": -58.39052,
+   "g": 1
   },
   "1853": {
-   "a": -34.84218,
+   "p": "Florencio Varela",
    "l": "Villa Vatteone",
+   "a": -34.84218,
    "o": -58.26294,
-   "p": "Florencio Varela"
+   "g": 1
   },
   "1854": {
-   "a": -34.85959,
+   "p": "Almirante Brown",
    "l": "Longchamps",
-   "o": -58.38779,
-   "p": "Almirante Brown"
+   "a": -34.86073,
+   "o": -58.38918,
+   "g": 1
   },
   "1856": {
-   "a": -34.88343,
+   "p": "Almirante Brown",
    "l": "Glew",
-   "o": -58.38245,
-   "p": "Almirante Brown"
+   "a": -34.88834,
+   "o": -58.38279,
+   "g": 1
   },
   "1862": {
-   "a": -34.91498,
-   "l": "",
-   "o": -58.3954,
-   "p": "Presidente Perón"
+   "p": "Presidente Perón",
+   "l": "Guernica",
+   "a": -34.91799,
+   "o": -58.38216,
+   "g": 1
   },
   "1864": {
-   "a": -34.91498,
-   "cur": 1,
-   "l": "",
-   "o": -58.3954,
-   "p": "Presidente Perón"
+   "p": "San Vicente",
+   "l": "Alejandro Korn",
+   "a": -34.98141,
+   "o": -58.37673,
+   "g": 2
   },
   "1865": {
-   "a": -35.02577,
-   "l": "",
-   "o": -58.42216,
-   "p": "San Vicente"
+   "p": "San Vicente",
+   "l": "San Vicente",
+   "a": -35.0259,
+   "o": -58.4224,
+   "g": 2
   },
   "1869": {
-   "a": -34.68876,
+   "p": "Avellaneda",
    "l": "Gerli",
+   "a": -34.68876,
    "o": -58.37724,
-   "p": "Avellaneda"
+   "g": 1
   },
   "1870": {
-   "a": -34.67705,
-   "l": "Avellaneda",
-   "o": -58.36891,
-   "p": "Avellaneda"
+   "p": "Avellaneda",
+   "l": null,
+   "a": -34.67363,
+   "o": -58.35796,
+   "g": 1
   },
   "1871": {
-   "a": -34.65554,
+   "p": "Avellaneda",
    "l": "Dock Sud",
-   "o": -58.3482,
-   "p": "Avellaneda"
+   "a": -34.65013,
+   "o": -58.3449,
+   "g": 1
   },
   "1872": {
-   "a": -34.67739,
+   "p": "Avellaneda",
    "l": "Sarandí",
-   "o": -58.34762,
-   "p": "Avellaneda"
+   "a": -34.6818,
+   "o": -58.34631,
+   "g": 1
   },
   "1873": {
-   "a": -34.67533,
+   "p": "Avellaneda",
    "l": "Avellaneda",
+   "a": -34.67533,
    "o": -58.36674,
-   "p": "Avellaneda"
+   "g": 1
   },
   "1874": {
-   "a": -34.69754,
+   "p": "Avellaneda",
    "l": "Villa Domínico",
-   "o": -58.33415,
-   "p": "Avellaneda"
+   "a": -34.69458,
+   "o": -58.33046,
+   "g": 1
   },
   "1875": {
-   "a": -34.69999,
+   "p": "Avellaneda",
    "l": "Wilde",
-   "o": -58.31475,
-   "p": "Avellaneda"
+   "a": -34.70408,
+   "o": -58.31721,
+   "g": 1
   },
   "1876": {
-   "a": -34.71635,
-   "l": "Bernal Oeste",
-   "o": -58.29893,
-   "p": "Quilmes"
+   "p": "Quilmes",
+   "l": null,
+   "a": -34.71389,
+   "o": -58.29963,
+   "g": 1
   },
   "1877": {
-   "a": -34.72082,
+   "p": "Quilmes",
    "l": "Quilmes",
+   "a": -34.72082,
    "o": -58.2728,
-   "p": "Quilmes"
+   "g": 1
   },
   "1878": {
-   "a": -34.72574,
-   "l": "Quilmes",
-   "o": -58.25229,
-   "p": "Quilmes"
+   "p": "Berisso / Quilmes",
+   "l": null,
+   "a": -34.80767,
+   "o": -58.08093,
+   "g": 0
   },
   "1879": {
-   "a": -34.73848,
+   "p": "Quilmes",
    "l": "Quilmes Oeste",
-   "o": -58.28251,
-   "p": "Quilmes"
+   "a": -34.74605,
+   "o": -58.29913,
+   "g": 1
   },
   "1880": {
-   "a": -34.76562,
-   "l": "Berazategui",
-   "o": -58.23226,
-   "p": "Berazategui"
+   "p": "Berazategui",
+   "l": null,
+   "a": -34.82764,
+   "o": -58.18029,
+   "g": 0
   },
   "1881": {
-   "a": -34.7807,
-   "l": "Partido de Quilmes",
-   "o": -58.31365,
-   "p": "Quilmes"
+   "p": "Almirante Brown / Quilmes",
+   "l": null,
+   "a": -34.77923,
+   "o": -58.30789,
+   "g": 1
   },
   "1882": {
-   "a": -34.74711,
-   "l": "Partido de Quilmes",
-   "o": -58.2323,
-   "p": "Quilmes"
+   "p": "Quilmes",
+   "l": null,
+   "a": -34.75158,
+   "o": -58.24938,
+   "g": 1
   },
   "1883": {
-   "a": -34.74204,
+   "p": "Quilmes",
    "l": "Quilmes Oeste",
+   "a": -34.74204,
    "o": -58.28582,
-   "p": "Quilmes"
+   "g": 1
   },
   "1884": {
-   "a": -34.77582,
-   "l": "Berazategui",
-   "o": -58.21928,
-   "p": "Berazategui"
+   "p": "Berazategui",
+   "l": null,
+   "a": -34.77183,
+   "o": -58.21683,
+   "g": 1
   },
   "1885": {
-   "a": -34.80286,
-   "l": "Hudson",
-   "o": -58.17821,
-   "p": "Berazategui"
+   "p": "Berazategui",
+   "l": "Plátanos",
+   "a": -34.78181,
+   "o": -58.17019,
+   "g": 1
   },
   "1886": {
-   "a": -34.76359,
-   "l": "Quilmes Oeste",
-   "o": -58.28111,
-   "p": "Quilmes"
+   "p": "Berazategui",
+   "l": "Ranelagh",
+   "a": -34.78779,
+   "o": -58.20319,
+   "g": 1
   },
   "1888": {
-   "a": -34.81644,
-   "l": "Villa Vatteone",
-   "o": -58.26105,
-   "p": "Florencio Varela"
+   "p": "Cañuelas / Florencio Varela",
+   "l": null,
+   "a": -34.86565,
+   "o": -58.31848,
+   "g": 0
   },
   "1889": {
-   "a": -34.82708,
+   "p": "Florencio Varela",
    "l": "Bosques",
-   "o": -58.2298,
-   "p": "Florencio Varela"
+   "a": -34.81661,
+   "o": -58.23131,
+   "g": 1
   },
   "1890": {
-   "a": -34.94748,
-   "l": "El Peligro",
-   "o": -58.19931,
-   "p": "La Plata"
+   "p": "Berazategui",
+   "l": "Juan María Gutiérrez",
+   "a": -34.83391,
+   "o": -58.18381,
+   "g": 1
   },
   "1891": {
-   "a": -34.86721,
+   "p": "Florencio Varela",
    "l": "Ingeniero Juan Allan",
-   "o": -58.19748,
-   "p": "Florencio Varela"
+   "a": -34.86668,
+   "o": -58.19856,
+   "g": 1
   },
   "1893": {
-   "a": -34.87217,
+   "p": "Florencio Varela",
    "l": "Ingeniero Juan Allan",
+   "a": -34.87217,
    "o": -58.20141,
-   "p": "Florencio Varela"
+   "g": 1
   },
   "1894": {
-   "a": -34.85455,
-   "l": "Villa Elisa",
-   "o": -58.07147,
-   "p": "La Plata"
+   "p": "Berazategui / La Plata",
+   "l": null,
+   "a": -34.84382,
+   "o": -58.08986,
+   "g": 2
+  },
+  "1895": {
+   "p": "La Plata",
+   "l": "Arturo Seguí",
+   "a": -34.89135,
+   "o": -58.13194,
+   "g": 2
   },
   "1896": {
-   "a": -34.87236,
-   "l": "City Bell",
-   "o": -58.04597,
-   "p": "La Plata"
+   "p": "La Plata",
+   "l": null,
+   "a": -34.88646,
+   "o": -58.04553,
+   "g": 2
   },
   "1897": {
-   "a": -34.88265,
+   "p": "La Plata",
    "l": "Manuel B. Gonnet",
-   "o": -58.01473,
-   "p": "La Plata"
+   "a": -34.88185,
+   "o": -58.01032,
+   "g": 2
   },
   "1900": {
-   "a": -34.91181,
-   "l": "La Plata",
-   "o": -57.96513,
-   "p": "La Plata"
+   "p": "Ensenada / La Plata",
+   "l": null,
+   "a": -34.9387,
+   "o": -57.95736,
+   "g": 2
   },
   "1901": {
-   "a": -34.91684,
-   "l": "Tolosa",
-   "o": -57.99619,
-   "p": "La Plata"
+   "p": "La Plata",
+   "l": null,
+   "a": -34.95837,
+   "o": -58.03368,
+   "g": 2
   },
   "1902": {
-   "a": -34.9043,
+   "p": "La Plata",
    "l": "La Plata",
+   "a": -34.9043,
    "o": -57.95221,
-   "p": "La Plata"
+   "g": 2
   },
   "1903": {
-   "a": -34.95324,
-   "l": "Colonia Urquiza",
-   "o": -58.07034,
-   "p": "La Plata"
+   "p": "La Plata",
+   "l": null,
+   "a": -34.94281,
+   "o": -58.05076,
+   "g": 2
   },
   "1906": {
-   "a": -34.89422,
+   "p": "La Plata",
    "l": "Tolosa",
+   "a": -34.89422,
    "o": -57.98312,
-   "p": "La Plata"
+   "g": 2
+  },
+  "1907": {
+   "p": "La Plata",
+   "l": null,
+   "a": -34.96894,
+   "o": -57.86798,
+   "g": 2
   },
   "1909": {
-   "a": -34.99655,
-   "l": "Altos de San Lorenzo",
-   "o": -57.89306,
-   "p": "La Plata"
+   "p": "La Plata",
+   "l": "Arana",
+   "a": -34.9996,
+   "o": -57.89247,
+   "g": 2
   },
   "1911": {
-   "a": -35.06665,
+   "p": "Magdalena",
    "l": "",
+   "a": -35.06665,
    "o": -57.73445,
-   "p": "Magdalena"
+   "g": null
   },
   "1913": {
-   "a": -35.07092,
+   "p": "Magdalena",
    "l": "",
+   "a": -35.07092,
    "o": -57.51958,
-   "p": "Magdalena"
+   "g": null
   },
   "1914": {
-   "a": -34.93726,
+   "p": "La Plata",
    "l": "Villa Elvira",
+   "a": -34.93726,
    "o": -57.91966,
-   "p": "La Plata"
+   "g": 2
   },
   "1917": {
-   "a": -35.32172,
+   "p": "Punta Indio",
    "l": "",
+   "a": -35.32172,
    "o": -57.27742,
-   "p": "Punta Indio"
+   "g": null
   },
   "1923": {
-   "a": -34.88097,
-   "l": "",
-   "o": -57.885,
-   "p": "Berisso"
+   "p": "Berisso",
+   "l": null,
+   "a": -34.8934,
+   "o": -57.8849,
+   "g": 2
   },
   "1925": {
-   "a": -34.86347,
-   "l": "",
-   "o": -57.91254,
-   "p": "Ensenada"
+   "p": "Ensenada",
+   "l": null,
+   "a": -34.8748,
+   "o": -57.92868,
+   "g": 2
+  },
+  "1929": {
+   "p": "Ensenada",
+   "l": "Isla Santiago",
+   "a": -34.84552,
+   "o": -57.89478,
+   "g": 2
   },
   "1931": {
-   "a": -34.81457,
-   "l": "",
-   "o": -57.97534,
-   "p": "Ensenada"
+   "p": "Ensenada",
+   "l": "Punta Lara",
+   "a": -34.80982,
+   "o": -57.9838,
+   "g": 2
   },
   "1980": {
-   "a": -34.91815,
-   "l": "Carlos Spegazzini",
-   "o": -58.6208,
-   "p": "Ezeiza"
+   "p": "Brandsen",
+   "l": null,
+   "a": -35.11817,
+   "o": -58.2222,
+   "g": 2
   },
   "1981": {
-   "a": -35.27429,
-   "l": "",
-   "o": -58.40246,
-   "p": "General Paz"
+   "p": "Brandsen",
+   "l": "Oliden",
+   "a": -35.18448,
+   "o": -57.94908,
+   "g": 2
   },
   "1983": {
-   "a": -35.06295,
-   "l": "Abasto",
-   "o": -58.16095,
-   "p": "La Plata"
+   "p": "Brandsen",
+   "l": "Gómez",
+   "a": -35.06754,
+   "o": -58.16604,
+   "g": 2
   },
   "1984": {
-   "a": -35.08841,
-   "l": "",
-   "o": -58.28659,
-   "p": "San Vicente"
+   "p": "San Vicente",
+   "l": "Domselaar",
+   "a": -35.07389,
+   "o": -58.29046,
+   "g": 2
+  },
+  "1986": {
+   "p": "Brandsen",
+   "l": null,
+   "a": -35.31935,
+   "o": -58.17465,
+   "g": 2
   },
   "1987": {
-   "a": -35.5154,
+   "p": "General Paz",
    "l": "Ranchos",
+   "a": -35.5154,
    "o": -58.31785,
-   "p": "General Paz"
+   "g": null
+  },
+  "2800": {
+   "p": "Zárate",
+   "l": null,
+   "a": -34.11196,
+   "o": -59.02157,
+   "g": 2
+  },
+  "2801": {
+   "p": "Zárate",
+   "l": "Escalada",
+   "a": -34.15815,
+   "o": -59.11367,
+   "g": 2
+  },
+  "2804": {
+   "p": "Campana",
+   "l": "Barrio Los Pioneros (Barrio Tavella)",
+   "a": -34.25252,
+   "o": -58.95974,
+   "g": 2
+  },
+  "2806": {
+   "p": "Zárate",
+   "l": "Lima",
+   "a": -34.04479,
+   "o": -59.19615,
+   "g": 2
+  },
+  "2812": {
+   "p": "Exaltación de la Cruz",
+   "l": null,
+   "a": -34.37129,
+   "o": -59.08802,
+   "g": 2
+  },
+  "2813": {
+   "p": "Exaltación de la Cruz",
+   "l": "Arroyo de la Cruz",
+   "a": -34.33021,
+   "o": -59.11397,
+   "g": 2
+  },
+  "6608": {
+   "p": "Luján",
+   "l": "Olivera",
+   "a": -34.62789,
+   "o": -59.2552,
+   "g": 2
   },
   "6700": {
-   "a": -34.57774,
-   "l": "",
-   "o": -59.11567,
-   "p": "Luján"
+   "p": "Luján",
+   "l": null,
+   "a": -34.55856,
+   "o": -59.11427,
+   "g": 2
   },
   "6701": {
-   "a": -34.49973,
-   "l": "",
-   "o": -59.20317,
-   "p": "Luján"
+   "p": "Luján",
+   "l": "Carlos Keen",
+   "a": -34.48675,
+   "o": -59.21955,
+   "g": 2
   },
   "6703": {
-   "a": -34.40791,
-   "l": "",
-   "o": -59.10672,
-   "p": "Exaltación de la Cruz"
+   "p": "Luján",
+   "l": "Torres",
+   "a": -34.43099,
+   "o": -59.12786,
+   "g": 2
   },
   "6705": {
-   "a": -34.43422,
+   "p": "San Andrés de Giles",
    "l": "",
+   "a": -34.43422,
    "o": -59.26131,
-   "p": "San Andrés de Giles"
+   "g": null
   },
   "6706": {
-   "a": -34.58871,
-   "l": "",
-   "o": -59.1778,
-   "p": "Luján"
+   "p": "Luján",
+   "l": null,
+   "a": -34.58688,
+   "o": -59.1784,
+   "g": 2
   },
   "6708": {
-   "a": -34.49827,
-   "l": "",
-   "o": -59.0741,
-   "p": "Luján"
+   "p": "Luján",
+   "l": "Open Door",
+   "a": -34.49149,
+   "o": -59.07751,
+   "g": 2
   },
   "6712": {
-   "a": -34.55282,
-   "l": "",
-   "o": -59.20829,
-   "p": "Luján"
+   "p": "Luján",
+   "l": "Cortines",
+   "a": -34.55655,
+   "o": -59.20399,
+   "g": 2
+  }
+ },
+ "cobertura": {
+  "centro": [
+   -34.6037699996038,
+   -58.3815970890394
+  ],
+  "umbral_km": 35,
+  "fijos": [
+   "Escobar",
+   "Pilar",
+   "Tigre"
+  ],
+  "partidos": {
+   "Almirante Brown": 1,
+   "Avellaneda": 1,
+   "Berazategui": 0,
+   "Berisso": 2,
+   "Brandsen": 2,
+   "Campana": 2,
+   "Cañuelas": 2,
+   "Ensenada": 2,
+   "Escobar": 1,
+   "Esteban Echeverría": 1,
+   "Exaltación de la Cruz": 2,
+   "Ezeiza": 0,
+   "Florencio Varela": 0,
+   "General Las Heras": 2,
+   "General Rodríguez": 2,
+   "General San Martín": 1,
+   "Hurlingham": 1,
+   "Ituzaingó": 1,
+   "José C. Paz": 2,
+   "La Matanza": 0,
+   "La Plata": 2,
+   "Lanús": 1,
+   "Lomas de Zamora": 1,
+   "Luján": 2,
+   "Malvinas Argentinas": 0,
+   "Marcos Paz": 2,
+   "Merlo": 0,
+   "Moreno": 0,
+   "Morón": 1,
+   "Pilar": 1,
+   "Presidente Perón": 1,
+   "Quilmes": 1,
+   "San Fernando": 1,
+   "San Isidro": 1,
+   "San Miguel": 1,
+   "San Vicente": 2,
+   "Tigre": 1,
+   "Tres de Febrero": 1,
+   "Vicente López": 1,
+   "Zárate": 2
+  },
+  "localidades": {
+   "La Matanza|Villa Eduardo Madero": 1,
+   "La Matanza|Lomas del Mirador": 1,
+   "La Matanza|Tapiales": 1,
+   "La Matanza|La Tablada": 1,
+   "La Matanza|Ramos Mejía": 1,
+   "La Matanza|Aldo Bonzi": 1,
+   "La Matanza|San Justo": 1,
+   "La Matanza|Ciudad Evita": 1,
+   "La Matanza|Villa Luzuriaga": 1,
+   "La Matanza|Isidro Casanova": 1,
+   "Berazategui|Berazategui Oeste": 1,
+   "Berazategui|Berazategui": 1,
+   "Florencio Varela|Gobernador Julio A. Costa": 1,
+   "Ezeiza|Aeropuerto Internacional Ezeiza": 1,
+   "Florencio Varela|San Juan Bautista": 1,
+   "La Matanza|Gregorio de Laferrere": 1,
+   "La Matanza|Rafael Castillo": 1,
+   "Berazategui|Villa España": 1,
+   "Berazategui|Ranelagh": 1,
+   "Florencio Varela|Estanislao Severo Zeballos": 1,
+   "Florencio Varela|Villa Vatteone": 1,
+   "Berazategui|Carlos Tomás Sourigues": 1,
+   "Florencio Varela|Bosques": 1,
+   "Florencio Varela|Villa Santa Rosa": 1,
+   "Berazategui|Plátanos": 1,
+   "Malvinas Argentinas|Ingeniero Adolfo Sourdeaux": 1,
+   "Malvinas Argentinas|Villa de Mayo": 1,
+   "Berazategui|Guillermo Enrique Hudson": 1,
+   "Merlo|San Antonio de Padua": 1,
+   "Florencio Varela|Villa San Luis": 1,
+   "Merlo|Libertad": 1,
+   "La Matanza|González Catán": 1,
+   "Ezeiza|José María Ezeiza": 1,
+   "Malvinas Argentinas|Los Polvorines": 1,
+   "Florencio Varela|Villa Brown": 1,
+   "Berazategui|Juan María Gutiérrez": 1,
+   "Malvinas Argentinas|Malvinas Argentinas": 1,
+   "Malvinas Argentinas|Ingeniero Pablo Nogués": 1,
+   "Merlo|Merlo": 1,
+   "Ezeiza|Canning": 1,
+   "Merlo|Pontevedra": 1,
+   "Ezeiza|La Unión": 1,
+   "Florencio Varela|Ingeniero Juan Allan": 1,
+   "Malvinas Argentinas|Grand Bourg": 1,
+   "Malvinas Argentinas|Área de Promoción El Triángulo": 1,
+   "Moreno|Trujui": 1,
+   "Moreno|Paso del Rey": 2,
+   "La Matanza|Virrey del Pino": 2,
+   "Ezeiza|Tristán Suárez": 2,
+   "Berazategui|El Pato": 2,
+   "Berazategui|Pereyra": 2,
+   "Malvinas Argentinas|Tortuguitas": 2,
+   "La Matanza|20 de Junio": 2,
+   "Florencio Varela|La Capilla": 2,
+   "Moreno|Moreno": 2,
+   "Ezeiza|Carlos Spegazzini": 2,
+   "Florencio Varela|El Tropezón": 2,
+   "Moreno|Cuartel V": 2,
+   "Merlo|Mariano Acosta": 2,
+   "Moreno|La Reja": 2,
+   "Moreno|Francisco Álvarez": 2
   }
  }
 }
