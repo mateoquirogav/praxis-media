@@ -1387,7 +1387,7 @@
    "l": "Grand Bourg",
    "a": -34.50242,
    "o": -58.71435,
-   "g": 1
+   "g": 2
   },
   "1602": {
    "p": "Vicente López",
@@ -1457,28 +1457,28 @@
    "l": null,
    "a": -34.49153,
    "o": -58.69172,
-   "g": 1
+   "g": 2
   },
   "1614": {
    "p": "Malvinas Argentinas",
    "l": "Villa de Mayo",
    "a": -34.50881,
    "o": -58.67322,
-   "g": 1
+   "g": 2
   },
   "1615": {
    "p": "Malvinas Argentinas",
    "l": "Grand Bourg",
    "a": -34.48901,
    "o": -58.72639,
-   "g": 1
+   "g": 2
   },
   "1616": {
    "p": "Malvinas Argentinas",
    "l": "Grand Bourg",
    "a": -34.48499,
    "o": -58.71578,
-   "g": 1
+   "g": 2
   },
   "1617": {
    "p": "Tigre",
@@ -1730,7 +1730,7 @@
    "l": "Villa de Mayo",
    "a": -34.51588,
    "o": -58.67388,
-   "g": 1
+   "g": 2
   },
   "1661": {
    "p": "San Miguel",
@@ -1884,7 +1884,7 @@
    "l": "Monte Grande",
    "a": -34.83201,
    "o": -58.45604,
-   "g": 1
+   "g": 2
   },
   "1702": {
    "p": "Tres de Febrero",
@@ -1926,21 +1926,21 @@
    "l": "Villa Gobernador Udadondo",
    "a": -34.61835,
    "o": -58.69672,
-   "g": 1
+   "g": 2
   },
   "1714": {
    "p": "Ituzaingó",
    "l": null,
    "a": -34.64424,
    "o": -58.67797,
-   "g": 1
+   "g": 2
   },
   "1715": {
    "p": "Ituzaingó",
    "l": "Villa Udaondo",
    "a": -34.62607,
    "o": -58.69449,
-   "g": 1
+   "g": 2
   },
   "1716": {
    "p": "Merlo",
@@ -1968,7 +1968,7 @@
    "l": "Parque San Martín",
    "a": -34.6898,
    "o": -58.75426,
-   "g": 2
+   "g": 1
   },
   "1722": {
    "p": "Merlo",
@@ -2101,14 +2101,14 @@
    "l": null,
    "a": -34.70786,
    "o": -58.56189,
-   "g": 1
+   "g": 0
   },
   "1755": {
    "p": "La Matanza",
    "l": "Rafael Castillo",
    "a": -34.7091,
    "o": -58.62563,
-   "g": 1
+   "g": 2
   },
   "1756": {
    "p": "La Matanza",
@@ -2122,21 +2122,21 @@
    "l": "Gregorio de Laferrere",
    "a": -34.7476,
    "o": -58.59419,
-   "g": 1
+   "g": 2
   },
   "1758": {
    "p": "La Matanza",
    "l": "González Catán",
    "a": -34.79922,
    "o": -58.6254,
-   "g": 1
+   "g": 2
   },
   "1759": {
    "p": "La Matanza",
    "l": "González Catán",
    "a": -34.77405,
    "o": -58.62571,
-   "g": 1
+   "g": 2
   },
   "1761": {
    "p": "La Matanza / Merlo",
@@ -2213,7 +2213,7 @@
    "l": null,
    "a": -34.81973,
    "o": -58.28577,
-   "g": 0
+   "g": 2
   },
   "1778": {
    "p": "La Matanza",
@@ -2248,21 +2248,21 @@
    "l": "Canning",
    "a": -34.87469,
    "o": -58.50714,
-   "g": 1
+   "g": 2
   },
   "1802": {
    "p": "Esteban Echeverría",
    "l": "El Jagüel",
    "a": -34.81586,
    "o": -58.50856,
-   "g": 1
+   "g": 2
   },
   "1804": {
    "p": "Esteban Echeverría / Ezeiza",
    "l": null,
    "a": -34.85105,
    "o": -58.51905,
-   "g": 1
+   "g": 2
   },
   "1806": {
    "p": "Ezeiza",
@@ -2276,7 +2276,7 @@
    "l": "Canning",
    "a": -34.86432,
    "o": -58.49822,
-   "g": 1
+   "g": 2
   },
   "1808": {
    "p": "Cañuelas",
@@ -2395,21 +2395,21 @@
    "l": "Luis Guillón",
    "a": -34.80264,
    "o": -58.45068,
-   "g": 1
+   "g": 2
   },
   "1839": {
    "p": "Esteban Echeverría",
    "l": "9 de Abril",
    "a": -34.75601,
    "o": -58.48404,
-   "g": 1
+   "g": 2
   },
   "1842": {
    "p": "Esteban Echeverría",
    "l": null,
    "a": -34.82361,
    "o": -58.48157,
-   "g": 1
+   "g": 2
   },
   "1843": {
    "p": "Almirante Brown",
@@ -2430,14 +2430,14 @@
    "l": "Partido de Almirante Brown",
    "a": -34.90289,
    "o": -58.39966,
-   "g": 1
+   "g": 2
   },
   "1846": {
    "p": "Almirante Brown",
    "l": null,
    "a": -34.79707,
    "o": -58.37338,
-   "g": 1
+   "g": 0
   },
   "1847": {
    "p": "Almirante Brown",
@@ -2451,14 +2451,14 @@
    "l": "Ministro Rivadavia",
    "a": -34.86002,
    "o": -58.36031,
-   "g": 1
+   "g": 2
   },
   "1849": {
    "p": "Almirante Brown / La Plata",
    "l": null,
    "a": -34.86594,
    "o": -58.16846,
-   "g": 0
+   "g": 2
   },
   "1851": {
    "p": "Almirante Brown",
@@ -2472,28 +2472,28 @@
    "l": null,
    "a": -34.85181,
    "o": -58.39052,
-   "g": 1
+   "g": 0
   },
   "1853": {
    "p": "Florencio Varela",
    "l": "Villa Vatteone",
    "a": -34.84218,
    "o": -58.26294,
-   "g": 1
+   "g": 2
   },
   "1854": {
    "p": "Almirante Brown",
    "l": "Longchamps",
    "a": -34.86073,
    "o": -58.38918,
-   "g": 1
+   "g": 2
   },
   "1856": {
    "p": "Almirante Brown",
    "l": "Glew",
    "a": -34.88834,
    "o": -58.38279,
-   "g": 1
+   "g": 2
   },
   "1862": {
    "p": "Presidente Perón",
@@ -2598,7 +2598,7 @@
    "l": null,
    "a": -34.82764,
    "o": -58.18029,
-   "g": 0
+   "g": 2
   },
   "1881": {
    "p": "Almirante Brown / Quilmes",
@@ -2626,56 +2626,56 @@
    "l": null,
    "a": -34.77183,
    "o": -58.21683,
-   "g": 1
+   "g": 2
   },
   "1885": {
    "p": "Berazategui",
    "l": "Plátanos",
    "a": -34.78181,
    "o": -58.17019,
-   "g": 1
+   "g": 2
   },
   "1886": {
    "p": "Berazategui",
    "l": "Ranelagh",
    "a": -34.78779,
    "o": -58.20319,
-   "g": 1
+   "g": 2
   },
   "1888": {
    "p": "Cañuelas / Florencio Varela",
    "l": null,
    "a": -34.86565,
    "o": -58.31848,
-   "g": 0
+   "g": 2
   },
   "1889": {
    "p": "Florencio Varela",
    "l": "Bosques",
    "a": -34.81661,
    "o": -58.23131,
-   "g": 1
+   "g": 2
   },
   "1890": {
    "p": "Berazategui",
    "l": "Juan María Gutiérrez",
    "a": -34.83391,
    "o": -58.18381,
-   "g": 1
+   "g": 2
   },
   "1891": {
    "p": "Florencio Varela",
    "l": "Ingeniero Juan Allan",
    "a": -34.86668,
    "o": -58.19856,
-   "g": 1
+   "g": 2
   },
   "1893": {
    "p": "Florencio Varela",
    "l": "Ingeniero Juan Allan",
    "a": -34.87217,
    "o": -58.20141,
-   "g": 1
+   "g": 2
   },
   "1894": {
    "p": "Berazategui / La Plata",
@@ -2963,31 +2963,31 @@
    "Tigre"
   ],
   "partidos": {
-   "Almirante Brown": 1,
+   "Almirante Brown": 0,
    "Avellaneda": 1,
-   "Berazategui": 0,
+   "Berazategui": 2,
    "Berisso": 2,
    "Brandsen": 2,
    "Campana": 2,
    "Cañuelas": 2,
    "Ensenada": 2,
    "Escobar": 1,
-   "Esteban Echeverría": 1,
+   "Esteban Echeverría": 2,
    "Exaltación de la Cruz": 2,
-   "Ezeiza": 0,
-   "Florencio Varela": 0,
+   "Ezeiza": 2,
+   "Florencio Varela": 2,
    "General Las Heras": 2,
    "General Rodríguez": 2,
    "General San Martín": 1,
    "Hurlingham": 1,
-   "Ituzaingó": 1,
+   "Ituzaingó": 2,
    "José C. Paz": 2,
    "La Matanza": 0,
    "La Plata": 2,
    "Lanús": 1,
    "Lomas de Zamora": 1,
    "Luján": 2,
-   "Malvinas Argentinas": 0,
+   "Malvinas Argentinas": 2,
    "Marcos Paz": 2,
    "Merlo": 0,
    "Moreno": 0,
@@ -3005,67 +3005,244 @@
    "Zárate": 2
   },
   "localidades": {
-   "La Matanza|Villa Eduardo Madero": 1,
-   "La Matanza|Lomas del Mirador": 1,
-   "La Matanza|Tapiales": 1,
-   "La Matanza|La Tablada": 1,
-   "La Matanza|Ramos Mejía": 1,
-   "La Matanza|Aldo Bonzi": 1,
-   "La Matanza|San Justo": 1,
-   "La Matanza|Ciudad Evita": 1,
-   "La Matanza|Villa Luzuriaga": 1,
-   "La Matanza|Isidro Casanova": 1,
-   "Berazategui|Berazategui Oeste": 1,
-   "Berazategui|Berazategui": 1,
-   "Florencio Varela|Gobernador Julio A. Costa": 1,
-   "Ezeiza|Aeropuerto Internacional Ezeiza": 1,
-   "Florencio Varela|San Juan Bautista": 1,
-   "La Matanza|Gregorio de Laferrere": 1,
-   "La Matanza|Rafael Castillo": 1,
-   "Berazategui|Villa España": 1,
-   "Berazategui|Ranelagh": 1,
-   "Florencio Varela|Estanislao Severo Zeballos": 1,
-   "Florencio Varela|Villa Vatteone": 1,
-   "Berazategui|Carlos Tomás Sourigues": 1,
-   "Florencio Varela|Bosques": 1,
-   "Florencio Varela|Villa Santa Rosa": 1,
-   "Berazategui|Plátanos": 1,
-   "Malvinas Argentinas|Ingeniero Adolfo Sourdeaux": 1,
-   "Malvinas Argentinas|Villa de Mayo": 1,
-   "Berazategui|Guillermo Enrique Hudson": 1,
-   "Merlo|San Antonio de Padua": 1,
-   "Florencio Varela|Villa San Luis": 1,
-   "Merlo|Libertad": 1,
-   "La Matanza|González Catán": 1,
-   "Ezeiza|José María Ezeiza": 1,
-   "Malvinas Argentinas|Los Polvorines": 1,
-   "Florencio Varela|Villa Brown": 1,
-   "Berazategui|Juan María Gutiérrez": 1,
-   "Malvinas Argentinas|Malvinas Argentinas": 1,
-   "Malvinas Argentinas|Ingeniero Pablo Nogués": 1,
-   "Merlo|Merlo": 1,
-   "Ezeiza|Canning": 1,
-   "Merlo|Pontevedra": 1,
-   "Ezeiza|La Unión": 1,
-   "Florencio Varela|Ingeniero Juan Allan": 1,
-   "Malvinas Argentinas|Grand Bourg": 1,
-   "Malvinas Argentinas|Área de Promoción El Triángulo": 1,
-   "Moreno|Trujui": 1,
-   "Moreno|Paso del Rey": 2,
-   "La Matanza|Virrey del Pino": 2,
-   "Ezeiza|Tristán Suárez": 2,
-   "Berazategui|El Pato": 2,
-   "Berazategui|Pereyra": 2,
-   "Malvinas Argentinas|Tortuguitas": 2,
+   "Almirante Brown|Adrogué": 2,
+   "Almirante Brown|Burzaco": 2,
+   "Almirante Brown|Claypole": 2,
+   "Almirante Brown|Don Orione": 2,
+   "Almirante Brown|Glew": 2,
+   "Almirante Brown|José Mármol": 1,
+   "Almirante Brown|Longchamps": 2,
+   "Almirante Brown|Malvinas Argentinas": 1,
+   "Almirante Brown|Ministro Rivadavia": 2,
+   "Almirante Brown|Rafael Calzada": 1,
+   "Almirante Brown|San Francisco Solano": 1,
+   "Almirante Brown|San José": 1,
    "La Matanza|20 de Junio": 2,
-   "Florencio Varela|La Capilla": 2,
-   "Moreno|Moreno": 2,
-   "Ezeiza|Carlos Spegazzini": 2,
-   "Florencio Varela|El Tropezón": 2,
-   "Moreno|Cuartel V": 2,
+   "La Matanza|Aldo Bonzi": 1,
+   "La Matanza|Ciudad Evita": 1,
+   "La Matanza|González Catán": 2,
+   "La Matanza|Gregorio de Laferrere": 2,
+   "La Matanza|Isidro Casanova": 1,
+   "La Matanza|La Tablada": 1,
+   "La Matanza|Lomas del Mirador": 1,
+   "La Matanza|Rafael Castillo": 2,
+   "La Matanza|Ramos Mejía": 1,
+   "La Matanza|San Justo": 1,
+   "La Matanza|Tapiales": 1,
+   "La Matanza|Villa Eduardo Madero": 1,
+   "La Matanza|Villa Luzuriaga": 1,
+   "La Matanza|Virrey del Pino": 2,
+   "Merlo|Libertad": 1,
    "Merlo|Mariano Acosta": 2,
+   "Merlo|Merlo": 1,
+   "Merlo|Pontevedra": 1,
+   "Merlo|San Antonio de Padua": 1,
+   "Moreno|Cuartel V": 2,
+   "Moreno|Francisco Álvarez": 2,
    "Moreno|La Reja": 2,
-   "Moreno|Francisco Álvarez": 2
+   "Moreno|Moreno": 2,
+   "Moreno|Paso del Rey": 2,
+   "Moreno|Trujui": 1
+  },
+  "vecinos": {
+   "Almirante Brown": [
+    [
+     -34.79737,
+     -58.38845,
+     2
+    ],
+    [
+     -34.82817,
+     -58.39103,
+     2
+    ],
+    [
+     -34.79756,
+     -58.3352,
+     2
+    ],
+    [
+     -34.81929,
+     -58.34185,
+     2
+    ],
+    [
+     -34.88834,
+     -58.38279,
+     2
+    ],
+    [
+     -34.78632,
+     -58.36984,
+     1
+    ],
+    [
+     -34.86073,
+     -58.38918,
+     2
+    ],
+    [
+     -34.81876,
+     -58.42339,
+     1
+    ],
+    [
+     -34.84402,
+     -58.36275,
+     2
+    ],
+    [
+     -34.79736,
+     -58.36167,
+     1
+    ],
+    [
+     -34.78565,
+     -58.31957,
+     1
+    ],
+    [
+     -34.76363,
+     -58.34339,
+     1
+    ]
+   ],
+   "La Matanza": [
+    [
+     -34.77615,
+     -58.72957,
+     2
+    ],
+    [
+     -34.70698,
+     -58.51917,
+     1
+    ],
+    [
+     -34.71577,
+     -58.53495,
+     1
+    ],
+    [
+     -34.77303,
+     -58.64404,
+     2
+    ],
+    [
+     -34.74699,
+     -58.58926,
+     2
+    ],
+    [
+     -34.71097,
+     -58.58581,
+     1
+    ],
+    [
+     -34.68646,
+     -58.52565,
+     1
+    ],
+    [
+     -34.66528,
+     -58.53177,
+     1
+    ],
+    [
+     -34.7091,
+     -58.62563,
+     2
+    ],
+    [
+     -34.6455,
+     -58.55967,
+     1
+    ],
+    [
+     -34.68114,
+     -58.56374,
+     1
+    ],
+    [
+     -34.69905,
+     -58.50786,
+     1
+    ],
+    [
+     -34.68813,
+     -58.49317,
+     1
+    ],
+    [
+     -34.66353,
+     -58.58239,
+     1
+    ],
+    [
+     -34.83765,
+     -58.64697,
+     2
+    ]
+   ],
+   "Merlo": [
+    [
+     -34.69864,
+     -58.69023,
+     1
+    ],
+    [
+     -34.72292,
+     -58.79541,
+     2
+    ],
+    [
+     -34.66697,
+     -58.72795,
+     1
+    ],
+    [
+     -34.75026,
+     -58.70126,
+     1
+    ],
+    [
+     -34.66267,
+     -58.69813,
+     1
+    ]
+   ],
+   "Moreno": [
+    [
+     -34.54882,
+     -58.80988,
+     2
+    ],
+    [
+     -34.63319,
+     -58.85547,
+     2
+    ],
+    [
+     -34.63901,
+     -58.82669,
+     2
+    ],
+    [
+     -34.64691,
+     -58.78893,
+     2
+    ],
+    [
+     -34.65313,
+     -58.76124,
+     2
+    ],
+    [
+     -34.59074,
+     -58.75563,
+     1
+    ]
+   ]
   }
  }
 }
