@@ -369,11 +369,14 @@
         ev.preventDefault(); ev.stopImmediatePropagation();
         card.classList.add('err'); irA();
       };
+      // el botón de la ficha (el tema y el motor lo redibujan: se escucha en el documento),
+      // la barra fija del motor («Comprar») y el aviso de campo obligatorio del navegador
       form.addEventListener('submit', frenar, true);
-      $$('.js-addtocart', form).forEach(function (b) { b.addEventListener('click', frenar, true); });
-
-      // la barra fija del motor («Comprar») también pasa por acá
-      document.addEventListener('click', function (ev) { if (ev.target.closest && ev.target.closest('.wsa-btn')) frenar(ev); }, true);
+      document.addEventListener('click', function (ev) {
+        var t = ev.target.closest && ev.target.closest('.js-addtocart, .wsa-btn');
+        if (t && (t.classList.contains('wsa-btn') || t.closest('#product_form'))) frenar(ev);
+      }, true);
+      form.addEventListener('invalid', function () { if (!card.__completo()) { card.classList.add('err'); irA(); } }, true);
       card.__pintar();
     };
 
