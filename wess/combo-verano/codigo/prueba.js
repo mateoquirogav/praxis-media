@@ -27,6 +27,7 @@
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   var plata = function (n) { return '$' + Math.round(n).toLocaleString('es-AR'); };
+  var exacto = function (n) { return '$' + n.toLocaleString('es-AR', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
 
   function datos() {
@@ -70,8 +71,8 @@
     '.wbv-sh span{font-size:12.5px;color:#a1a1aa}' +
     '.wbv-sh span.ok{color:#4ade80}' +
     '.wbv-cs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px}' +
-    '.wbv-c{appearance:none;border:1.5px solid #2c2c30;background:#141416;border-radius:10px;padding:5px 5px 7px;cursor:pointer;color:#d4d4d8;font:500 12.5px Inter,sans-serif;text-align:center}' +
-    '.wbv-c img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:6px;margin-bottom:5px}' +
+    '.wbv-c{appearance:none;display:flex;align-items:center;gap:8px;border:1.5px solid #2c2c30;background:#141416;border-radius:10px;padding:5px 6px;cursor:pointer;color:#d4d4d8;font:500 13.5px Inter,sans-serif;text-align:left;min-height:46px}' +
+    '.wbv-c img{display:block;width:34px;height:34px;flex:0 0 34px;object-fit:cover;border-radius:6px;margin:0}' +
     '.wbv-c.on{border-color:#fff;color:#fff;background:#1c1c1f}' +
     '.wbv-ts{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}' +
     '.wbv-tl{appearance:none;border:1.5px solid #2c2c30;background:#141416;border-radius:8px;height:40px;cursor:pointer;color:#e4e4e7;font:600 14px Inter,sans-serif}' +
@@ -139,13 +140,6 @@
     '.wbv-faq p{padding:0 0 16px;font-size:14px;color:#c4c4c8;line-height:1.55}' +
     '.wbv-fin{text-align:center;padding:52px 0 10px}' +
     '.wbv-fin h2{font-size:48px;color:#fff}' +
-    /* barra fija celular */
-    '.wbv-bar{position:fixed;left:0;right:0;bottom:0;z-index:9990;background:#0b0b0d;border-top:1px solid #2c2c30;padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:none;align-items:center;gap:12px;font-family:Inter,sans-serif;transform:translateY(110%);transition:transform .25s ease}' +
-    '.wbv-bar.on{transform:none}' +
-    '.wbv-bar .p{color:#fff;font:700 24px "Barlow Condensed",sans-serif;line-height:1}' +
-    '.wbv-bar small{display:block;color:#a1a1aa;font-size:11.5px;margin-top:2px}' +
-    '.wbv-bar button{margin-left:auto;background:' + ROJO + ';color:#fff;border:0;border-radius:10px;padding:13px 16px;font:700 17px "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.04em;cursor:pointer}' +
-    '@media (max-width:767px){.wbv-bar{display:flex}}' +
     '@media (min-width:768px){' +
       '.wbv-sec{padding-top:72px}.wbv-sec h2{font-size:56px}' +
       '.wbv-hero{grid-template-columns:420px 1fr;gap:56px;padding-top:56px}.wbv-ht h2{font-size:84px}' +
@@ -192,7 +186,7 @@
     });
     card.appendChild(el('div', 'wbv-pr',
       '<span class="a">' + plata(d.transf) + '</span><span class="b">con transferencia</span>' +
-      '<span class="c">' + plata(d.lista) + ' con tarjeta · ' + n + ' bermudas a elección</span>'));
+      '<span class="c">' + exacto(d.lista) + ' con tarjeta · ' + n + ' bermudas a elección</span>'));
 
     var rs = el('div', 'wbv-res');
     slots.forEach(function (s, i) {
@@ -236,7 +230,6 @@
       } else {
         rs.textContent = 'Elegí el color y el talle de cada bermuda. Podés llevar talles distintos.';
       }
-      var bar = $('.wbv-bar button'); if (bar) bar.textContent = completo() ? 'Agregar al carrito' : 'Armar mi combo';
     }
     card.__completo = completo; card.__pintar = pintar;
     return card;
@@ -284,7 +277,7 @@
       '<div class="wbv-sec"><div class="wbv-k">De cerca</div><h2>Hecha para usarla todos los días</h2>' +
         '<div class="wbv-2">' +
           '<div class="wbv-d"><div class="wbv-fr">' + vid('det-cintura.mp4', 'det-cintura.jpg') + '</div><b>Cintura elástica</b><p>Elástico ancho: calza firme y no aprieta.</p></div>' +
-          '<div class="wbv-d"><div class="wbv-fr">' + vid('det-bolsillo.mp4', 'det-bolsillo.jpg') + '</div><b>Bolsillos amplios</b><p>Entra el celu, la billetera y las llaves.</p></div>' +
+          '<div class="wbv-d"><div class="wbv-fr">' + vid('det-bolsillo.mp4', 'det-bolsillo.jpg') + '</div><b>Bolsillos amplios</b><p>Uno a cada costado, al alcance de la mano.</p></div>' +
           '<div class="wbv-d"><div class="wbv-fr">' + vid('det-espalda.mp4', 'det-espalda.jpg') + '</div><b>Bolsillo atrás</b><p>Bolsillo de parche en la espalda.</p></div>' +
           '<div class="wbv-d"><div class="wbv-fr">' + vid('det-caida.mp4', 'det-caida.jpg') + '</div><b>Caída baggy</b><p>Holgada y al largo de la rodilla.</p></div>' +
         '</div></div>' +
@@ -294,7 +287,7 @@
           '<div class="wbv-op' + (n === 2 ? ' top' : '') + '"><b>2 bermudas</b><div class="p">' + plata(p2) + '</div><div class="u">' + plata(p2 / 2) + ' cada una</div><div class="t">con transferencia</div></div>' +
           '<div class="wbv-op' + (n === 3 ? ' top' : '') + '"><i>CONVIENE</i><b>3 bermudas</b><div class="p">' + plata(p3) + '</div><div class="u">' + plata(p3 / 3) + ' cada una</div><div class="t">con transferencia</div></div>' +
         '</div>' +
-        '<p class="wbv-sub" style="margin-top:12px">' + (n === 2 ? '<a href="' + cfg.otro + '" style="color:#fff">Pasate al combo de 3</a> y cada bermuda te sale ' + plata(p2 / 2 - p3 / 3) + ' menos.' : 'Con 3 cada bermuda te sale ' + plata(p2 / 2 - p3 / 3) + ' menos que en el combo de 2.') + '</p></div>' : '') +
+        '<p class="wbv-sub" style="margin-top:12px">' + (n === 2 ? '<a href="' + cfg.otro + '" style="color:#fff;text-decoration:underline">Pasate al combo de 3</a> y cada bermuda te sale ' + plata(p2 / 2 - p3 / 3) + ' menos.' : 'Con 3 cada bermuda te sale ' + plata(p2 / 2 - p3 / 3) + ' menos que en el combo de 2.') + '</p></div>' : '') +
 
       '<div class="wbv-sec"><div class="wbv-k">Calce</div><h2>Elegí tu talle sin dudar</h2>' +
         '<div class="wbv-ca"><div class="box"><table class="wbv-tab" style="margin-top:0"><tr><th>Talle</th><th>Cintura</th><th>Cadera</th><th>Largo</th></tr>' +
@@ -315,7 +308,7 @@
         '<details><summary>¿Puedo elegir talles distintos en el combo?</summary><p>Sí. Elegís el color y el talle de cada bermuda por separado.</p></details>' +
         '<details><summary>¿Puedo llevar dos del mismo color?</summary><p>Sí, el combo se arma como quieras: todas iguales o mezcladas.</p></details>' +
         '<details><summary>¿Cómo sé mi talle?</summary><p>Fijate la tabla de arriba. El modelo mide 1,70 m, pesa 70 kg y usa L. Si dudás entre dos, llevá el más grande.</p></details>' +
-        '<details><summary>¿El precio del combo es con tarjeta?</summary><p>El precio grande es pagando con transferencia. Con tarjeta el combo de ' + n + ' sale ' + plata(d.lista) + ' y lo ves al pagar.</p></details>' +
+        '<details><summary>¿El precio del combo es con tarjeta?</summary><p>El precio grande es pagando con transferencia. Con tarjeta el combo de ' + n + ' sale ' + exacto(d.lista) + ' y lo ves al pagar.</p></details>' +
         '<details><summary>¿Y si no me queda bien?</summary><p>Tenés 10 días para cambiarla. Escribinos por WhatsApp y lo coordinamos.</p></details>' +
         '<details><summary>¿Cuánto tarda en llegar?</summary><p>En Córdoba Capital te la lleva nuestro cadete, en el día. Al resto del país va por correo con seguimiento.</p></details>' +
       '</div></div>' +
@@ -379,18 +372,8 @@
       form.addEventListener('submit', frenar, true);
       $$('.js-addtocart', form).forEach(function (b) { b.addEventListener('click', frenar, true); });
 
-      // barra fija (celular)
-      var bar = el('div', 'wbv-bar', '<div><div class="p">' + plata(d.transf) + '</div><small>' + cfg.n + ' bermudas · con transferencia</small></div><button type="button">Armar mi combo</button>');
-      document.body.appendChild(bar);
-      $('button', bar).addEventListener('click', function () {
-        if (card.__completo()) { var b = $('.js-addtocart:not(.js-addtocart-placeholder)', form) || $('.js-addtocart', form); if (b) b.click(); }
-        else irA();
-      });
-      var actualizarBarra = function () {
-        var r = card.getBoundingClientRect();
-        bar.classList.toggle('on', r.bottom < 0 || r.top > innerHeight);
-      };
-      addEventListener('scroll', actualizarBarra, { passive: true }); actualizarBarra();
+      // la barra fija del motor («Comprar») también pasa por acá
+      document.addEventListener('click', function (ev) { if (ev.target.closest && ev.target.closest('.wsa-btn')) frenar(ev); }, true);
       card.__pintar();
     };
 
