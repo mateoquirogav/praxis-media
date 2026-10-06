@@ -1,4 +1,4 @@
-['wess-form-faqs','wess-carousel','wess-problema','wess-tresfotos','wess-comp-table','wess-marquee','wess-testimonios','wess-faqs-main','wess-garantia'].forEach(function(i){var e=document.getElementById(i);if(e)e.remove()});document.querySelectorAll('.wbv-land,.wbv-card,.wbv-bar,.wbv-m,#wbv-css').forEach(function(e){e.remove()});document.getElementById('campo-personalizado--root')&&document.getElementById('campo-personalizado--root').classList.remove('wbv-oculto');window.__wbv=0;/* WESS · Landing Combo Verano (bermudas baggy de rústico) — PRAXIS 06-10-2026
+/* WESS · Landing Combo Verano (bermudas baggy de rústico) — PRAXIS 06-10-2026
    Va DENTRO de la descripción de los dos combos (2 y 3 bermudas). Todo el HTML se arma acá.
    - Apaga la landing general del motor SOLO en estos dos productos (WESS_CONFIG = null).
    - "Armá tu combo": color + talle por bermuda, con fotos. Completa los campos de la app
@@ -181,7 +181,7 @@
     $$('a', tg).forEach(function (a) {
       a.addEventListener('click', function (ev) {
         if (a.classList.contains('on')) { ev.preventDefault(); return; }
-        try { sessionStorage.setItem('wbv-elec', JSON.stringify({ s: slots })); } catch (e) {}
+        try { sessionStorage.setItem('wbv-elec', JSON.stringify({ s: slots.map(function (x) { return { c: x.c, t: x.t }; }) })); } catch (e) {}
       });
     });
     card.appendChild(el('div', 'wbv-pr',
