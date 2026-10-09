@@ -185,6 +185,9 @@
       var fija = document.createElement('div'); fija.className = 'venc-fija';
       fija.innerHTML = (foto ? '<img alt="" src="' + foto + '">' : '') + '<b></b><span class="venc-pr"></span><button type="button">Agregar al carrito</button>';
       fija.querySelector('b').textContent = nombre.trim();
+      /* el botón dice lo mismo que el nativo (ej.: «Consultar precio» si no hay precio) */
+      var txt = (btn.value || btn.textContent || '').trim();
+      if (txt) fija.querySelector('button').textContent = txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
       document.body.appendChild(fija);
       var precio = function(){ var p = document.querySelector('#single-product .js-price-display'); fija.querySelector('.venc-pr').textContent = p ? p.textContent.trim() : ''; };
       fija.querySelector('button').addEventListener('click', function(){ btn.click(); });
