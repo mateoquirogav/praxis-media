@@ -155,6 +155,8 @@
     /* botones de color: eligen la variante nativa si existe; si no, suben a la compra */
     var chips = venc.querySelector('.venc-chips');
     function subir(){ var t = document.querySelector('#single-product') || document.body; window.scrollTo({top: Math.max(0, t.getBoundingClientRect().top + window.pageYOffset - 90), behavior:'smooth'}); }
+    /* el editor deja un &nbsp; en el div vacío: se limpia para que no corra los botones */
+    if (chips) chips.innerHTML = '';
     if (chips) COLORES.forEach(function(c){
       var b = document.createElement('button'); b.type = 'button';
       b.innerHTML = '<i style="background:' + c[1] + '"></i>' + c[0];
