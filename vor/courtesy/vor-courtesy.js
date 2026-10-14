@@ -118,6 +118,15 @@
   + '.vcd-precio{font-family:' + SAN + ';color:#26211D;margin:6px 0 18px}'
   + '.vcd-precio b{display:block;font-weight:500;font-size:clamp(30px,3vw,38px);line-height:1.05;letter-spacing:-.01em;font-variant-numeric:tabular-nums}'
   + '.vcd-precio span{display:block;font-size:15px;color:#6B635B;margin-top:8px}'
+  /* colores del boceto (círculos) + botón cobre */
+  + '.vcd-colores{font-family:' + SAN + ';color:#26211D;margin:0 0 22px}'
+  + '.vcd-colores p{font-size:14px;margin:0 0 12px}'
+  + '.vcd-colores p b{font-weight:500}'
+  + '.vcd-colores div{display:flex;flex-wrap:wrap;gap:12px}'
+  + '.vcd-colores button{width:34px;height:34px;border-radius:50%;border:0;padding:0;cursor:pointer;box-shadow:0 0 0 1px rgba(38,33,29,.14) inset}'
+  + '.vcd-colores button[aria-pressed="true"]{box-shadow:0 0 0 2px #fff,0 0 0 3px #26211D}'
+  + '#single-product .js-addtocart:not(.js-addtocart-placeholder){background:#9C5A33!important;border-color:#9C5A33!important;color:#fff!important;border-radius:999px!important;text-transform:none!important;letter-spacing:.01em!important;font:500 15.5px/1 ' + SAN + '!important;min-height:50px}'
+  + '#single-product .js-addtocart:not(.js-addtocart-placeholder):hover{background:#7F4625!important;border-color:#7F4625!important}'
   + '@media (max-width:520px){.vcd-med{grid-template-columns:minmax(0,1fr)}}'
   + '@media (prefers-reduced-motion:reduce){.vcd *{animation:none!important;transition:none!important}}';
 
@@ -172,6 +181,26 @@
       };
       armarPrecio();
       new MutationObserver(armarPrecio).observe(pnat, {attributes:true, childList:true, characterData:true, subtree:true});
+
+      /* colores del boceto: si el producto tiene variantes de color, el círculo
+         elige la nativa; si no, cambia el nombre que se muestra */
+      var COLORES = [['Blanco roca mineral','#E6DED2'],['Arena tostada','#C4936A'],['Nogal','#6E4729'],['Piedra','#8C8273'],['Grafito suave','#6A6863'],['Negro','#151515']];
+      var cols = document.createElement('div'); cols.className = 'vcd-colores';
+      cols.innerHTML = '<p>Color: <b>' + COLORES[0][0] + '</b></p><div role="group" aria-label="Color"></div>';
+      var fila = cols.querySelector('div'), nom = cols.querySelector('b');
+      COLORES.forEach(function(c, i){
+        var b = document.createElement('button'); b.type = 'button';
+        b.style.background = c[1]; b.setAttribute('aria-label', c[0]); b.setAttribute('aria-pressed', i ? 'false' : 'true');
+        b.addEventListener('click', function(){
+          Array.prototype.forEach.call(fila.children, function(x){ x.setAttribute('aria-pressed','false'); });
+          b.setAttribute('aria-pressed','true'); nom.textContent = c[0];
+          Array.prototype.forEach.call(document.querySelectorAll('#single-product select'), function(s){
+            Array.prototype.forEach.call(s.options, function(o){ if (o.text.trim().toLowerCase() === c[0].toLowerCase()) { s.value = o.value; s.dispatchEvent(new Event('change', {bubbles:true})); } });
+          });
+        });
+        fila.appendChild(b);
+      });
+      pdis.parentNode.insertBefore(cols, pdis.nextSibling);
     }
 
     /* barra fija: lee el nombre, el precio y el botón NATIVOS */
