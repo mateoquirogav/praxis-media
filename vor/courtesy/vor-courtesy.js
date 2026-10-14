@@ -144,7 +144,11 @@
   + '.vcd-sellos>div{display:block;font-size:12px;line-height:1.3;color:#26211D;min-width:0;padding-left:30px;background:no-repeat 0 50%/22px 22px}'
   + '.vcd-sellos small{display:block;color:#6B635B;font-size:11px}'
   + '@media (min-width:768px){'
-  +   '#single-product>.container-fluid{max-width:1240px;margin:0 auto;padding:28px 40px 44px}'
+  +   '#single-product>.container-fluid{max-width:1240px;margin:0 auto;padding:20px 40px 28px}'
+  +   '#single-product .section-single-product{margin-bottom:0!important}'
+  +   '#single-product .section-single-product .page-header{padding-top:0!important}'
+  +   '#single-product .vcd-colores{margin-bottom:16px}'
+  +   '#single-product .vcd-sellos{margin-top:16px;padding-top:16px}'
   +   '#single-product .section-single-product{flex-wrap:nowrap;align-items:flex-start}'
   +   '#single-product .section-single-product>.col-md-8{flex:0 0 640px;max-width:640px;padding:0!important}'
   +   '#single-product .section-single-product>.col-md-8>.row{margin:0;flex-wrap:nowrap}'
@@ -163,6 +167,8 @@
 
     document.head.appendChild(fuentes);
     var st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
+    /* la galería (swiper) mide al cargar: se le avisa que cambió el ancho */
+    [60, 400, 1200].forEach(function(t){ setTimeout(function(){ window.dispatchEvent(new Event('resize')); }, t); });
 
     /* sacar el bloque de la columna derecha y dejarlo debajo del producto */
     var prod = vcd.closest('#single-product, .js-product-container');
