@@ -113,6 +113,11 @@
   +   '.vcd-fija{padding-left:12px;padding-right:12px;gap:10px}.vcd-fija img{width:40px;height:40px}'
   +   '.vcd-fija .vcd-pr{font-size:15px}.vcd-fija button{padding:0 18px;font-size:13.5px}'
   + '}'
+  /* precio de la compra (arriba, nativo): grande + cuotas, como la referencia */
+  + '.vcd-oculto{display:none!important}'
+  + '.vcd-precio{font-family:' + SAN + ';color:#26211D;margin:6px 0 18px}'
+  + '.vcd-precio b{display:block;font-weight:500;font-size:clamp(30px,3vw,38px);line-height:1.05;letter-spacing:-.01em;font-variant-numeric:tabular-nums}'
+  + '.vcd-precio span{display:block;font-size:15px;color:#6B635B;margin-top:8px}'
   + '@media (max-width:520px){.vcd-med{grid-template-columns:minmax(0,1fr)}}'
   + '@media (prefers-reduced-motion:reduce){.vcd *{animation:none!important;transition:none!important}}';
 
@@ -149,6 +154,26 @@
       document.addEventListener('keydown', function(e){ if (e.key === 'Escape') cerrar(); });
     }
 
+    /* precio: lee el NATIVO (data-product-price, en centavos) y lo muestra
+       grande con «o 3 cuotas de $ X sin interés». Se re-arma si cambia la variante. */
+    var CUOTAS = 3;
+    var pnat = document.querySelector('#single-product .js-price-display');
+    function pesos(n){ return '$ ' + Math.round(n).toLocaleString('es-AR'); }
+    function centavos(){ var v = pnat && parseInt(pnat.getAttribute('data-product-price'), 10); return v > 0 ? v / 100 : 0; }
+    if (pnat) {
+      var caja = pnat.parentElement && pnat.parentElement.tagName === 'SPAN' ? pnat.parentElement : pnat;
+      var pdis = document.createElement('div'); pdis.className = 'vcd-precio';
+      caja.parentNode.insertBefore(pdis, caja.nextSibling);
+      var armarPrecio = function(){
+        var v = centavos();
+        if (!v) { caja.classList.remove('vcd-oculto'); pdis.innerHTML = ''; return; }
+        caja.classList.add('vcd-oculto');
+        pdis.innerHTML = '<b>' + pesos(v) + '</b><span>o ' + CUOTAS + ' cuotas de ' + pesos(v / CUOTAS) + ' sin interés</span>';
+      };
+      armarPrecio();
+      new MutationObserver(armarPrecio).observe(pnat, {attributes:true, childList:true, characterData:true, subtree:true});
+    }
+
     /* barra fija: lee el nombre, el precio y el botón NATIVOS */
     var btn = document.querySelector('#single-product .js-addtocart, #single-product [type="submit"]');
     if (btn) {
@@ -162,7 +187,7 @@
       var txt = (btn.value || btn.textContent || '').trim();
       if (txt) fija.querySelector('button').textContent = txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
       document.body.appendChild(fija);
-      var precio = function(){ var p = document.querySelector('#single-product .js-price-display'); fija.querySelector('.vcd-pr').textContent = p ? p.textContent.trim() : ''; };
+      var precio = function(){ var v = centavos(); fija.querySelector('.vcd-pr').textContent = v ? pesos(v) : ''; };
       fija.querySelector('button').addEventListener('click', function(){ btn.click(); });
       var ver = function(){ precio(); var r = btn.getBoundingClientRect(); fija.classList.toggle('on', r.bottom < 0); };
       window.addEventListener('scroll', ver, {passive:true}); ver();
