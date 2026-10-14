@@ -151,7 +151,10 @@
   +   '#single-product .vcd-colores{margin-bottom:16px}'
   +   '#single-product .vcd-sellos{margin-top:16px;padding-top:16px}'
   +   '#single-product .section-single-product{flex-wrap:nowrap;align-items:flex-start}'
-  +   '#single-product .section-single-product>.col-md-8{flex:0 0 640px;max-width:640px;padding:0!important}'
+  +   '#single-product .section-single-product>.col-md-8{flex:0 0 700px;max-width:700px;padding:0!important}'
+  +   '#single-product.vcd-alto .product-image-container,#single-product.vcd-alto .js-swiper-product,#single-product.vcd-alto .js-swiper-product .swiper-wrapper,#single-product.vcd-alto .js-swiper-product .swiper-slide,#single-product.vcd-alto .js-product-slide-link{height:var(--vcd-alto)!important}'
+  +   '#single-product.vcd-alto .js-product-slide-link{padding-bottom:0!important}'
+  +   '#single-product.vcd-alto .js-product-slide-img{position:absolute;inset:0;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover;transform:none!important}'
   +   '#single-product .section-single-product>.col-md-8>.row{margin:0;flex-wrap:nowrap}'
   +   '#single-product .section-single-product .col-2{flex:0 0 80px;max-width:80px;padding:0 14px 0 0}'
   +   '#single-product .product-thumb{border-radius:8px;overflow:hidden;border:1px solid #ECE7DF}'
@@ -170,6 +173,17 @@
     var st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
     /* la galería (swiper) mide al cargar: se le avisa que cambió el ancho */
     [60, 400, 1200].forEach(function(t){ setTimeout(function(){ window.dispatchEvent(new Event('resize')); }, t); });
+
+    /* PC: la foto ocupa todo el alto de la columna de compra, hasta los sellos */
+    var sp = document.getElementById('single-product');
+    function ajustarAlto(){
+      var col = sp && sp.querySelector('.section-single-product>.col'), fin = sp && (sp.querySelector('.vcd-sellos') || sp.querySelector('#product_form'));
+      if (!col || !fin || window.innerWidth < 768) { if (sp) sp.classList.remove('vcd-alto'); return; }
+      var alto = Math.round(fin.getBoundingClientRect().bottom - col.getBoundingClientRect().top);
+      if (alto > 300) { sp.style.setProperty('--vcd-alto', alto + 'px'); sp.classList.add('vcd-alto'); }
+    }
+    [100, 500, 1500, 3000].forEach(function(t){ setTimeout(ajustarAlto, t); });
+    window.addEventListener('resize', function(){ clearTimeout(window.__vcdA); window.__vcdA = setTimeout(ajustarAlto, 120); });
 
     /* sacar el bloque de la columna derecha y dejarlo debajo del producto */
     var prod = vcd.closest('#single-product, .js-product-container');
