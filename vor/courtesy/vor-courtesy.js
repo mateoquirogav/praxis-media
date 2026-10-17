@@ -96,7 +96,29 @@
   + '.vcd-fija .vcd-pr{margin-left:auto;font-weight:500;font-size:17px;white-space:nowrap}'
   + '.vcd-fija button{height:46px;padding:0 26px;border-radius:999px;border:0;background:#9C5A33;color:#fff;font:500 14.5px/1 ' + SAN + ';cursor:pointer}'
   /* celular */
+  /* del boceto a tu hogar (VÖR Design Lab): el origen de la pieza, en 4 pasos reales */
+  + '.vcd-lab{padding-top:64px;padding-bottom:56px}'
+  + '.vcd-lab-cab{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:48px;align-items:end;margin-bottom:34px}'
+  + '.vcd-lab-ojo{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--c);margin:0 0 14px!important}'
+  + '.vcd-lab-cab p.vcd-lab-p{color:var(--s);font-size:15px;line-height:1.6;max-width:44ch}'
+  + '.vcd-pasos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;counter-reset:paso}'
+  + '.vcd-paso{min-width:0}'
+  + '.vcd-paso img{width:100%;aspect-ratio:5/4;object-fit:cover;border-radius:2px;background:var(--bg2)}'
+  + '.vcd-paso h3{counter-increment:paso;font-family:' + SAN + '!important;font-size:15px!important;font-weight:500!important;margin:16px 0 4px!important;display:flex;gap:10px;align-items:baseline}'
+  + '.vcd-paso h3::before{content:"0" counter(paso);font-size:11.5px;letter-spacing:.12em;color:var(--c)}'
+  + '.vcd-paso p{color:var(--s);font-size:13.5px;line-height:1.5}'
+  /* cierre: del producto al catálogo */
+  + '.vcd-fin{background:var(--bg2);text-align:center;padding:64px 24px 68px}'
+  + '.vcd-fin h2{font-family:' + SER + '!important;font-weight:500!important;font-size:clamp(30px,3.4vw,46px)!important;line-height:1.05!important;margin:0 auto!important;max-width:16ch}'
+  + '.vcd-fin p{color:var(--s);font-size:15px;margin:16px auto 0!important;max-width:42ch}'
+  + '.vcd-fin a.vcd-ir{display:inline-flex;align-items:center;gap:12px;margin-top:28px;background:var(--os);color:#F8F5F0!important;text-decoration:none!important;border-radius:99px;padding:15px 28px;font-size:15px;transition:background .2s}'
+  + '.vcd-fin a.vcd-ir:hover{background:var(--co)}'
+  + '.vcd-fin a.vcd-ir::after{content:"\\2192";font-size:17px}'
   + '@media (max-width:980px){'
+  +   '.vcd-lab{padding-top:44px;padding-bottom:40px}'
+  +   '.vcd-lab-cab{grid-template-columns:minmax(0,1fr);gap:14px;margin-bottom:24px}'
+  +   '.vcd-pasos{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 12px}'
+  +   '.vcd-fin{padding:48px 20px 52px}'
   +   '.vcd-in{padding-left:16px;padding-right:16px}'
   +   '.vcd-bnr{min-height:380px;align-items:flex-end}'
   +   '.vcd-bnr>img{object-position:74% 50%}'
@@ -193,6 +215,13 @@
     var tipos = ['rayo','destello','capas','casa','hoja'];
     Array.prototype.forEach.call(vcd.querySelectorAll('.vcd-b'), function(b,i){ b.style.backgroundImage = icoUrl(tipos[i % 5]); });
 
+    /* Cierre: «Descubrí nuestros diseños» lleva al catálogo del mismo país (/ar/ o México en la raíz)
+       y, en la vista previa del borrador, arrastra sus parámetros */
+    var ir = vcd.querySelector('.vcd-ir');
+    if (ir) {
+      var base = location.pathname.split('/productos/')[0] + '/productos/';
+      ir.setAttribute('href', base + (/preview/.test(location.search) ? location.search : ''));
+    }
     /* «Ver video»: si el banner trae data-video (MP4) lo reproduce; si no, la foto con zoom lento */
     var vid = vcd.querySelector('.vcd-video');
     if (vid) {
