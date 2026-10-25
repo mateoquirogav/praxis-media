@@ -19,7 +19,7 @@
 
    Piel: C['cro-kit'] = {
      acento, tinta, fondo, radio, fuente_texto,
-     notificaciones: { fuente, posicion: "abajo-izq|abajo-der|arriba-izq|arriba-der",
+     notificaciones: { fuente, posicion: "abajo-izq|abajo-der|arriba-izq|arriba-der", distancia: 12 (px al borde; ej. alto del encabezado),
                        primera: 8, duracion: 5, intervalo: 18, max: 12, cerrar: true,
                        items: [{ nombre, ciudad, producto, url, foto, cuando }] },
      resenas:   { fuente, ancla, items: [{ estrellas, texto, nombre, fecha, verificada }] },
@@ -77,10 +77,10 @@
       '.chip{display:inline-block;font:700 9.5px/1 ' + FX + ';letter-spacing:.12em;color:#7A5B00;background:#FFE9A8;border-radius:4px;padding:3px 5px;vertical-align:middle}' +
       /* notificación flotante */
       '.toast{position:fixed;z-index:2147483000;width:min(340px,calc(100vw - 24px));display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 10px 10px 10px;background:var(--f);color:var(--t);border-radius:var(--r);box-shadow:0 14px 40px -12px rgba(0,0,0,.35),0 0 0 1px rgba(0,0,0,.05);opacity:0;pointer-events:none;transition:opacity .35s ease,transform .45s cubic-bezier(.2,.8,.2,1)}' +
-      '.toast.abajo-izq{left:max(12px,env(safe-area-inset-left,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));transform:translateY(16px)}' +
-      '.toast.abajo-der{right:max(12px,env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));transform:translateY(16px)}' +
-      '.toast.arriba-izq{left:max(12px,env(safe-area-inset-left,0px));top:calc(12px + env(safe-area-inset-top,0px));transform:translateY(-16px)}' +
-      '.toast.arriba-der{right:max(12px,env(safe-area-inset-right,0px));top:calc(12px + env(safe-area-inset-top,0px));transform:translateY(-16px)}' +
+      '.toast.abajo-izq{left:max(12px,env(safe-area-inset-left,0px));bottom:calc(var(--d,12px) + env(safe-area-inset-bottom,0px));transform:translateY(16px)}' +
+      '.toast.abajo-der{right:max(12px,env(safe-area-inset-right,0px));bottom:calc(var(--d,12px) + env(safe-area-inset-bottom,0px));transform:translateY(16px)}' +
+      '.toast.arriba-izq{left:max(12px,env(safe-area-inset-left,0px));top:calc(var(--d,12px) + env(safe-area-inset-top,0px));transform:translateY(-16px)}' +
+      '.toast.arriba-der{right:max(12px,env(safe-area-inset-right,0px));top:calc(var(--d,12px) + env(safe-area-inset-top,0px));transform:translateY(-16px)}' +
       '.toast.on{opacity:1;transform:none;pointer-events:auto}' +
       '.toast .ft{width:52px;height:52px;border-radius:10px;object-fit:cover;background:#F2F1EE;display:block}' +
       '.toast a{color:inherit;text-decoration:none;min-width:0}' +
@@ -136,6 +136,8 @@
     var primera = (N.primera != null ? N.primera : 8) * 1000, dura = (N.duracion || 5) * 1000, cada = (N.intervalo || 18) * 1000, max = N.max || 12;
     var raiz = host(document.body, o);
     var t = document.createElement('div'); t.className = 'toast ' + pos; t.setAttribute('role', 'status'); t.setAttribute('aria-live', 'polite');
+    /* distancia al borde: número fijo o una función (ej. lo que mide el encabezado fijo en ese momento) */
+    var dist = function () { var d = typeof N.distancia === 'function' ? N.distancia() : N.distancia; if (d != null && isFinite(+d)) { t.style.setProperty('--d', Math.max(0, +d) + 'px'); } };
     raiz.appendChild(t);
     var i = 0, vistos = 0, cerrado = false, timer = null;
     try { cerrado = sessionStorage.getItem('pxk-notif-x') === '1'; } catch (e) {}
@@ -152,12 +154,12 @@
     var paso = function () {
       if (cerrado || vistos >= max) { return; }
       if (ocupado()) { timer = setTimeout(paso, 3000); return; }
-      pintar(items[i % items.length]); i++; vistos++;
+      pintar(items[i % items.length]); i++; vistos++; dist();
       requestAnimationFrame(function () { t.classList.add('on'); });
       timer = setTimeout(function () { t.classList.remove('on'); timer = setTimeout(paso, cada); }, dura);
     };
     if (!cerrado) { timer = setTimeout(paso, primera); }
-    return { mostrar: function (k) { clearTimeout(timer); pintar(items[k % items.length]); t.classList.add('on'); }, ocultar: function () { t.classList.remove('on'); }, items: items, nodo: t };
+    return { mostrar: function (k) { clearTimeout(timer); pintar(items[k % items.length]); dist(); t.classList.add('on'); }, ocultar: function () { t.classList.remove('on'); }, items: items, nodo: t };
   };
 
   /* ================= 2) ESTRELLAS + RESEÑAS ================= */
