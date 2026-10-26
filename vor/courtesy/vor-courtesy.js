@@ -124,6 +124,11 @@
   +   '.vcd-bnr>img{object-position:74% 50%}'
   +   '.vcd-bnr::before{background:linear-gradient(0deg,rgba(28,23,19,.78),rgba(28,23,19,.35) 48%,rgba(28,23,19,0) 75%)}'
   +   '.vcd-bnr .vcd-tx{padding:28px 16px}'
+      /* Banner en capas (26-10): en el celular el texto arriba sobre oscuro y la escena abajo, sin pisarse */
+  +   '.vcd-capas{display:grid!important;min-height:0!important;align-items:stretch!important}'
+  +   '.vcd-capas>img{position:relative!important;grid-area:2/1;inset:auto!important;height:auto!important;aspect-ratio:4/3}'
+  +   '.vcd-capas::before{display:none!important}'
+  +   '.vcd-capas .vcd-tx{grid-area:1/1;padding:30px 16px 22px!important}'
   +   '.vcd-det{grid-template-columns:minmax(0,1fr);gap:24px;padding-top:36px}'
   +   '.vcd h2.vcd-h{max-width:none}'
   +   '.vcd-cards{grid-template-columns:repeat(2,minmax(0,1fr))}'
