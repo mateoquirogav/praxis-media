@@ -9,8 +9,13 @@
    1) pone los estilos (el editor de TN borra los <style>),
    2) saca el bloque de la columna derecha y lo deja debajo del
       producto, a todo el ancho (se mueve SOLO el bloque nuestro),
-   3) arma los íconos de beneficios, el «Ver video» y la barra fija
-      de compra, que usa el botón nativo.
+   3) arma los íconos de beneficios, el «Ver video», las preguntas
+      frecuentes (acordeón) y la barra fija de compra, que usa el
+      botón nativo.
+   06-11-2026 · orden del PDF «Laboratorio Visual» de Sergio:
+   compra → banner 1 inspira → 4 diferenciales → banner 2 video (VÖR
+   Lab, la historia contada UNA vez) → datos útiles → preguntas →
+   relacionados (nativos, 5 de la misma categoría).
    ══════════════════════════════════════════════════════════════ */
 (function(){
   if (window.VCD_MONTADO) return;
@@ -114,6 +119,19 @@
   + '.vcd-fin a.vcd-ir{display:inline-flex;align-items:center;gap:12px;margin-top:28px;background:var(--os);color:#F8F5F0!important;text-decoration:none!important;border-radius:99px;padding:15px 28px;font-size:15px;transition:background .2s}'
   + '.vcd-fin a.vcd-ir:hover{background:var(--co)}'
   + '.vcd-fin a.vcd-ir::after{content:"\\2192";font-size:17px}'
+  /* 06-11: rótulo del Lab dentro del banner de video */
+  + '.vcd-bnr .vcd-ojo{display:block;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#fff;opacity:.85;margin:0 0 16px}'
+  /* 06-11: preguntas frecuentes (título a la izquierda, acordeón a la derecha) */
+  + '.vcd-faq{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:48px;padding-top:56px;padding-bottom:64px;border-top:1px solid var(--l)}'
+  + '.vcd-faq-l{list-style:none;margin:0;padding:0;border-top:1px solid var(--l)}'
+  + '.vcd-faq-i{border-bottom:1px solid var(--l)}'
+  + '.vcd .vcd-faq-i h3{font-family:' + SAN + '!important;font-size:16px!important;font-weight:500!important;line-height:1.35!important;margin:0!important}'
+  + '.vcd-faq-i h3 button{all:unset;box-sizing:border-box;display:flex;width:100%;align-items:center;justify-content:space-between;gap:20px;padding:20px 0;cursor:pointer;color:var(--t)}'
+  + '.vcd-faq-i h3 button:focus-visible{outline:2px solid var(--c);outline-offset:4px}'
+  + '.vcd-faq-i h3 button::after{content:"+";flex:none;font-size:22px;font-weight:300;line-height:1;color:var(--c);transition:transform .2s}'
+  + '.vcd-faq-i.on h3 button::after{transform:rotate(45deg)}'
+  + '.vcd-faq-i p{color:var(--s);font-size:14.5px;line-height:1.6;max-width:62ch;padding:0 0 20px}'
+  + '.vcd-faq-js .vcd-faq-i:not(.on) p{display:none}'
   + '@media (max-width:980px){'
   +   '.vcd-lab{padding-top:44px;padding-bottom:40px}'
   +   '.vcd-lab-cab{grid-template-columns:minmax(0,1fr);gap:14px;margin-bottom:24px}'
@@ -137,6 +155,7 @@
   +   '.vcd-ficha{grid-template-columns:minmax(0,1fr);gap:30px}'
   +   '.vcd-ficha>div,.vcd-ficha>div:first-child{border-left:0;padding:0}'
   +   '.vcd-ficha>div+div{border-top:1px solid var(--l);padding-top:26px}'
+  +   '.vcd-faq{grid-template-columns:minmax(0,1fr);gap:20px;padding-top:40px;padding-bottom:44px}'
   +   '.vcd-fija{padding-left:12px;padding-right:12px;gap:10px}.vcd-fija img{width:40px;height:40px}'
   +   '.vcd-fija .vcd-pr{font-size:15px}.vcd-fija button{padding:0 18px;font-size:13.5px}'
   + '}'
@@ -242,6 +261,23 @@
       bt.addEventListener('click', function(){ modal.classList.add('on'); var v = modal.querySelector('video'); if (v) v.play(); });
       modal.addEventListener('click', function(e){ if (e.target === modal || e.target.tagName === 'BUTTON') cerrar(); });
       document.addEventListener('keydown', function(e){ if (e.key === 'Escape') cerrar(); });
+    }
+
+    /* Preguntas (06-11): acordeón. Sin el script, las respuestas quedan a la vista. */
+    var faq = vcd.querySelector('.vcd-faq');
+    if (faq) {
+      faq.classList.add('vcd-faq-js');
+      Array.prototype.forEach.call(faq.querySelectorAll('.vcd-faq-i'), function(it, i){
+        var h = it.querySelector('h3'), r = it.querySelector('p');
+        if (!h || !r) return;
+        var b = document.createElement('button'); b.type = 'button';
+        b.textContent = h.textContent; h.textContent = ''; h.appendChild(b);
+        r.id = 'vcd-faq-' + i; b.setAttribute('aria-controls', r.id); b.setAttribute('aria-expanded', 'false');
+        b.addEventListener('click', function(){
+          var on = !it.classList.contains('on');
+          it.classList.toggle('on', on); b.setAttribute('aria-expanded', on ? 'true' : 'false');
+        });
+      });
     }
 
     /* precio: lee el NATIVO (data-product-price, en centavos) y lo muestra
