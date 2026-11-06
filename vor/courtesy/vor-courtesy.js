@@ -156,6 +156,7 @@
   +   '.vcd-ficha>div,.vcd-ficha>div:first-child{border-left:0;padding:0}'
   +   '.vcd-ficha>div+div{border-top:1px solid var(--l);padding-top:26px}'
   +   '.vcd-faq{grid-template-columns:minmax(0,1fr);gap:20px;padding-top:40px;padding-bottom:44px}'
+  +   '.vcd-video::before{background:linear-gradient(0deg,rgba(28,23,19,.84),rgba(28,23,19,.62) 55%,rgba(28,23,19,.3))}'
   +   '.vcd-fija{padding-left:12px;padding-right:12px;gap:10px}.vcd-fija img{width:40px;height:40px}'
   +   '.vcd-fija .vcd-pr{font-size:15px}.vcd-fija button{padding:0 18px;font-size:13.5px}'
   + '}'
