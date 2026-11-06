@@ -121,6 +121,8 @@
   + '.vcd-fin a.vcd-ir::after{content:"\\2192";font-size:17px}'
   /* 06-11: rótulo del Lab dentro del banner de video */
   + '.vcd-bnr .vcd-ojo{display:block;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#fff;opacity:.85;margin:0 0 16px}'
+  /* 06-11: banner claro (boceto) con velo más fuerte para que el texto blanco se lea */
+  + '.vcd-oscuro::before{background:linear-gradient(90deg,rgba(28,23,19,.8),rgba(28,23,19,.55) 45%,rgba(28,23,19,.12) 78%)}'
   /* 06-11: preguntas frecuentes (título a la izquierda, acordeón a la derecha) */
   + '.vcd-faq{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:48px;padding-top:56px;padding-bottom:64px;border-top:1px solid var(--l)}'
   + '.vcd-faq-l{list-style:none;margin:0;padding:0;border-top:1px solid var(--l)}'
@@ -156,7 +158,7 @@
   +   '.vcd-ficha>div,.vcd-ficha>div:first-child{border-left:0;padding:0}'
   +   '.vcd-ficha>div+div{border-top:1px solid var(--l);padding-top:26px}'
   +   '.vcd-faq{grid-template-columns:minmax(0,1fr);gap:20px;padding-top:40px;padding-bottom:44px}'
-  +   '.vcd-video::before{background:linear-gradient(0deg,rgba(28,23,19,.84),rgba(28,23,19,.62) 55%,rgba(28,23,19,.3))}'
+  +   '.vcd-video::before,.vcd-oscuro::before{background:linear-gradient(0deg,rgba(28,23,19,.84),rgba(28,23,19,.62) 55%,rgba(28,23,19,.3))}'
   +   '.vcd-fija{padding-left:12px;padding-right:12px;gap:10px}.vcd-fija img{width:40px;height:40px}'
   +   '.vcd-fija .vcd-pr{font-size:15px}.vcd-fija button{padding:0 18px;font-size:13.5px}'
   + '}'
@@ -303,6 +305,12 @@
       /* colores del boceto: si el producto tiene variantes de color, el círculo
          elige la nativa; si no, cambia el nombre que se muestra */
       var COLORES = [['Blanco roca mineral','#E6DED2'],['Arena tostada','#C4936A'],['Nogal','#6E4729'],['Piedra','#8C8273'],['Grafito suave','#6A6863'],['Negro','#151515']];
+      /* 06-11: cada producto trae los suyos en <div class="vcd" data-colores="Nombre:#hex|…">;
+         data-colores="" = sin círculos. Sin el atributo: los de la Courtesy. */
+      if (vcd.hasAttribute('data-colores')) {
+        COLORES = vcd.getAttribute('data-colores').split('|').map(function(x){ var k = x.split(':'); return [String(k[0] || '').trim(), String(k[1] || '').trim()]; }).filter(function(c){ return c[0] && c[1]; });
+      }
+      if (COLORES.length) {
       var cols = document.createElement('div'); cols.className = 'vcd-colores';
       cols.innerHTML = '<p>Color: <b>' + COLORES[0][0] + '</b></p><div role="group" aria-label="Color"></div>';
       var fila = cols.querySelector('div'), nom = cols.querySelector('b');
@@ -319,6 +327,7 @@
         fila.appendChild(b);
       });
       pdis.parentNode.insertBefore(cols, pdis.nextSibling);
+      }
     }
 
     /* modelo, estrellas y bajada: vienen en la descripción (.vcd-cab), van debajo del nombre */
