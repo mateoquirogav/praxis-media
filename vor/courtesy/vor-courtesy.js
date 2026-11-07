@@ -144,11 +144,9 @@
   +   '.vcd-bnr>img{object-position:74% 50%}'
   +   '.vcd-bnr::before{background:linear-gradient(0deg,rgba(28,23,19,.78),rgba(28,23,19,.35) 48%,rgba(28,23,19,0) 75%)}'
   +   '.vcd-bnr .vcd-tx{padding:28px 16px}'
-      /* Banner en capas (26-10): en el celular el texto arriba sobre oscuro y la escena abajo, sin pisarse */
-  +   '.vcd-capas{display:grid!important;min-height:0!important;align-items:stretch!important}'
-  +   '.vcd-capas>img{position:relative!important;grid-area:2/1;inset:auto!important;height:auto!important;aspect-ratio:4/3}'
-  +   '.vcd-capas::before{display:none!important}'
-  +   '.vcd-capas .vcd-tx{grid-area:1/1;padding:30px 16px 22px!important}'
+      /* 07-11: el celular copia la PC: texto encima de la foto (antes iba arriba y la escena abajo) */
+  +   '.vcd-bnr{min-height:440px}'
+  +   '.vcd-capas::before,.vcd-video::before,.vcd-oscuro::before{background:linear-gradient(0deg,rgba(28,23,19,.86),rgba(28,23,19,.6) 48%,rgba(28,23,19,.08) 82%)}'
   +   '.vcd-det{grid-template-columns:minmax(0,1fr);gap:24px;padding-top:36px}'
   +   '.vcd h2.vcd-h{max-width:none}'
   +   '.vcd-cards{grid-template-columns:repeat(2,minmax(0,1fr))}'
@@ -210,7 +208,19 @@
   +   '#single-product .product-image-container{flex:1 1 auto;max-width:none;border:1px solid #ECE7DF;border-radius:16px;overflow:hidden;background:#fff}'
   +   '#single-product .section-single-product>.col{flex:1 1 380px;min-width:340px;padding-left:clamp(28px,4vw,56px);max-width:520px}'
   + '}'
-  + '@media (max-width:520px){.vcd-med{grid-template-columns:minmax(0,1fr)}.vcd-sellos{grid-template-columns:minmax(0,1fr);gap:10px}}'
+  + '@media (max-width:767px){'
+  +   '#single-product .section-single-product>.col-md-8{padding:12px 16px 0!important}'
+  +   '#single-product .section-single-product>.col-md-8>.row{margin:0;flex-direction:column}'
+  +   '#single-product .product-image-container{order:1;border:1px solid #ECE7DF;border-radius:16px;overflow:hidden;background:#fff}'
+  +   '#single-product .section-single-product .col-2.d-none{display:flex!important;order:2;flex:none;max-width:none;width:100%;gap:8px;padding:10px 0 0!important;overflow-x:auto;scrollbar-width:none}'
+  +   '#single-product .section-single-product .col-2 .product-thumb{flex:0 0 58px;width:58px;height:58px;margin:0!important;border-radius:8px;overflow:hidden;border:1px solid #ECE7DF}'
+  +   '#single-product .section-single-product .col-2 .product-thumb img{width:100%;height:100%;object-fit:cover}'
+  +   '#single-product .js-swiper-product-pagination{display:none!important}'
+  + '}'
+  + '@media (max-width:520px){.vcd-med{grid-template-columns:minmax(0,1fr)}'
+  +   '.vcd-sellos{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}'
+  +   '.vcd-sellos>div{padding:30px 0 0;text-align:center;background-position:50% 0;font-size:11.5px}'
+  +   '.vcd-sellos small{font-size:10.5px}}'
   + '@media (prefers-reduced-motion:reduce){.vcd *{animation:none!important;transition:none!important}}';
 
   function montar(){
