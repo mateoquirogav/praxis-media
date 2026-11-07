@@ -145,7 +145,7 @@
   +   '.vcd-bnr::before{background:linear-gradient(0deg,rgba(28,23,19,.78),rgba(28,23,19,.35) 48%,rgba(28,23,19,0) 75%)}'
   +   '.vcd-bnr .vcd-tx{padding:28px 16px}'
       /* 07-11: el celular copia la PC: texto encima de la foto (antes iba arriba y la escena abajo) */
-  +   '.vcd-bnr{min-height:440px}'
+  +   '.vcd-bnr{min-height:400px}'
   +   '.vcd-capas::before,.vcd-video::before,.vcd-oscuro::before{background:linear-gradient(0deg,rgba(28,23,19,.86),rgba(28,23,19,.6) 48%,rgba(28,23,19,.08) 82%)}'
   +   '.vcd-det{grid-template-columns:minmax(0,1fr);gap:24px;padding-top:36px}'
   +   '.vcd h2.vcd-h{max-width:none}'
@@ -213,7 +213,7 @@
   +   '#single-product .section-single-product>.col-md-8>.row{margin:0;flex-direction:column}'
   +   '#single-product .product-image-container{order:1;border:1px solid #ECE7DF;border-radius:16px;overflow:hidden;background:#fff}'
   +   '#single-product .section-single-product .col-2.d-none{display:flex!important;order:2;flex:none;max-width:none;width:100%;gap:8px;padding:10px 0 0!important;overflow-x:auto;scrollbar-width:none}'
-  +   '#single-product .section-single-product .col-2 .product-thumb{flex:0 0 58px;width:58px;height:58px;margin:0!important;border-radius:8px;overflow:hidden;border:1px solid #ECE7DF}'
+  +   '#single-product .section-single-product .col-2 .product-thumb{flex:0 0 58px;width:58px;height:58px;padding-bottom:0!important;margin:0!important;border-radius:8px;overflow:hidden;border:1px solid #ECE7DF}'
   +   '#single-product .section-single-product .col-2 .product-thumb img{width:100%;height:100%;object-fit:cover}'
   +   '#single-product .js-swiper-product-pagination{display:none!important}'
   + '}'
